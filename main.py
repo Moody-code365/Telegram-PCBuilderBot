@@ -1,16 +1,18 @@
 import asyncio
 
 from aiogram import Bot, Dispatcher
-from aiogram.filters import CommandStart
 from Bot.handlers.start import register_start_handlers
-from aiogram.types import Message
+from Bot.handlers.help import register_help_handlers
+from Bot.handlers.about import register_about_handlers
 from config import TOKEN
 
 bot = Bot(token=TOKEN)
 dp = Dispatcher()
 
-def register_all_handlers(dp: Dispatcher):
+def register_all_handlers(disp: Dispatcher):
     register_start_handlers(dp)
+    register_help_handlers(dp)
+    register_about_handlers(dp)
 
 async def main():
     register_all_handlers(dp)
