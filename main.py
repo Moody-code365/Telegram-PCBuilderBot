@@ -4,6 +4,7 @@ from aiogram import Bot, Dispatcher
 from Bot.handlers.start import register_start_handlers
 from Bot.handlers.help import register_help_handlers
 from Bot.handlers.about import register_about_handlers
+from Bot.handlers.build import register_build_handlers
 from config import TOKEN
 
 bot = Bot(token=TOKEN)
@@ -13,6 +14,7 @@ def register_all_handlers(disp: Dispatcher):
     register_start_handlers(dp)
     register_help_handlers(dp)
     register_about_handlers(dp)
+    register_build_handlers(dp)
 
 async def main():
     register_all_handlers(dp)
