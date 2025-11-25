@@ -2,65 +2,144 @@ from aiogram import Router, F
 from aiogram.filters import Command
 from aiogram.types import Message
 from aiogram.fsm.context import FSMContext
+
 from Bot.states.build_state import BuildPC
+from Bot.keyboards.build_kb import get_start_keyboard
+from Bot.keyboards.FSM_kb import budget_keyboard, usage_keyboard, preferences_keyboard
+
+import re
 
 router = Router()
 
+# --- Удаление эмодзи ---
+def remove_emoji(text: str):
+    return re.sub(r"[^\w\sёЁ]+", "", text).strip()
+
+
+# --- Список бюджетов ---
+budget_options = [
+    "до 150 000 ₸",
+    "150–200 000 ₸",
+    "250–300 000 ₸",
+    "400–600 000 ₸",
+    "600 000 ₸+"
+]
+
+
+# ---------------------- СТАРТ ----------------------
 @router.message(F.text == "🚀 Начать подбор")
 @router.message(Command("build"))
 async def cmd_build(message: Message, state: FSMContext):
-    await message.answer("💰 Введи свой бюджет ₸ :")
+    await message.answer(
+        "💰 Введи свой бюджет ₸ :",
+        reply_markup=budget_keyboard()
+    )
     await state.set_state(BuildPC.budget)
 
+
+
+# ---------------------- БЮДЖЕТ ----------------------
 @router.message(BuildPC.budget)
 async def set_budget(message: Message, state: FSMContext):
-    if not message.text.isdigit():
-        return await message.answer("🚫 Введи число, например: 300000")
 
-    await state.update_data(budget=int(message.text))
-    await state.set_state(BuildPC.usage)
+    # --- Кнопка Назад ---
+    if message.text == "⬅️ Назад":
+        await state.clear()
+        return await message.answer(
+            "🔙 Возврат в главное меню",
+            reply_markup=get_start_keyboard()
+        )
 
-    await message.answer(
-        "🖥 Для чего нужен ПК?\n"
-        "1) Игры\n"
-        "2) Работа\n"
-        "3) Универсальный"
+    text = message.text.strip()
+
+    # --- Пользователь выбрал готовый вариант ---
+    if text in budget_options:
+        await state.update_data(budget=text)
+        await state.set_state(BuildPC.usage)
+        return await message.answer(
+            "🎯 Отлично! Для чего нужен ПК?",
+            reply_markup=usage_keyboard()
+        )
+
+    # --- Пользователь ввел число ---
+    if text.isdigit():
+        await state.update_data(budget=int(text))
+        await state.set_state(BuildPC.usage)
+        return await message.answer(
+            "🎯 Отлично! Для чего нужен ПК?",
+            reply_markup=usage_keyboard()
+        )
+
+    # --- Ошибка ---
+    return await message.answer(
+        "🚫 Введи число (например: 300000) или выбери вариант на клавиатуре."
     )
 
+
+
+# ---------------------- НАЗНАЧЕНИЕ ----------------------
 @router.message(BuildPC.usage)
-async def set_purpose(message: Message, state: FSMContext):
-    usage = message.text.lower()
+async def set_usage(message: Message, state: FSMContext):
+    text = message.text
 
-    if usage not in ["1", "2", "3", "игры", "работа", "универсальный"]:
-        return await message.answer("Выбери 1, 2 или 3.")
+    # --- Назад ---
+    if text == "⬅️ Назад":
+        await state.set_state(BuildPC.budget)
+        return await message.answer(
+            "🔙 Вернулся к выбору бюджета",
+            reply_markup=budget_keyboard()
+        )
 
-    await state.update_data(usage=usage)
+    # Чистим текст от эмодзи
+    cleaned = remove_emoji(text).lower()
+
+    valid = ["игры", "работа", "универсальный"]
+
+    if cleaned not in valid:
+        return await message.answer(
+            "Выбери вариант в меню или напиши (игры / работа / универсальный)."
+        )
+
+    await state.update_data(usage=cleaned)
     await state.set_state(BuildPC.preferences)
 
     await message.answer(
-        "✨ Есть предпочтения? Напиши или напиши 'нет'."
+        "✨ Есть предпочтения? Напиши или укажи кнопкой.",
+        reply_markup=preferences_keyboard()
     )
 
 
+
+# ---------------------- ПРЕДПОЧТЕНИЯ ----------------------
 @router.message(BuildPC.preferences)
-async def finish(message: Message, state: FSMContext):
+async def set_preferences(message: Message, state: FSMContext):
+
+    # --- Назад ---
+    if message.text == "⬅️ Назад":
+        await state.set_state(BuildPC.usage)
+        return await message.answer(
+            "🔙 Вернулся к выбору назначения",
+            reply_markup=usage_keyboard()
+        )
+
     await state.update_data(preferences=message.text)
     data = await state.get_data()
 
     budget = data["budget"]
     usage = data["usage"]
-
+    prefs = data["preferences"]
 
     await message.answer(
         f"🧩 Отлично! Вот твоя конфигурация:\n"
         f"💸 Бюджет: {budget}\n"
         f"🎯 Назначение: {usage}\n"
-        f"✨ Предпочтения: {data['preferences']}\n\n"
+        f"✨ Предпочтения: {prefs}\n\n"
         f"⚙ Генерирую сборку... (позже добавим логику!)"
     )
+
     await state.clear()
+
+
 
 def register_build_handlers(dp):
     dp.include_router(router)
-
-
