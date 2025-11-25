@@ -1,9 +1,10 @@
-from aiogram import Router, Dispatcher
+from aiogram import Router, Dispatcher, F
 from aiogram.filters import Command
 from aiogram.types import Message
 
 router = Router()
 
+@router.message(F.text == "Помощ")
 @router.message(Command('help'))
 async def cmd_help(message: Message):
     await message.answer(
