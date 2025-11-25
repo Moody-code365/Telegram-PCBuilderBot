@@ -2,19 +2,18 @@ import asyncio
 
 from aiogram import Bot, Dispatcher
 from aiogram.filters import CommandStart
-from aiogram.filters import Command
+from Bot.handlers.start import register_start_handlers
 from aiogram.types import Message
 from config import TOKEN
 
 bot = Bot(token=TOKEN)
 dp = Dispatcher()
 
-@dp.message(CommandStart())
-async def cmd_start(message: Message):
-    await message.answer("👋 Привет! Я бот для подбора комплектующих ПК.\n"
-        "Введите /build чтобы начать сборку ПК.")
+def register_all_handlers(dp: Dispatcher):
+    register_start_handlers(dp)
 
 async def main():
+    register_all_handlers(dp)
     await dp.start_polling(bot)
 
 
