@@ -6,14 +6,12 @@ from aiogram.fsm.context import FSMContext
 from Bot.states.build_state import BuildPC
 from Bot.keyboards.build_kb import get_start_keyboard
 from Bot.keyboards.FSM_kb import budget_keyboard, usage_keyboard, preferences_keyboard
+from Bot.utils.text_cleaner import remove_emoji
+from Bot.services.pc_builder import build_pc
 
-import re
 
 router = Router()
 
-# --- Удаление эмодзи ---
-def remove_emoji(text: str):
-    return re.sub(r"[^\w\sёЁ]+", "", text).strip()
 
 
 # --- Список бюджетов ---
@@ -90,7 +88,6 @@ async def set_usage(message: Message, state: FSMContext):
             reply_markup=budget_keyboard()
         )
 
-    # Чистим текст от эмодзи
     cleaned = remove_emoji(text).lower()
 
     valid = ["игры", "работа", "универсальный"]
@@ -129,12 +126,16 @@ async def set_preferences(message: Message, state: FSMContext):
     usage = data["usage"]
     prefs = data["preferences"]
 
+    result = build_pc(data)
+    parts_text = "\n".join([f"{k.upper()}: {v}" for k, v in result.items()])
+
     await message.answer(
         f"🧩 Отлично! Вот твоя конфигурация:\n"
-        f"💸 Бюджет: {budget}\n"
-        f"🎯 Назначение: {usage}\n"
-        f"✨ Предпочтения: {prefs}\n\n"
-        f"⚙ Генерирую сборку... (позже добавим логику!)"
+        f"💸 Бюджет: {data['budget']}\n"
+        f"🎯 Назначение: {data['usage']}\n"
+        f"✨ Предпочтения: {data['preferences']}\n\n"
+        f"🖥 Итоговая сборка:\n"
+        f"{parts_text}"
     )
 
     await state.clear()
