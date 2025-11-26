@@ -6,22 +6,12 @@ from aiogram.fsm.context import FSMContext
 from Bot.states.build_state import BuildPC
 from Bot.keyboards.build_kb import get_start_keyboard
 from Bot.keyboards.FSM_kb import budget_keyboard, usage_keyboard, preferences_keyboard
-from Bot.utils.text_cleaner import remove_emoji
+from Bot.utils.text_cleaner import remove_emoji, normalize
 from Bot.services.pc_builder import build_pc
+from Bot.data.options import BUDGET_OPTIONS,USAGE_OPTIONS
 
 
 router = Router()
-
-
-
-# --- Список бюджетов ---
-budget_options = [
-    "до 150 000 ₸",
-    "150–200 000 ₸",
-    "250–300 000 ₸",
-    "400–600 000 ₸",
-    "600 000 ₸+"
-]
 
 
 # ---------------------- СТАРТ ----------------------
@@ -51,7 +41,7 @@ async def set_budget(message: Message, state: FSMContext):
     text = message.text.strip()
 
     # --- Пользователь выбрал готовый вариант ---
-    if text in budget_options:
+    if text in BUDGET_OPTIONS:
         await state.update_data(budget=text)
         await state.set_state(BuildPC.usage)
         return await message.answer(
@@ -88,16 +78,20 @@ async def set_usage(message: Message, state: FSMContext):
             reply_markup=budget_keyboard()
         )
 
-    cleaned = remove_emoji(text).lower()
+    cleaned = normalize(message.text)
 
-    valid = ["игры", "работа", "универсальный"]
+    matched = None
+    for key, variants in USAGE_OPTIONS.items():
+        if cleaned in variants:
+            matched = key
+            break
 
-    if cleaned not in valid:
-        return await message.answer(
-            "Выбери вариант в меню или напиши (игры / работа / универсальный)."
-        )
+    if not matched:
+        return await message.answer("Выбери вариант в меню или напиши...")
 
-    await state.update_data(usage=cleaned)
+    await state.update_data(usage=matched)
+
+
     await state.set_state(BuildPC.preferences)
 
     await message.answer(
@@ -135,7 +129,9 @@ async def set_preferences(message: Message, state: FSMContext):
         f"🎯 Назначение: {data['usage']}\n"
         f"✨ Предпочтения: {data['preferences']}\n\n"
         f"🖥 Итоговая сборка:\n"
-        f"{parts_text}"
+        f"{parts_text}",
+        reply_markup=get_start_keyboard()
+
     )
 
     await state.clear()
