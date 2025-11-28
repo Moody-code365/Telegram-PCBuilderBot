@@ -1,0 +1,776 @@
+[
+    {
+        "code": "184575",
+        "name": "Bracket VGA, APEX 3701",
+        "price_retail": "630",
+        "price_wholesale": "596",
+        "price_reseller": "542",
+        "warranty": "1",
+        "status": " "
+    },
+    {
+        "code": "183625",
+        "name": "Case ATX midi tower  PCCooler, MASTER IE200, (без БП), black",
+        "price_retail": "23450",
+        "price_wholesale": "22330",
+        "price_reseller": "21270",
+        "warranty": "1",
+        "status": " "
+    },
+    {
+        "code": "183626",
+        "name": "Case ATX midi tower  PCCooler, MASTER IE200W, (без БП), white",
+        "price_retail": "23900",
+        "price_wholesale": "22550",
+        "price_reseller": "21270",
+        "warranty": "1",
+        "status": " "
+    },
+    {
+        "code": "196649",
+        "name": "Case ATX midi tower  Wintek, Aquarium H101-B TG, (без БП), Black",
+        "price_retail": "20620",
+        "price_wholesale": "19450",
+        "price_reseller": "18520",
+        "warranty": "1",
+        "status": " "
+    },
+    {
+        "code": "193925",
+        "name": "Case ATX midi tower  Wintek, Cube pro V909-B TG, (без БП), black",
+        "price_retail": "24000",
+        "price_wholesale": "22860",
+        "price_reseller": "21770",
+        "warranty": "1",
+        "status": " "
+    },
+    {
+        "code": "194098",
+        "name": "Case ATX midi tower  Wintek, Cube pro V909-W TG, (без БП), White",
+        "price_retail": "25350",
+        "price_wholesale": "24150",
+        "price_reseller": "23000",
+        "warranty": "1",
+        "status": "resrv"
+    },
+    {
+        "code": "189828",
+        "name": "Case ATX midi tower 39SPC-05, (420W), black",
+        "price_retail": "11660",
+        "price_wholesale": "10900",
+        "price_reseller": "9900",
+        "warranty": "14",
+        "status": "resrv"
+    },
+    {
+        "code": "144192",
+        "name": "Case ATX midi tower AeroCool, Tomahawk-S,  ACCM-PV17004.11, (без БП), black",
+        "price_retail": "14890",
+        "price_wholesale": "13530",
+        "price_reseller": "12300",
+        "warranty": "1",
+        "status": "resrv"
+    },
+    {
+        "code": "158839",
+        "name": "Case ATX midi tower Antec, P120 Crystal, (без БП), black",
+        "price_retail": "54297",
+        "price_wholesale": "51706",
+        "price_reseller": "43094",
+        "warranty": "1",
+        "status": " "
+    },
+    {
+        "code": "191207",
+        "name": "Case ATX midi tower Antec, P20C, 3*120 fan, white",
+        "price_retail": "47420",
+        "price_wholesale": "44320",
+        "price_reseller": "41420",
+        "warranty": "1",
+        "status": " "
+    },
+    {
+        "code": "177345",
+        "name": "Case ATX midi tower APEX, 3701 white, 1*120mm ARGB + 3*120mm white + ARGB fan hub + RC, 700W",
+        "price_retail": "53960",
+        "price_wholesale": "50430",
+        "price_reseller": "47130",
+        "warranty": "1",
+        "status": " "
+    },
+    {
+        "code": "166828",
+        "name": "Case ATX midi tower APEX, 3701, 1*120mm ARGB + 3*120mm black + ARGB fan hub + remote contr. (без БП)",
+        "price_retail": "25600",
+        "price_wholesale": "24380",
+        "price_reseller": "21390",
+        "warranty": "1",
+        "status": " "
+    },
+    {
+        "code": "159673",
+        "name": "Case ATX midi tower APEX, Tank3, 4*120mm ARGB fans + ARGB fan hub + remote control (без БП), TG",
+        "price_retail": "32280",
+        "price_wholesale": "30740",
+        "price_reseller": "26970",
+        "warranty": "1",
+        "status": " "
+    },
+    {
+        "code": "195029",
+        "name": "Case ATX midi tower BeQuiet, Pure Base 501 Airflow Window White (BGW75], (без БП), White",
+        "price_retail": "58230",
+        "price_wholesale": "53920",
+        "price_reseller": "49250",
+        "warranty": "1",
+        "status": " "
+    },
+    {
+        "code": "183436",
+        "name": "Case ATX midi tower Corsair, 3000D Airflow, CC-9011251-WW(без БП), black",
+        "price_retail": "33030",
+        "price_wholesale": "31450",
+        "price_reseller": "29960",
+        "warranty": "2",
+        "status": " "
+    },
+    {
+        "code": "183437",
+        "name": "Case ATX midi tower Corsair, 3000D Airflow, CC-9011252-WW(без БП), white",
+        "price_retail": "38650",
+        "price_wholesale": "36110",
+        "price_reseller": "33750",
+        "warranty": "2",
+        "status": " "
+    },
+    {
+        "code": "183432",
+        "name": "Case ATX midi tower Corsair, iCUE 4000D RGB Airflow, CC-9011240-WW(без БП), black",
+        "price_retail": "70160",
+        "price_wholesale": "65570",
+        "price_reseller": "61280",
+        "warranty": "2",
+        "status": " "
+    },
+    {
+        "code": "183433",
+        "name": "Case ATX midi tower Corsair, iCUE 4000D RGB Airflow, CC-9011241-WW(без БП), white",
+        "price_retail": "69520",
+        "price_wholesale": "64980",
+        "price_reseller": "60720",
+        "warranty": "2",
+        "status": " "
+    },
+    {
+        "code": "183420",
+        "name": "Case ATX midi tower Corsair, iCUE 4000X RGB CC-9011204-WW, (без БП), black",
+        "price_retail": "54680",
+        "price_wholesale": "51100",
+        "price_reseller": "47760",
+        "warranty": "2",
+        "status": " "
+    },
+    {
+        "code": "183435",
+        "name": "Case ATX midi tower Corsair, iCUE 5000D RGB Airflow, CC-9011243-WW(без БП), white",
+        "price_retail": "105740",
+        "price_wholesale": "97010",
+        "price_reseller": "89830",
+        "warranty": "2",
+        "status": " "
+    },
+    {
+        "code": "183429",
+        "name": "Case ATX midi tower Corsair, iCUE 5000X RGB QL Edition, CC-9011233-WW(без БП), white",
+        "price_retail": "141590",
+        "price_wholesale": "131100",
+        "price_reseller": "121390",
+        "warranty": "2",
+        "status": " "
+    },
+    {
+        "code": "176596",
+        "name": "Case ATX midi tower Cougar Dark Blader X5 RGB, (без БП), black",
+        "price_retail": "49180",
+        "price_wholesale": "47290",
+        "price_reseller": "45470",
+        "warranty": "1",
+        "status": " "
+    },
+    {
+        "code": "193308",
+        "name": "Case ATX midi tower Cougar DuoFace PRO RGB, (без БП), white",
+        "price_retail": "46390",
+        "price_wholesale": "45040",
+        "price_reseller": "43730",
+        "warranty": "1",
+        "status": " "
+    },
+    {
+        "code": "195026",
+        "name": "Case ATX midi tower Cougar MX220 RGB , (без БП), black",
+        "price_retail": "33310",
+        "price_wholesale": "30840",
+        "price_reseller": "28560",
+        "warranty": "1",
+        "status": " "
+    },
+    {
+        "code": "188319",
+        "name": "Case ATX midi tower Cougar Uniface RGB, (без БП), white",
+        "price_retail": "43810",
+        "price_wholesale": "41330",
+        "price_reseller": "39000",
+        "warranty": "1",
+        "status": " "
+    },
+    {
+        "code": "190280",
+        "name": "Case ATX midi tower DeepCool, CG580 WH,  (без БП), white",
+        "price_retail": "36410",
+        "price_wholesale": "33710",
+        "price_reseller": "31210",
+        "warranty": "1",
+        "status": " "
+    },
+    {
+        "code": "188316",
+        "name": "Case ATX midi tower DeepCool, Matrexx 55 MESH V4, BKAGA4-G-4,  (без БП), black",
+        "price_retail": "38090",
+        "price_wholesale": "36620",
+        "price_reseller": "35210",
+        "warranty": "1",
+        "status": " "
+    },
+    {
+        "code": "152447",
+        "name": "Case ATX midi tower DeepCool, Matrexx 55 V3 ADD-RGB 3F WH, (без БП), white",
+        "price_retail": "37290",
+        "price_wholesale": "35850",
+        "price_reseller": "34470",
+        "warranty": "1",
+        "status": " "
+    },
+    {
+        "code": "193304",
+        "name": "Case ATX midi tower DeepCool, Matrexx 55 V4 BKADA4-G-4,  (без БП), black",
+        "price_retail": "37280",
+        "price_wholesale": "35840",
+        "price_reseller": "34460",
+        "warranty": "1",
+        "status": " "
+    },
+    {
+        "code": "195911",
+        "name": "Case ATX midi tower FSP CMT380B , (без БП), BLACK",
+        "price_retail": "35560",
+        "price_wholesale": "33240",
+        "price_reseller": "31060",
+        "warranty": "1",
+        "status": " "
+    },
+    {
+        "code": "195002",
+        "name": "Case ATX midi tower FSP CUT593P-B PREMIUM, (без БП), BLACK",
+        "price_retail": "67710",
+        "price_wholesale": "63280",
+        "price_reseller": "59140",
+        "warranty": "1",
+        "status": " "
+    },
+    {
+        "code": "195003",
+        "name": "Case ATX midi tower FSP CUT593P-W PREMIUM, (без БП), WHITE",
+        "price_retail": "70180",
+        "price_wholesale": "65590",
+        "price_reseller": "61290",
+        "warranty": "1",
+        "status": " "
+    },
+    {
+        "code": "194564",
+        "name": "Case ATX midi tower FSP M340-WA, (без БП), WHITE",
+        "price_retail": "33050",
+        "price_wholesale": "30890",
+        "price_reseller": "28860",
+        "warranty": "1",
+        "status": " "
+    },
+    {
+        "code": "196508",
+        "name": "Case ATX midi tower GameMax, Infinity Pro WH, (без БП), white",
+        "price_retail": "47780",
+        "price_wholesale": "44240",
+        "price_reseller": "40960",
+        "warranty": "1",
+        "status": "resrv"
+    },
+    {
+        "code": "196506",
+        "name": "Case ATX midi tower GameMax, Infinity White, (без БП), White",
+        "price_retail": "29140",
+        "price_wholesale": "27490",
+        "price_reseller": "25930",
+        "warranty": "1",
+        "status": " "
+    },
+    {
+        "code": "147212",
+        "name": "Case ATX midi tower Gigabyte Aorus, GB-AC300G, (без БП), black",
+        "price_retail": "65980",
+        "price_wholesale": "61670",
+        "price_reseller": "57630",
+        "warranty": "1",
+        "status": " "
+    },
+    {
+        "code": "191576",
+        "name": "Case ATX midi tower Gigabyte Aorus, GB-AC400G, (без БП), black",
+        "price_retail": "78180",
+        "price_wholesale": "73070",
+        "price_reseller": "68290",
+        "warranty": "1",
+        "status": " "
+    },
+    {
+        "code": "148579",
+        "name": "Case ATX midi tower Gigabyte Aorus, GB-C200G, (без БП), black",
+        "price_retail": "25240",
+        "price_wholesale": "22940",
+        "price_reseller": "21440",
+        "warranty": "1",
+        "status": " "
+    },
+    {
+        "code": "191575",
+        "name": "Case ATX midi tower Gigabyte C500 Panoramic Stealth ICE, GB-C500PI ST, (без БП), white",
+        "price_retail": "48860",
+        "price_wholesale": "45240",
+        "price_reseller": "41890",
+        "warranty": "1",
+        "status": " "
+    },
+    {
+        "code": "191573",
+        "name": "Case ATX midi tower Gigabyte, C301GW GLASS V2, (без БП), white",
+        "price_retail": "42770",
+        "price_wholesale": "39980",
+        "price_reseller": "37360",
+        "warranty": "1",
+        "status": " "
+    },
+    {
+        "code": "197235",
+        "name": "Case ATX midi tower Huntkey, BU530 (без БП), black",
+        "price_retail": "10220",
+        "price_wholesale": "9290",
+        "price_reseller": "8440",
+        "warranty": "1",
+        "status": " "
+    },
+    {
+        "code": "197233",
+        "name": "Case ATX midi tower Huntkey, HK320 (без БП), black",
+        "price_retail": "7970",
+        "price_wholesale": "7250",
+        "price_reseller": "6590",
+        "warranty": "1",
+        "status": " "
+    },
+    {
+        "code": "197236",
+        "name": "Case ATX midi tower Huntkey, MVP Destiny B (без БП), BLACK",
+        "price_retail": "27270",
+        "price_wholesale": "25250",
+        "price_reseller": "23380",
+        "warranty": "1",
+        "status": " "
+    },
+    {
+        "code": "194569",
+        "name": "Case ATX midi tower Huntkey, MVP Destiny W (без БП), WHITE",
+        "price_retail": "26020",
+        "price_wholesale": "24090",
+        "price_reseller": "22310",
+        "warranty": "1",
+        "status": " "
+    },
+    {
+        "code": "197264",
+        "name": "Case ATX midi tower Huntkey, S960 StormX W, (Без БП), White",
+        "price_retail": "21710",
+        "price_wholesale": "20100",
+        "price_reseller": "18610",
+        "warranty": "1",
+        "status": " "
+    },
+    {
+        "code": "195651",
+        "name": "Case ATX midi tower NZXT, H9 ELITE, 4*120 , (Без БП), Black",
+        "price_retail": "138220",
+        "price_wholesale": "129180",
+        "price_reseller": "119610",
+        "warranty": "1",
+        "status": " "
+    },
+    {
+        "code": "197737",
+        "name": "Case ATX midi tower SAMA, Neview 4503 , (Без БП), Black",
+        "price_retail": "35310",
+        "price_wholesale": "32690",
+        "price_reseller": "30270",
+        "warranty": "1",
+        "status": " "
+    },
+    {
+        "code": "197738",
+        "name": "Case ATX midi tower SAMA, Neview 4503 , (Без БП), white",
+        "price_retail": "37870",
+        "price_wholesale": "35060",
+        "price_reseller": "32470",
+        "warranty": "1",
+        "status": " "
+    },
+    {
+        "code": "197735",
+        "name": "Case ATX midi tower SAMA, V40 , (Без БП), Black",
+        "price_retail": "28630",
+        "price_wholesale": "26510",
+        "price_reseller": "24540",
+        "warranty": "1",
+        "status": " "
+    },
+    {
+        "code": "197736",
+        "name": "Case ATX midi tower SAMA, V40 , (Без БП), White",
+        "price_retail": "30920",
+        "price_wholesale": "28630",
+        "price_reseller": "26510",
+        "warranty": "1",
+        "status": " "
+    },
+    {
+        "code": "197739",
+        "name": "Case ATX midi tower SAMA, V60 , (Без БП), Black",
+        "price_retail": "40710",
+        "price_wholesale": "37700",
+        "price_reseller": "34900",
+        "warranty": "1",
+        "status": " "
+    },
+    {
+        "code": "197740",
+        "name": "Case ATX midi tower SAMA, V60 , (Без БП), White",
+        "price_retail": "42350",
+        "price_wholesale": "39210",
+        "price_reseller": "36310",
+        "warranty": "1",
+        "status": " "
+    },
+    {
+        "code": "197741",
+        "name": "Case ATX midi tower SAMA, Z60 , (Без БП), Black",
+        "price_retail": "36680",
+        "price_wholesale": "33970",
+        "price_reseller": "31450",
+        "warranty": "1",
+        "status": " "
+    },
+    {
+        "code": "197742",
+        "name": "Case ATX midi tower SAMA, Z60 , (Без БП), White",
+        "price_retail": "39070",
+        "price_wholesale": "36170",
+        "price_reseller": "33500",
+        "warranty": "1",
+        "status": " "
+    },
+    {
+        "code": "176935",
+        "name": "Case ATX midi tower Zalman S2 TG, (без БП), black",
+        "price_retail": "22490",
+        "price_wholesale": "20440",
+        "price_reseller": "18580",
+        "warranty": "1",
+        "status": " "
+    },
+    {
+        "code": "169004",
+        "name": "Case ATX midi tower Zalman Z3 Iceberg Black, (без БП), black",
+        "price_retail": "29780",
+        "price_wholesale": "27560",
+        "price_reseller": "25520",
+        "warranty": "1",
+        "status": " "
+    },
+    {
+        "code": "194698",
+        "name": "Case ATX mini tower APEX, M2201, без БП",
+        "price_retail": "10610",
+        "price_wholesale": "9920",
+        "price_reseller": "8620",
+        "warranty": "1",
+        "status": "resrv"
+    },
+    {
+        "code": "195001",
+        "name": "Case E-ATX ultra tower FSP CUT593A-W STANDART, (без БП), WHITE",
+        "price_retail": "38480",
+        "price_wholesale": "35970",
+        "price_reseller": "33620",
+        "warranty": "1",
+        "status": " "
+    },
+    {
+        "code": "179931",
+        "name": "Case MATX midi tower APEX, A302, 1*120 fan, (400W)",
+        "price_retail": "19860",
+        "price_wholesale": "18390",
+        "price_reseller": "16715",
+        "warranty": "1",
+        "status": "resrv"
+    },
+    {
+        "code": "197319",
+        "name": "Case mATX mini tower  Wintek, K260, (Без БП), Black",
+        "price_retail": "7070",
+        "price_wholesale": "6540",
+        "price_reseller": "6060",
+        "warranty": "1",
+        "status": " "
+    },
+    {
+        "code": "196853",
+        "name": "Case mATX mini tower  Wintek, K260-A450-12F, 450W, Black",
+        "price_retail": "13220",
+        "price_wholesale": "12240",
+        "price_reseller": "11340",
+        "warranty": "1",
+        "status": " "
+    },
+    {
+        "code": "197030",
+        "name": "Case mATX mini tower  Wintek, K310, (без БП), Black",
+        "price_retail": "6350",
+        "price_wholesale": "5890",
+        "price_reseller": "5450",
+        "warranty": "1",
+        "status": " "
+    },
+    {
+        "code": "196852",
+        "name": "Case mATX mini tower  Wintek, K310-A450-12F, 450W, Black",
+        "price_retail": "13260",
+        "price_wholesale": "12280",
+        "price_reseller": "11370",
+        "warranty": "1",
+        "status": " "
+    },
+    {
+        "code": "179699",
+        "name": "Case MATX mini tower 1stPlayer, Mi6, Tempered Glass, (без БП), black",
+        "price_retail": "37130",
+        "price_wholesale": "35710",
+        "price_reseller": "34330",
+        "warranty": "1",
+        "status": " "
+    },
+    {
+        "code": "184569",
+        "name": "Case MATX mini tower APEX, K16, 1*120mm white fan, (400W) white",
+        "price_retail": "19680",
+        "price_wholesale": "18740",
+        "price_reseller": "16300",
+        "warranty": "1",
+        "status": " "
+    },
+    {
+        "code": "194697",
+        "name": "Case MATX mini tower APEX, M1851",
+        "price_retail": "11900",
+        "price_wholesale": "11330",
+        "price_reseller": "9850",
+        "warranty": "1",
+        "status": " "
+    },
+    {
+        "code": "184092",
+        "name": "Case MATX mini tower APEX, M201, 4*120 fan, (без БП), white",
+        "price_retail": "17230",
+        "price_wholesale": "15960",
+        "price_reseller": "13290",
+        "warranty": "1",
+        "status": " "
+    },
+    {
+        "code": "165885",
+        "name": "Case MATX mini tower APEX, Tank Mini+, 4*120mm ARGB fans + ARGB fan hub + remote control (без БП)",
+        "price_retail": "30720",
+        "price_wholesale": "29260",
+        "price_reseller": "25440",
+        "warranty": "1",
+        "status": " "
+    },
+    {
+        "code": "171203",
+        "name": "Case MATX mini tower Cougar MG140 Air RGB, (без БП), black",
+        "price_retail": "26600",
+        "price_wholesale": "25820",
+        "price_reseller": "25070",
+        "warranty": "1",
+        "status": " "
+    },
+    {
+        "code": "191977",
+        "name": "Case MATX mini tower Formula V, Crystal Z5, 1*120 ARGB, (Без БП), black",
+        "price_retail": "27140",
+        "price_wholesale": "24670",
+        "price_reseller": "22840",
+        "warranty": "1",
+        "status": " "
+    },
+    {
+        "code": "149401",
+        "name": "Корпуса, серверные шасси смотрите в разделе Серверные корпуса  http://pulser.kz/?grpsub=148150",
+        "price_retail": "0",
+        "price_wholesale": "0",
+        "price_reseller": "0",
+        "warranty": " ",
+        "status": " "
+    },
+    {
+        "code": "196288",
+        "name": "Уц. Case ATX midi tower 39SPC-05, (420W), black, небольшая вмятина на задней панели",
+        "price_retail": "8880",
+        "price_wholesale": "8630",
+        "price_reseller": "8370",
+        "warranty": "14",
+        "status": " "
+    },
+    {
+        "code": "193962",
+        "name": "Уц. Case ATX midi tower Antec, AX90, AX90V75, 1*120 ARGB+3*120 ARGB fan, (Atom 750W), black",
+        "price_retail": "35680",
+        "price_wholesale": "34980",
+        "price_reseller": "34286",
+        "warranty": "6",
+        "status": " "
+    },
+    {
+        "code": "191790",
+        "name": "Уц. Case ATX midi tower Antec, C7 ARGB, 3*120 ARGB + 1*140 ARGB fan + ARGB fan hub, (Без БП), black",
+        "price_retail": "45910",
+        "price_wholesale": "45020",
+        "price_reseller": "44140",
+        "warranty": "1",
+        "status": " "
+    },
+    {
+        "code": "192394",
+        "name": "Уц. Case ATX midi tower Antec, C7 ARGB, 3*120 ARGB + 1*140 ARGB fan + ARGB fan hub, (Без БП), white",
+        "price_retail": "55510",
+        "price_wholesale": "54430",
+        "price_reseller": "53360",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "195090",
+        "name": "Уц. Case ATX midi tower BeQuiet, Pure Base 500 (BGW36), (без БП), grey, немного повреждена упаковка",
+        "price_retail": "40620",
+        "price_wholesale": "39430",
+        "price_reseller": "38290",
+        "warranty": "1",
+        "status": " "
+    },
+    {
+        "code": "190856",
+        "name": "Уц. Case ATX midi tower Corsair, iCUE 4000D RGB Airflow, CC-9011240-WW(без БП), black",
+        "price_retail": "29340",
+        "price_wholesale": "29050",
+        "price_reseller": "28770",
+        "warranty": "6",
+        "status": " "
+    },
+    {
+        "code": "193963",
+        "name": "Уц. Case MATX midi tower APEX, A302, 1*120 fan, (400W), ремонт лицевой панели",
+        "price_retail": "12760",
+        "price_wholesale": "12510",
+        "price_reseller": "12260",
+        "warranty": "1",
+        "status": " "
+    },
+    {
+        "code": "192001",
+        "name": "Уц. Case MATX midi tower APEX, A303, 1*120 fan, (400W), дефект корпуса",
+        "price_retail": "9650",
+        "price_wholesale": "9460",
+        "price_reseller": "9270",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "193484",
+        "name": "Уц. Case MATX mini tower APEX, K16, 1*120mm black fan, (400W), black,не работает одни USB 2.0",
+        "price_retail": "11940",
+        "price_wholesale": "11710",
+        "price_reseller": "11480",
+        "warranty": "6",
+        "status": " "
+    },
+    {
+        "code": "194800",
+        "name": "Уц. Case MATX mini tower APEX, T04, (400W), black, небольшая вмятина сверху",
+        "price_retail": "10240",
+        "price_wholesale": "10030",
+        "price_reseller": "9830",
+        "warranty": "6",
+        "status": " "
+    },
+    {
+        "code": "195492",
+        "name": "Уц. Case MATX mini tower APEX, T04, (400W), black, небольшой скол сверху",
+        "price_retail": "9810",
+        "price_wholesale": "9610",
+        "price_reseller": "9420",
+        "warranty": "1",
+        "status": " "
+    },
+    {
+        "code": "185672",
+        "name": "Уц. Case MATX mini tower APEX, T05, без БП, black, дефект корпуса",
+        "price_retail": "8470",
+        "price_wholesale": "8300",
+        "price_reseller": "8130",
+        "warranty": "14",
+        "status": " "
+    },
+    {
+        "code": "194804",
+        "name": "Уц. Case MATX mini tower APEX, V03, RGB (400W), black, небольшая вмятина сверху",
+        "price_retail": "10940",
+        "price_wholesale": "10720",
+        "price_reseller": "10510",
+        "warranty": "6",
+        "status": " "
+    },
+    {
+        "code": "197153",
+        "name": "Уц. Case MATX mini tower APEX, V05, RGB (400W), black, вмятины на боковых крышках",
+        "price_retail": "10090",
+        "price_wholesale": "9610",
+        "price_reseller": "9150",
+        "warranty": "1",
+        "status": " "
+    },
+    {
+        "code": "195749",
+        "name": "Уц. Case MATX mini tower APEX, V05, RGB (400W), black, оторвана лицевая панель",
+        "price_retail": "6310",
+        "price_wholesale": "6240",
+        "price_reseller": "6180",
+        "warranty": "1",
+        "status": " "
+    }
+]

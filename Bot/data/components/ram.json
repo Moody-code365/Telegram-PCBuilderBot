@@ -1,0 +1,749 @@
+[
+    {
+        "code": "195066",
+        "name": "CU-DIMM DDR5 24 GB <8800MHz> Kingston Fury Renegade RGB, KF588CU42RSA-24, CL42, silver",
+        "price_retail": "100289",
+        "price_wholesale": "99299",
+        "price_reseller": "98320",
+        "warranty": "Пожиз.",
+        "status": " "
+    },
+    {
+        "code": "195064",
+        "name": "CU-DIMM DDR5 24 GB <8800MHz> Kingston Fury Renegade, KF588CU42RS-24, CL42, silver",
+        "price_retail": "98455",
+        "price_wholesale": "97481",
+        "price_reseller": "96517",
+        "warranty": "Пожиз.",
+        "status": " "
+    },
+    {
+        "code": "190692",
+        "name": "DIMM DDR3  8 GB <1600MHz> Hiksemi (Hikvision) Hiker, HSC308U16Z1, CL11",
+        "price_retail": "10492",
+        "price_wholesale": "9990",
+        "price_reseller": "8334",
+        "warranty": "Пожиз.",
+        "status": " "
+    },
+    {
+        "code": "153254",
+        "name": "DIMM DDR4  4 GB <2666MHz> Patriot, PSD44G266681, CL19",
+        "price_retail": "28562",
+        "price_wholesale": "25965",
+        "price_reseller": "21637",
+        "warranty": "10",
+        "status": " "
+    },
+    {
+        "code": "157277",
+        "name": "DIMM DDR4  8 GB <2666MHz> Patriot, PSD48G266681, CL19",
+        "price_retail": "37996",
+        "price_wholesale": "34543",
+        "price_reseller": "28786",
+        "warranty": "10",
+        "status": " "
+    },
+    {
+        "code": "190698",
+        "name": "DIMM DDR4  8 GB <3200MHz> Hiksemi (Hikvision) Hiker, HSC408U32Z1, CL22",
+        "price_retail": "34141",
+        "price_wholesale": "32516",
+        "price_reseller": "23227",
+        "warranty": "Пожиз.",
+        "status": "call"
+    },
+    {
+        "code": "187187",
+        "name": "DIMM DDR4  8 GB <3200MHz> Patriot Signature, PSD48G32002, 22-22-22-52",
+        "price_retail": "36828",
+        "price_wholesale": "33480",
+        "price_reseller": "27900",
+        "warranty": "10",
+        "status": " "
+    },
+    {
+        "code": "167715",
+        "name": "DIMM DDR4 16 GB <3200MHz> Apacer, EL.16G21.GSH, CL22",
+        "price_retail": "56778",
+        "price_wholesale": "54073",
+        "price_reseller": "49157",
+        "warranty": "5",
+        "status": " "
+    },
+    {
+        "code": "190699",
+        "name": "DIMM DDR4 16 GB <3200MHz> Hiksemi (Hikvision) Hiker, HSC416U32Z1, CL22",
+        "price_retail": "70580",
+        "price_wholesale": "67216",
+        "price_reseller": "51704",
+        "warranty": "Пожиз.",
+        "status": "resrv"
+    },
+    {
+        "code": "196131",
+        "name": "DIMM DDR4 16 GB <3200MHz> Kingston KVR32N22D8/16WP, CL22, 16 chip",
+        "price_retail": "71850",
+        "price_wholesale": "68427",
+        "price_reseller": "54742",
+        "warranty": "Пожиз.",
+        "status": "call"
+    },
+    {
+        "code": "159203",
+        "name": "DIMM DDR4 16 GB <3200MHz> Kingston KVR32N22S8/16, CL22, 8 chip",
+        "price_retail": "72260",
+        "price_wholesale": "65691",
+        "price_reseller": "54742",
+        "warranty": "Пожиз.",
+        "status": " "
+    },
+    {
+        "code": "163368",
+        "name": "DIMM DDR4 16 GB kit <2666MHz> G.Skill Sniper X, F4-2666C19D-16GSXW, (2x8GB), 19-19-19-43",
+        "price_retail": "64866",
+        "price_wholesale": "61772",
+        "price_reseller": "51478",
+        "warranty": "Пожиз.",
+        "status": " "
+    },
+    {
+        "code": "157427",
+        "name": "DIMM DDR4 16 GB kit <3000MHz> G.Skill Trident Z RGB, F4-3000C16D-16GTZR, (2x8GB), 16-18-18-38",
+        "price_retail": "67199",
+        "price_wholesale": "63999",
+        "price_reseller": "53334",
+        "warranty": "Пожиз.",
+        "status": " "
+    },
+    {
+        "code": "152240",
+        "name": "DIMM DDR4 16 GB kit <3200MHz> G.Skill Aegis, F4-3200C16D-16GIS, (2x8GB), 16-18-18-38",
+        "price_retail": "62130",
+        "price_wholesale": "59175",
+        "price_reseller": "49312",
+        "warranty": "Пожиз.",
+        "status": " "
+    },
+    {
+        "code": "150872",
+        "name": "DIMM DDR4 16 GB kit <3200MHz> G.Skill Flare X (AMD), F4-3200C16D-16GFX, (2x8GB), 16-18-18-38",
+        "price_retail": "64623",
+        "price_wholesale": "61546",
+        "price_reseller": "51288",
+        "warranty": "Пожиз.",
+        "status": " "
+    },
+    {
+        "code": "150887",
+        "name": "DIMM DDR4 16 GB kit <3200MHz> G.Skill Sniper X, F4-3200C16D-16GSXFB, (2x8GB), 16-18-18-38",
+        "price_retail": "66741",
+        "price_wholesale": "63563",
+        "price_reseller": "52968",
+        "warranty": "Пожиз.",
+        "status": " "
+    },
+    {
+        "code": "167400",
+        "name": "DIMM DDR4 16 GB kit <3200MHz> Kingston Fury Beast, KF432C16BBK2/16, (2x8GB) CL16",
+        "price_retail": "66176",
+        "price_wholesale": "63019",
+        "price_reseller": "52515",
+        "warranty": "Пожиз.",
+        "status": " "
+    },
+    {
+        "code": "196133",
+        "name": "DIMM DDR4 16 GB kit <3200MHz> Kingston Fury Beast, KF432C16BBK2/16WP, (2x8GB) CL16",
+        "price_retail": "71068",
+        "price_wholesale": "67682",
+        "price_reseller": "56402",
+        "warranty": "Пожиз.",
+        "status": "call"
+    },
+    {
+        "code": "174536",
+        "name": "DIMM DDR4 16 GB kit <3200MHz> Patriot Signature Line Premium, PSP416G3200KH1, (2x8GB), CL 22",
+        "price_retail": "72513",
+        "price_wholesale": "65921",
+        "price_reseller": "54934",
+        "warranty": "10",
+        "status": " "
+    },
+    {
+        "code": "171664",
+        "name": "DIMM DDR4 16 GB kit <3200MHz> Patriot Viper Elite ll, PVE2416G320C8K, (2x8GB), CL 18-22-22-42",
+        "price_retail": "75802",
+        "price_wholesale": "68910",
+        "price_reseller": "57425",
+        "warranty": "10",
+        "status": " "
+    },
+    {
+        "code": "162949",
+        "name": "DIMM DDR4 16 GB kit <3200MHz> Patriot Viper Steel PVS416G360C8K, (2x8GB), CL 18-22-22-42",
+        "price_retail": "75122",
+        "price_wholesale": "68292",
+        "price_reseller": "56911",
+        "warranty": "10",
+        "status": " "
+    },
+    {
+        "code": "157148",
+        "name": "DIMM DDR4 16 GB kit <3200MHz> Patriot Viper Steel, PVS416G320C6K, (2x8GB), CL16",
+        "price_retail": "75800",
+        "price_wholesale": "68910",
+        "price_reseller": "57425",
+        "warranty": "10",
+        "status": " "
+    },
+    {
+        "code": "173894",
+        "name": "DIMM DDR4 16 GB kit <3600MHz> Patriot Viper Elite II, PVE2416G360C0K, (2x8GB), CL20",
+        "price_retail": "76726",
+        "price_wholesale": "69750",
+        "price_reseller": "58125",
+        "warranty": "10",
+        "status": "resrv"
+    },
+    {
+        "code": "173893",
+        "name": "DIMM DDR4 16 GB kit <3600MHz> Patriot Viper Steel RGB, PVSR416G360C0K, (2x8GB), CL20",
+        "price_retail": "70543",
+        "price_wholesale": "67180",
+        "price_reseller": "61082",
+        "warranty": "10",
+        "status": " "
+    },
+    {
+        "code": "168174",
+        "name": "DIMM DDR4 32 GB <2666MHz> G.Skill, F4-2666C19S-32GNT, 19-19-19-43",
+        "price_retail": "99470",
+        "price_wholesale": "94685",
+        "price_reseller": "78903",
+        "warranty": "Пожиз.",
+        "status": "resrv"
+    },
+    {
+        "code": "177372",
+        "name": "DIMM DDR4 32 GB <3200MHz> Apacer, EL.32G21.PSH, CL19",
+        "price_retail": "121927",
+        "price_wholesale": "116126",
+        "price_reseller": "96779",
+        "warranty": "5",
+        "status": " "
+    },
+    {
+        "code": "168230",
+        "name": "DIMM DDR4 32 GB <3200MHz> Patriot, PSD432G32002, CL22",
+        "price_retail": "115697",
+        "price_wholesale": "110184",
+        "price_reseller": "95815",
+        "warranty": "10",
+        "status": " "
+    },
+    {
+        "code": "196610",
+        "name": "DIMM DDR4 32 GB kit <3200MHz> Hiksemi (Hikvision) Armor, HSC432U32D3, (2x16GB), Heatsink",
+        "price_retail": "136488",
+        "price_wholesale": "124081",
+        "price_reseller": "103401",
+        "warranty": "5",
+        "status": "call"
+    },
+    {
+        "code": "183959",
+        "name": "DIMM DDR4 32 GB kit <3200MHz> Kingston Fury Beast RGB, KF432C16BB12AK2/32, (2x16GB), CL16",
+        "price_retail": "142560",
+        "price_wholesale": "135772",
+        "price_reseller": "113138",
+        "warranty": "Пожиз.",
+        "status": "call"
+    },
+    {
+        "code": "196134",
+        "name": "DIMM DDR4 32 GB kit <3200MHz> Kingston Fury Beast, KF432C16BB1K2/32WP, (2x16GB) CL16",
+        "price_retail": "136960",
+        "price_wholesale": "130436",
+        "price_reseller": "108696",
+        "warranty": "Пожиз.",
+        "status": "call"
+    },
+    {
+        "code": "174537",
+        "name": "DIMM DDR4 32 GB kit <3200MHz> Patriot Signature Line Premium, PSP432G3200KH1, (2x16GB), CL 22",
+        "price_retail": "130153",
+        "price_wholesale": "123951",
+        "price_reseller": "103289",
+        "warranty": "10",
+        "status": " "
+    },
+    {
+        "code": "173898",
+        "name": "DIMM DDR4 32 GB kit <3600MHz> Patriot Viper Elite II, PVE2432G360C0K, (2x16GB), CL20",
+        "price_retail": "135355",
+        "price_wholesale": "128899",
+        "price_reseller": "107438",
+        "warranty": "10",
+        "status": " "
+    },
+    {
+        "code": "177226",
+        "name": "DIMM DDR4 64 GB kit <2666MHz> G.Skill Trident Z NEO, F4-2666C18D-64GTZN, (2x32GB), 18-18-18-43",
+        "price_retail": "252279",
+        "price_wholesale": "240265",
+        "price_reseller": "200222",
+        "warranty": "Пожиз.",
+        "status": " "
+    },
+    {
+        "code": "167593",
+        "name": "DIMM DDR4 64 GB kit <3200MHz> Kingston Fury Beast, KF432C16BB1K4/64, (4x16GB) CL16",
+        "price_retail": "252110",
+        "price_wholesale": "240083",
+        "price_reseller": "200063",
+        "warranty": "Пожиз.",
+        "status": " "
+    },
+    {
+        "code": "173900",
+        "name": "DIMM DDR4 64 GB kit <3600MHz> Patriot Viper Elite II, PVE2464G360C0K, (2x32GB), CL20",
+        "price_retail": "268116",
+        "price_wholesale": "243743",
+        "price_reseller": "203120",
+        "warranty": "10",
+        "status": " "
+    },
+    {
+        "code": "197168",
+        "name": "DIMM DDR5 16 GB <5600MHz> AGI, AGI560016UD238-ST, CL40",
+        "price_retail": "76112",
+        "price_wholesale": "72485",
+        "price_reseller": "63030",
+        "warranty": "5",
+        "status": "call"
+    },
+    {
+        "code": "197331",
+        "name": "DIMM DDR5 16 GB <5600MHz> Apacer , FL.16G2C.PKH , CL46",
+        "price_retail": "82404",
+        "price_wholesale": "78624",
+        "price_reseller": "60480",
+        "warranty": "5",
+        "status": " "
+    },
+    {
+        "code": "196150",
+        "name": "DIMM DDR5 16 GB <5600MHz> Hiksemi (Hikvision) Hiker, HSC516U56Z1, CL22",
+        "price_retail": "75020",
+        "price_wholesale": "71447",
+        "price_reseller": "54959",
+        "warranty": "Пожиз.",
+        "status": "call"
+    },
+    {
+        "code": "187182",
+        "name": "DIMM DDR5 16 GB kit <4800MHz> Patriot Signature Premium, PSP516G4800KH1, (2x8GB), 40-40-40-77",
+        "price_retail": "76995",
+        "price_wholesale": "69994",
+        "price_reseller": "58327",
+        "warranty": "5",
+        "status": " "
+    },
+    {
+        "code": "183983",
+        "name": "DIMM DDR5 16 GB kit <5600MHz> Kingston Fury Beast RGB (AMD+Intel), KF556C36BBEAK2-16, CL36",
+        "price_retail": "84772",
+        "price_wholesale": "77066",
+        "price_reseller": "67014",
+        "warranty": "5",
+        "status": " "
+    },
+    {
+        "code": "195057",
+        "name": "DIMM DDR5 16 GB kit <6000MHz> Kingston Fury Beast (AMD+Intel), KF560C30BBEK2-16, (2x8GB), CL30",
+        "price_retail": "82475",
+        "price_wholesale": "78548",
+        "price_reseller": "68303",
+        "warranty": "Пожиз.",
+        "status": "resrv"
+    },
+    {
+        "code": "197332",
+        "name": "DIMM DDR5 32 GB <5200MHz> Apacer Panther, AH5U32G52C5227BAA-1 , CL40",
+        "price_retail": "92803",
+        "price_wholesale": "88391",
+        "price_reseller": "80345",
+        "warranty": "5",
+        "status": "resrv"
+    },
+    {
+        "code": "197333",
+        "name": "DIMM DDR5 32 GB <5600MHz> Apacer , FL.32G2C.PKH , CL46",
+        "price_retail": "107797",
+        "price_wholesale": "102662",
+        "price_reseller": "85549",
+        "warranty": "5",
+        "status": "resrv"
+    },
+    {
+        "code": "191654",
+        "name": "DIMM DDR5 32 GB <5600MHz> Patriot Signature, PSD532G56002, CL 46-46-46-90",
+        "price_retail": "109613",
+        "price_wholesale": "99648",
+        "price_reseller": "83040",
+        "warranty": "Пожиз.",
+        "status": "resrv"
+    },
+    {
+        "code": "174866",
+        "name": "DIMM DDR5 32 GB kit <5600MHz> G.Skill Trident Z5 RGB, F5-5600J4040C16GX2-TZ5RK,(2x16GB), 40-40-40-89",
+        "price_retail": "157512",
+        "price_wholesale": "150015",
+        "price_reseller": "130447",
+        "warranty": "Пожиз.",
+        "status": "call"
+    },
+    {
+        "code": "174863",
+        "name": "DIMM DDR5 32 GB kit <5600MHz> G.Skill Trident Z5, F5-5600J4040C16GX2-TZ5K, (2x16GB), 40-40-40-89",
+        "price_retail": "133926",
+        "price_wholesale": "127549",
+        "price_reseller": "110914",
+        "warranty": "Пожиз.",
+        "status": "resrv"
+    },
+    {
+        "code": "176078",
+        "name": "DIMM DDR5 32 GB kit <5600MHz> Patriot Viper VENOM, PVV532G560C36K, (2x16GB), CL36",
+        "price_retail": "147444",
+        "price_wholesale": "134040",
+        "price_reseller": "111696",
+        "warranty": "Пожиз.",
+        "status": "resrv"
+    },
+    {
+        "code": "189840",
+        "name": "DIMM DDR5 32 GB kit <6000MHz> G.Skill RipJaws M5 RGB (AMD+Intel), F5-6000J3636F16GX2-RM5RK, (2x16GB)",
+        "price_retail": "152858",
+        "price_wholesale": "145584",
+        "price_reseller": "121314",
+        "warranty": "Пожиз.",
+        "status": "call"
+    },
+    {
+        "code": "177208",
+        "name": "DIMM DDR5 32 GB kit <6000MHz> G.Skill Trident Z5 (AMD+Intel), F5-6000J3636F16GX2-TZ5K, (2x16GB)",
+        "price_retail": "145807",
+        "price_wholesale": "138864",
+        "price_reseller": "115720",
+        "warranty": "Пожиз.",
+        "status": "call"
+    },
+    {
+        "code": "191535",
+        "name": "DIMM DDR5 32 GB kit <6000MHz> Kingston Fury Beast (AMD+Intel), KF560C36BBE2K2-32 (2x16GB), CL36",
+        "price_retail": "160401",
+        "price_wholesale": "152763",
+        "price_reseller": "127302",
+        "warranty": "Пожиз.",
+        "status": "resrv"
+    },
+    {
+        "code": "193632",
+        "name": "DIMM DDR5 32 GB kit <6000MHz> Kingston Fury Beast (AMD+Intel), KF560C36BWE2K2-32, (2x16GB), white",
+        "price_retail": "150471",
+        "price_wholesale": "143306",
+        "price_reseller": "119425",
+        "warranty": "Пожиз.",
+        "status": "call"
+    },
+    {
+        "code": "194333",
+        "name": "DIMM DDR5 32 GB kit <6000MHz> Kingston Fury Beast RGB (AMD+Intel), KF560C36BBE2AK2-32 (2x16GB), CL36",
+        "price_retail": "154541",
+        "price_wholesale": "147179",
+        "price_reseller": "122650",
+        "warranty": "Пожиз.",
+        "status": "call"
+    },
+    {
+        "code": "176079",
+        "name": "DIMM DDR5 32 GB kit <6200MHz> Patriot VENOM, PVV532G620C40K, (2x16GB), CL40",
+        "price_retail": "146157",
+        "price_wholesale": "139197",
+        "price_reseller": "115996",
+        "warranty": "Пожиз.",
+        "status": "call"
+    },
+    {
+        "code": "176081",
+        "name": "DIMM DDR5 32 GB kit <6200MHz> Patriot VENOM, PVVR532G620C40K, (2x16GB), CL40",
+        "price_retail": "136188",
+        "price_wholesale": "129696",
+        "price_reseller": "117923",
+        "warranty": "10",
+        "status": "call"
+    },
+    {
+        "code": "194837",
+        "name": "DIMM DDR5 48 GB kit <5200MHz> G.Skill Flare X5 (AMD+Intel), F5-5200J4040A24GX2-FX5,(2x24GB) 40-40-40",
+        "price_retail": "147535",
+        "price_wholesale": "140510",
+        "price_reseller": "122176",
+        "warranty": "Пожиз.",
+        "status": "call"
+    },
+    {
+        "code": "194840",
+        "name": "DIMM DDR5 48 GB kit <5200MHz> G.Skill RipJaws M5 RGB (AMD+Intel), F5-5200J4040A24GX2-RM5RK,(2x24GB)",
+        "price_retail": "158793",
+        "price_wholesale": "151230",
+        "price_reseller": "131504",
+        "warranty": "Пожиз.",
+        "status": "call"
+    },
+    {
+        "code": "194839",
+        "name": "DIMM DDR5 48 GB kit <5200MHz> G.Skill RipJaws M5 RGB (AMD+Intel), F5-5200J4040A24GX2-RM5RW,(2x24GB)",
+        "price_retail": "158793",
+        "price_wholesale": "151230",
+        "price_reseller": "131504",
+        "warranty": "Пожиз.",
+        "status": "call"
+    },
+    {
+        "code": "194834",
+        "name": "DIMM DDR5 48 GB kit <5200MHz> G.Skill RipJaws S5 (AMD+Intel), F5-5200J4040A24GX2-RS5K, (2x24GB)",
+        "price_retail": "147534",
+        "price_wholesale": "140509",
+        "price_reseller": "122176",
+        "warranty": "Пожиз.",
+        "status": "call"
+    },
+    {
+        "code": "194835",
+        "name": "DIMM DDR5 48 GB kit <5200MHz> G.Skill RipJaws S5 (AMD+Intel), F5-5200J4040A24GX2-RS5W, (2x24GB)",
+        "price_retail": "147534",
+        "price_wholesale": "140509",
+        "price_reseller": "122176",
+        "warranty": "Пожиз.",
+        "status": "call"
+    },
+    {
+        "code": "188440",
+        "name": "DIMM DDR5 64 GB kit <5600MHz> G.Skill RipJaws S5, F5-5600J4645A32GX2-RS5K, (2x32GB), 46-45-45-89",
+        "price_retail": "243944",
+        "price_wholesale": "232328",
+        "price_reseller": "193607",
+        "warranty": "Пожиз.",
+        "status": "resrv"
+    },
+    {
+        "code": "183993",
+        "name": "DIMM DDR5 64 GB kit <5600MHz> Kingston Fury Beast (AMD+Intel), KF556C36BBEK2-64, (2x32GB) CL 36",
+        "price_retail": "270582",
+        "price_wholesale": "257697",
+        "price_reseller": "214751",
+        "warranty": "Пожиз.",
+        "status": " "
+    },
+    {
+        "code": "180180",
+        "name": "DIMM DDR5 64 GB kit <5600MHz> Patriot Viper Venom, PVV564G560C40K, (2x32GB), 34-44-44-84",
+        "price_retail": "274033",
+        "price_wholesale": "249121",
+        "price_reseller": "207600",
+        "warranty": "Пожиз.",
+        "status": " "
+    },
+    {
+        "code": "188464",
+        "name": "DIMM DDR5 64 GB kit <6000MHz> G.Skill RipJaws M5 RGB, F5-6000J3238G32GX2-RM5RK, (2x32G), 32-38-38-96",
+        "price_retail": "271506",
+        "price_wholesale": "258574",
+        "price_reseller": "224845",
+        "warranty": "Пожиз.",
+        "status": "call"
+    },
+    {
+        "code": "195059",
+        "name": "DIMM DDR5 64 GB kit <6000MHz> Kingston Fury Beast (AMD+Intel), KF560C36BBE2K2-64 (2x32GB), CL36",
+        "price_retail": "250312",
+        "price_wholesale": "238392",
+        "price_reseller": "216718",
+        "warranty": "Пожиз.",
+        "status": "resrv"
+    },
+    {
+        "code": "183996",
+        "name": "DIMM DDR5 64 GB kit <6000MHz> Kingston Fury Beast (AMD+Intel), KF560C36BBEK2-64, (2x32GB) CL36",
+        "price_retail": "292039",
+        "price_wholesale": "278133",
+        "price_reseller": "241856",
+        "warranty": "Пожиз.",
+        "status": "resrv"
+    },
+    {
+        "code": "156176",
+        "name": "SO-DIMM DDR3L 8 GB <1600MHz> G.Skill, F3-1600C11S-8GSL, 11-11-11-28",
+        "price_retail": "23582",
+        "price_wholesale": "21438",
+        "price_reseller": "17865",
+        "warranty": "Пожиз.",
+        "status": " "
+    },
+    {
+        "code": "196108",
+        "name": "SO-DIMM DDR4  16 GB <3200MHz> Geil, GS416GB3200C22S, CL22, oem",
+        "price_retail": "54989",
+        "price_wholesale": "52367",
+        "price_reseller": "49872",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "185452",
+        "name": "SO-DIMM DDR4  8 GB <3200MHz> Afox, AFSD48PH1P, CL22",
+        "price_retail": "31130",
+        "price_wholesale": "29640",
+        "price_reseller": "24700",
+        "warranty": "Пожиз.",
+        "status": " "
+    },
+    {
+        "code": "196130",
+        "name": "SO-DIMM DDR4  8 GB <3200MHz> Kingston, KVR32S22S8/8WP, CL22, 8 chip",
+        "price_retail": "33902",
+        "price_wholesale": "30822",
+        "price_reseller": "25689",
+        "warranty": "Пожиз.",
+        "status": "resrv"
+    },
+    {
+        "code": "185454",
+        "name": "SO-DIMM DDR4 16 GB <3200MHz> Afox, AFSD416PS1P, CL22",
+        "price_retail": "59360",
+        "price_wholesale": "56530",
+        "price_reseller": "47110",
+        "warranty": "Пожиз.",
+        "status": "call"
+    },
+    {
+        "code": "196132",
+        "name": "SO-DIMM DDR4 16 GB <3200MHz> Kingston, KVR32S22D8/16WP, CL22",
+        "price_retail": "68220",
+        "price_wholesale": "64970",
+        "price_reseller": "51980",
+        "warranty": "Пожиз.",
+        "status": " "
+    },
+    {
+        "code": "169246",
+        "name": "SO-DIMM DDR4 32 GB <2666MHz> G.Skill RipJaws, F4-2666C19S-32GRS, 19-19-19-43",
+        "price_retail": "101484",
+        "price_wholesale": "96651",
+        "price_reseller": "77321",
+        "warranty": "Пожиз.",
+        "status": " "
+    },
+    {
+        "code": "197167",
+        "name": "SO-DIMM DDR5 16 GB <5600MHz> AGI, AGI560016SD238-ST, CL40",
+        "price_retail": "52806",
+        "price_wholesale": "50293",
+        "price_reseller": "44507",
+        "warranty": "Пожиз.",
+        "status": "resrv"
+    },
+    {
+        "code": "184002",
+        "name": "SO-DIMM DDR5 16 GB <5600MHz> Kingston Fury Impact, KF556S40IB-16, CL40",
+        "price_retail": "65669",
+        "price_wholesale": "62541",
+        "price_reseller": "52114",
+        "warranty": "Пожиз.",
+        "status": " "
+    },
+    {
+        "code": "183946",
+        "name": "SO-DIMM DDR5 16 GB <5600MHz> Kingston, KVR56S46BS8-16, CL46",
+        "price_retail": "64520",
+        "price_wholesale": "61449",
+        "price_reseller": "51211",
+        "warranty": "Пожиз.",
+        "status": " "
+    },
+    {
+        "code": "184003",
+        "name": "SO-DIMM DDR5 16 GB <6000MHz> Kingston Fury Impact, KF560S38IB-16, CL38",
+        "price_retail": "70544",
+        "price_wholesale": "67183",
+        "price_reseller": "55985",
+        "warranty": "Пожиз.",
+        "status": "resrv"
+    },
+    {
+        "code": "181956",
+        "name": "SO-DIMM DDR5 32 GB <5600MHz> G.Skill RipJaws, F5-5600S4645A32GX1-RS, 46-45-45-89",
+        "price_retail": "136642",
+        "price_wholesale": "130137",
+        "price_reseller": "108445",
+        "warranty": "Пожиз.",
+        "status": " "
+    },
+    {
+        "code": "184004",
+        "name": "SO-DIMM DDR5 32 GB <5600MHz> Kingston Fury Impact, KF556S40IB-32, CL40",
+        "price_retail": "146991",
+        "price_wholesale": "139991",
+        "price_reseller": "116661",
+        "warranty": "Пожиз.",
+        "status": " "
+    },
+    {
+        "code": "183948",
+        "name": "SO-DIMM DDR5 32 GB <5600MHz> Kingston, KVR56S46BD8-32, CL46",
+        "price_retail": "133100",
+        "price_wholesale": "121000",
+        "price_reseller": "105217",
+        "warranty": "Пожиз.",
+        "status": " "
+    },
+    {
+        "code": "184005",
+        "name": "SO-DIMM DDR5 32 GB kit <5600MHz> Kingston Fury Impact, KF556S40IBK2-32,  (2x16GB), CL40",
+        "price_retail": "137011",
+        "price_wholesale": "130478",
+        "price_reseller": "108725",
+        "warranty": "Пожиз.",
+        "status": " "
+    },
+    {
+        "code": "184006",
+        "name": "SO-DIMM DDR5 32 GB kit <6000MHz> Kingston Fury Impact, KF560S38IBK2-32 (2х16GB), CL38",
+        "price_retail": "145048",
+        "price_wholesale": "138143",
+        "price_reseller": "115120",
+        "warranty": "Пожиз.",
+        "status": " "
+    },
+    {
+        "code": "149402",
+        "name": "Память для серверов смотрите в разделе Серверная память http://pulser.kz/?grpsub=148148",
+        "price_retail": "0",
+        "price_wholesale": "0",
+        "price_reseller": "0",
+        "warranty": " ",
+        "status": " "
+    },
+    {
+        "code": "193444",
+        "name": "Уц. DIMM DDR4 64 GB kit <3200MHz> G.Skill RipJaws V, F4-3200C16D-64GVK (2x32GB), 16-18-18-38",
+        "price_retail": "177846",
+        "price_wholesale": "169377",
+        "price_reseller": "161318",
+        "warranty": "Пожиз.",
+        "status": " "
+    }
+]

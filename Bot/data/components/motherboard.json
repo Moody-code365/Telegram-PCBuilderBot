@@ -1,0 +1,1109 @@
+[
+    {
+        "code": "157651",
+        "name": "MB Socket AM4, ATX, AMD B550 (DP+HDMI) ASUS PRIME B550-PLUS, 4DDR4, 2PCIx16,3PCIx1",
+        "price_retail": "76500",
+        "price_wholesale": "72860",
+        "price_reseller": "63360",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "156407",
+        "name": "MB Socket AM4, ATX, AMD B550 (DP+HDMI) ASUS ROG STRIX B550-F GAMING, 4DDR4, 2PCIx16",
+        "price_retail": "110570",
+        "price_wholesale": "105300",
+        "price_reseller": "87750",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "159481",
+        "name": "MB Socket AM4, ATX, AMD B550 (DP+HDMI) MSI MPG B550 GAMING PLUS, 4DDR4, 2PCIx16,2PCIx1",
+        "price_retail": "78940",
+        "price_wholesale": "74770",
+        "price_reseller": "65020",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "161841",
+        "name": "MB Socket AM4, ATX, AMD B550 (DVI+HDMI) Gigabyte B550 GAMING X V2, 4DDR4, 2PCIx16, 3PCIx1",
+        "price_retail": "70240",
+        "price_wholesale": "66890",
+        "price_reseller": "58170",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "192281",
+        "name": "MB Socket AM4, ATX, AMD B550 (HDMI) Gigabyte B550 EAGLE, 4DDR4, 2PCIx16,PCIx1",
+        "price_retail": "66980",
+        "price_wholesale": "62100",
+        "price_reseller": "56450",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "172193",
+        "name": "MB Socket AM4, ATX, AMD X570 (HDMI) ASRock X570S PG Riptide, 4DDR4, 3PCIx16, 3PCIx1",
+        "price_retail": "110170",
+        "price_wholesale": "104920",
+        "price_reseller": "95390",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "184653",
+        "name": "MB Socket AM4, MATX, AMD A520 (DP+HDMI) Gigabyte A520M DS3H V2, 4DDR4, PCIx16, PCIx1",
+        "price_retail": "42390",
+        "price_wholesale": "40510",
+        "price_reseller": "35540",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "164259",
+        "name": "MB Socket AM4, MATX, AMD A520 (DVI+HDMI) MSI A520M-A PRO, 2DDR4, PCIx16, PCIx1",
+        "price_retail": "34590",
+        "price_wholesale": "32940",
+        "price_reseller": "30500",
+        "warranty": "3",
+        "status": "resrv"
+    },
+    {
+        "code": "158517",
+        "name": "MB Socket AM4, MATX, AMD A520 (VGA+HDMI) ASUS PRIME A520M-K, 2DDR4, PCIx16, 2PCIx1",
+        "price_retail": "37350",
+        "price_wholesale": "35570",
+        "price_reseller": "30930",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "160582",
+        "name": "MB Socket AM4, MATX, AMD B450 (D-Sub+DVI+HDMI, GNIC), ASUS PRIME B450M-A ll, 4DDR4, PCIx16, 2PCIx1",
+        "price_retail": "52786",
+        "price_wholesale": "48370",
+        "price_reseller": "43973",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "194778",
+        "name": "MB Socket AM4, MATX, AMD B450 (VGA+HDMI), MaxSun Challenger B450M, 2DDR4, PCIx16, PCIx1",
+        "price_retail": "31600",
+        "price_wholesale": "28730",
+        "price_reseller": "25650",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "193853",
+        "name": "MB Socket AM4, MATX, AMD B550 (DP+HDMI) Gigabyte B550M DS3H R2, 4DDR4, 1PCIx16,PCIx1",
+        "price_retail": "58590",
+        "price_wholesale": "53810",
+        "price_reseller": "49460",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "180330",
+        "name": "MB Socket AM4, MATX, AMD B550 (DP+HDMI) Gigabyte B550M K, 4DDR4, 2PCIx16,PCIx1",
+        "price_retail": "52800",
+        "price_wholesale": "50290",
+        "price_reseller": "41910",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "159479",
+        "name": "MB Socket AM4, MATX, AMD B550 (D-Sub+HDMI+DP, GNIC) MSI B550M PRO-VDH WIFI, 4DDR4, PCIx16, 2PCIx1",
+        "price_retail": "66616",
+        "price_wholesale": "63443",
+        "price_reseller": "57675",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "157246",
+        "name": "MB Socket AM4, MATX, AMD B550 (DVI+DP+HDMI) ASUS PRIME B550M-A, 4DDR4, PCIx16,2PCIx1",
+        "price_retail": "65550",
+        "price_wholesale": "62420",
+        "price_reseller": "52020",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "196330",
+        "name": "MB Socket AM4, MATX, AMD B550 (DVI+HDMI) ASUS PRIME B550M-K ARGB, 2DDR4, 2PCIx16, PCIx1",
+        "price_retail": "61030",
+        "price_wholesale": "58130",
+        "price_reseller": "51900",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "157650",
+        "name": "MB Socket AM4, MATX, AMD B550 (HDMI+DP, GNIC) ASUS TUF GAMING B550M-PLUS, 4DDR4, 2PCIx16",
+        "price_retail": "85608",
+        "price_wholesale": "81330",
+        "price_reseller": "71342",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "195346",
+        "name": "MB Socket AM4, MATX, AMD B550 (VGA+HDMI) MaxSun Terminator B550M , 2DDR4, 2PCIx16,PCIx1",
+        "price_retail": "45980",
+        "price_wholesale": "39910",
+        "price_reseller": "35730",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "197452",
+        "name": "MB Socket AM5, ATX, AMD B650 (DP+HDMI) ASUS B650E MAX GAMING WIFI, 4DDR5, PCIx16 , PCIx1",
+        "price_retail": "117990",
+        "price_wholesale": "112370",
+        "price_reseller": "93640",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "187528",
+        "name": "MB Socket AM5, ATX, AMD B650 (DP+HDMI), Gigabyte B650 EAGLE AX, 4DDR5, 4PCIx16",
+        "price_retail": "98690",
+        "price_wholesale": "93990",
+        "price_reseller": "81730",
+        "warranty": "3",
+        "status": "resrv"
+    },
+    {
+        "code": "189608",
+        "name": "MB Socket AM5, ATX, AMD B650 (DP+HDMI), Gigabyte B650 EAGLE, 4DDR5, 4PCIx16",
+        "price_retail": "90890",
+        "price_wholesale": "86940",
+        "price_reseller": "79040",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "195603",
+        "name": "MB Socket AM5, ATX, AMD B840 (HDMI) MSI B840 GAMING PLUS WIFI, 4DDR5, PCIx16",
+        "price_retail": "111330",
+        "price_wholesale": "106030",
+        "price_reseller": "92200",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "197630",
+        "name": "MB Socket AM5, ATX, AMD B850 (DP) Gigabyte B850 AORUS ELITE WIFI7 ICE, 4DDR5, PCIx16,2PCIx1",
+        "price_retail": "156580",
+        "price_wholesale": "144980",
+        "price_reseller": "128300",
+        "warranty": "3",
+        "status": "resrv"
+    },
+    {
+        "code": "192275",
+        "name": "MB Socket AM5, ATX, AMD B850 (DP/HDMI), Gigabyte B850 GAMING WF6, 4DDR5, PCIx16",
+        "price_retail": "115000",
+        "price_wholesale": "109520",
+        "price_reseller": "95240",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "189799",
+        "name": "MB Socket AM5, ATX, AMD X870 (HDMI), ASUS PRIME X870-P, 4DDR5, 3PCIx16",
+        "price_retail": "183890",
+        "price_wholesale": "175140",
+        "price_reseller": "159210",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "197782",
+        "name": "MB Socket AM5, ATX, AMD X870 (HDMI), ASUS ROG STRIX  X870E-H GAMING WIFI7, 4DDR5, 2PCIx16",
+        "price_retail": "252440",
+        "price_wholesale": "240420",
+        "price_reseller": "218560",
+        "warranty": "3",
+        "status": "resrv"
+    },
+    {
+        "code": "189808",
+        "name": "MB Socket AM5, ATX, AMD X870 (HDMI), ASUS TUF GAMING X870-PLUS WIFI, 4DDR5, 2PCIx16",
+        "price_retail": "210670",
+        "price_wholesale": "202560",
+        "price_reseller": "182490",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "196327",
+        "name": "MB Socket AM5, ATX, AMD X870 (HDMI), ASUS X870 MAX GAMING WIFI7 W, 4DDR5, PCIx16",
+        "price_retail": "204780",
+        "price_wholesale": "195030",
+        "price_reseller": "169590",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "181703",
+        "name": "MB Socket AM5, MATX, AMD A620 (DP+HDMI) Gigabyte A620M GAMING X, 4DDR5, PCIx16, PCIx1",
+        "price_retail": "76560",
+        "price_wholesale": "72910",
+        "price_reseller": "65100",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "183920",
+        "name": "MB Socket AM5, MATX, AMD A620 (VGA+DP+HDMI) Gigabyte A620M S2H, 2DDR5, PCIx16,PCIx1",
+        "price_retail": "59570",
+        "price_wholesale": "56740",
+        "price_reseller": "49340",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "194783",
+        "name": "MB Socket AM5, MATX, AMD A620 (VGA+HDMI) MaxSun A620A 2.5G, 2DDR5, 2PCIx16,PCIx1",
+        "price_retail": "44550",
+        "price_wholesale": "41490",
+        "price_reseller": "39510",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "196740",
+        "name": "MB Socket AM5, MATX, AMD A620 (VGA+HDMI) MSI PRO A620M-B, 2DDR5, PCIx16, PCIx1",
+        "price_retail": "56250",
+        "price_wholesale": "53570",
+        "price_reseller": "45397",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "196028",
+        "name": "MB Socket AM5, MATX, AMD B650 (DP+HDMI), Colorful BATTLE-AX B650M-E PRO V14, 2DDR5, PCIx16, PCIx4",
+        "price_retail": "58160",
+        "price_wholesale": "55390",
+        "price_reseller": "48170",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "196694",
+        "name": "MB Socket AM5, MATX, AMD B650 (D-Sub+DP+HDMI) ASUS PRIME B650M-A II-CSM, 4DDR5, 3PCIx16",
+        "price_retail": "77290",
+        "price_wholesale": "73610",
+        "price_reseller": "64010",
+        "warranty": "3",
+        "status": "resrv"
+    },
+    {
+        "code": "193655",
+        "name": "MB Socket AM5, MATX, AMD B840 (DP+HDMI), Gigabyte B840M D2H, 4DDR5, PCIx16",
+        "price_retail": "75840",
+        "price_wholesale": "70840",
+        "price_reseller": "63670",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "193654",
+        "name": "MB Socket AM5, MATX, AMD B840 (DP+HDMI), Gigabyte B840M DS3H, 4DDR5, PCIx16",
+        "price_retail": "79470",
+        "price_wholesale": "74630",
+        "price_reseller": "67850",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "197530",
+        "name": "MB Socket AM5, MATX, AMD B850 (2DP+HDMI), ASUS TUF GAMING B850M-E WIFI, 4DDR5, PCIx16",
+        "price_retail": "140660",
+        "price_wholesale": "133960",
+        "price_reseller": "116490",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "196749",
+        "name": "MB Socket AM5, MATX, AMD B850 (DP+HDMI) MSI B850M GAMING PLUS WIFI , 4DDR5, PCIx16, PCIx1",
+        "price_retail": "130240",
+        "price_wholesale": "118710",
+        "price_reseller": "107910",
+        "warranty": "3",
+        "status": "resrv"
+    },
+    {
+        "code": "197527",
+        "name": "MB Socket AM5, MATX, AMD B850 (DP+HDMI), Asus B850M MAX GAMING WIFI, 4DDR5, PCIx16",
+        "price_retail": "130490",
+        "price_wholesale": "124270",
+        "price_reseller": "108060",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "196326",
+        "name": "MB Socket AM5, MATX, AMD B850 (DP+HDMI), MSI PRO B850M-P WIFI, 4DDR5, 1PCIx16 , 3PCIx1",
+        "price_retail": "113770",
+        "price_wholesale": "108350",
+        "price_reseller": "95890",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "179916",
+        "name": "MB Socket1700, ATX, iB760 (DP+HDMI), Gigabyte B760 DS3H DDR4, 4DDR4,5PCIx16",
+        "price_retail": "77140",
+        "price_wholesale": "73470",
+        "price_reseller": "63890",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "179918",
+        "name": "MB Socket1700, ATX, iB760 (DP+HDMI), Gigabyte B760 GAMING X DDR4, 4DDR4, 2PCIx16",
+        "price_retail": "84130",
+        "price_wholesale": "80130",
+        "price_reseller": "69680",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "177079",
+        "name": "MB Socket1700, ATX, iZ790 (DP+HDMI), ASUS PRIME Z790-P, 4DDR5, 4PCIx16, PCIx1",
+        "price_retail": "142090",
+        "price_wholesale": "131460",
+        "price_reseller": "114310",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "182611",
+        "name": "MB Socket1700, ATX, iZ790 (DP+HDMI), ASUS TUF GAMING Z790-PLUS WIFI, 4DDR5, 2PCIx16, 2PCIx1, PCIx4",
+        "price_retail": "170350",
+        "price_wholesale": "156490",
+        "price_reseller": "142270",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "188323",
+        "name": "MB Socket1700, ATX, iZ790 (DP+HDMI), Gigabyte Z790 D, 4DDR5, 3PCIx16, 2PCIx16, 2PCIx1",
+        "price_retail": "109490",
+        "price_wholesale": "104270",
+        "price_reseller": "93940",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "188324",
+        "name": "MB Socket1700, ATX, iZ790 (DP+HDMI), Gigabyte Z790 EAGLE AX, 4DDR5, 3PCIx16, 2PCIx1",
+        "price_retail": "134190",
+        "price_wholesale": "127800",
+        "price_reseller": "111130",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "191408",
+        "name": "MB Socket1700, ATX, iZ790 (DP+HDMI), Gigabyte Z790 EAGLE, 4DDR5, 2PCIx16, 2PCIx1",
+        "price_retail": "130030",
+        "price_wholesale": "123840",
+        "price_reseller": "103200",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "181542",
+        "name": "MB Socket1700, ATX, iZ790 (DP+HDMI), MSI PRO Z790-P WIFI, 4DDR5, 3PCIx16, PCIx1",
+        "price_retail": "129080",
+        "price_wholesale": "122930",
+        "price_reseller": "106890",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "184655",
+        "name": "MB Socket1700, MATX, iB760 (2DP+HDMI), Gigabyte B760M DS3H AX, 4DDR5, PCIx16, 2PCIx1",
+        "price_retail": "84220",
+        "price_wholesale": "82570",
+        "price_reseller": "80940",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "196511",
+        "name": "MB Socket1700, MATX, iB760 (2DP+HDMI), Gigabyte B760M DS3H WF6E GEN5, 4DDR5, PCIx16",
+        "price_retail": "99130",
+        "price_wholesale": "88790",
+        "price_reseller": "80710",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "185669",
+        "name": "MB Socket1700, MATX, iB760 (2HDMI) ASUS PRIME B760M-A D4-CSM, 4DDR4, 3PCIx16",
+        "price_retail": "71980",
+        "price_wholesale": "68560",
+        "price_reseller": "62330",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "195624",
+        "name": "MB Socket1700, MATX, iB760 (2HDMI+DP) ASUS PRIME B760M-A-CSM, 4DDR5, 3PCIx16",
+        "price_retail": "73070",
+        "price_wholesale": "69800",
+        "price_reseller": "63460",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "184313",
+        "name": "MB Socket1700, MATX, iB760 (DP+2HDMI) ASUS PRIME B760M-A WIFI, 4DDR5, 3PCIx16",
+        "price_retail": "87580",
+        "price_wholesale": "83410",
+        "price_reseller": "72530",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "182123",
+        "name": "MB Socket1700, MATX, iB760 (DP+2HDMI), ASUS PRIME B760M-A WIFI D4, 4DDR4, 3PCIx16",
+        "price_retail": "97040",
+        "price_wholesale": "92420",
+        "price_reseller": "80370",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "182051",
+        "name": "MB Socket1700, MATX, iB760 (DP+HDMI) Colorful BATTLE-AX B760M-PLUS D5 V20, 4DDR5, PCIx16, PCIx1",
+        "price_retail": "72440",
+        "price_wholesale": "68990",
+        "price_reseller": "59990",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "196027",
+        "name": "MB Socket1700, MATX, iB760 (DP+HDMI) Colorful BATTLE-AX B760M-PLUS WIFI D5 V20, 4DDR5, PCIx16, PCIx1",
+        "price_retail": "78690",
+        "price_wholesale": "74940",
+        "price_reseller": "65160",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "196328",
+        "name": "MB Socket1700, MATX, iB760 (DP+HDMI), Gigabyte B760M GAMING X AX (rev.1.2), 4DDR5, 2PCIx16",
+        "price_retail": "91720",
+        "price_wholesale": "87350",
+        "price_reseller": "75950",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "187647",
+        "name": "MB Socket1700, MATX, iB760 (DP+HDMI), MaxSun Terminator B760M D4, 4DDR4, PCIx16, PCIx1",
+        "price_retail": "62370",
+        "price_wholesale": "57750",
+        "price_reseller": "53470",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "194653",
+        "name": "MB Socket1700, MATX, iB760 (DP+HDMI), MaxSun Terminator B760M D5, 4DDR5, PCIx16, PCIx1",
+        "price_retail": "71270",
+        "price_wholesale": "65680",
+        "price_reseller": "59910",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "192282",
+        "name": "MB Socket1700, MATX, iB760 (D-Sub+DP+HDMI), Gigabyte B760M D3HP WIFI6, 4DDR5, 1PCIx16, 2PCIx1",
+        "price_retail": "79060",
+        "price_wholesale": "75300",
+        "price_reseller": "65470",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "179388",
+        "name": "MB Socket1700, MATX, iB760 (VGA+2DP+HDMI), Gigabyte B760M DS3H DDR4, 4DDR4, PCIx16, 2PCIx1",
+        "price_retail": "65320",
+        "price_wholesale": "58880",
+        "price_reseller": "52100",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "195776",
+        "name": "MB Socket1700, MATX, iB760 (VGA+2DP+HDMI), Gigabyte B760M DS3H GEN5, 4DDR5, PCIx16, 2PCIx1",
+        "price_retail": "74370",
+        "price_wholesale": "67750",
+        "price_reseller": "64530",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "189290",
+        "name": "MB Socket1700, MATX, iB760 (VGA+DP+HDMI), Gigabyte B760M D3HP DDR4, 4DDR4, 1PCIx16, 2PCIx1",
+        "price_retail": "52740",
+        "price_wholesale": "50010",
+        "price_reseller": "49040",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "195775",
+        "name": "MB Socket1700, MATX, iB760 (VGA+DP+HDMI), Gigabyte B760M E, 2xDDR5, PCIx16",
+        "price_retail": "57040",
+        "price_wholesale": "54710",
+        "price_reseller": "51610",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "182917",
+        "name": "MB Socket1700, MATX, iB760 (VGA+HDMI) ASUS PRIME B760M-K, 2DDR5, PCIx16, 2PCIx1",
+        "price_retail": "67440",
+        "price_wholesale": "64220",
+        "price_reseller": "57330",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "182053",
+        "name": "MB Socket1700, MATX, iB760 (VGA+HDMI) Colorful BATTLE-AX B760M-K D5 V20, 2DDR5, PCIx16, PCIx1",
+        "price_retail": "53660",
+        "price_wholesale": "51100",
+        "price_reseller": "44430",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "196026",
+        "name": "MB Socket1700, MATX, iB760 (VGA+HDMI) Colorful BATTLE-AX B760M-K D5 V21A, 2DDR5, PCIx16, PCIx1",
+        "price_retail": "54450",
+        "price_wholesale": "49500",
+        "price_reseller": "45000",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "182479",
+        "name": "MB Socket1700, MATX, iB760 (VGA+HDMI), Gigabyte B760M H DDR4, 2DDR4, PCIx16, PCIx1",
+        "price_retail": "56410",
+        "price_wholesale": "51290",
+        "price_reseller": "45790",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "194786",
+        "name": "MB Socket1700, MATX, iB760 (VGA+HDMI), MaxSun B760M Gaming WiFi ICE, 2DDR4, PCIx16, PCIx1",
+        "price_retail": "52750",
+        "price_wholesale": "48240",
+        "price_reseller": "43860",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "188261",
+        "name": "MB Socket1700, MATX, iB760 (VGA+HDMI), MaxSun Challenger B760M D5 WIFI, 2DDR5, PCIx16, PCIx1",
+        "price_retail": "62300",
+        "price_wholesale": "57680",
+        "price_reseller": "52440",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "188260",
+        "name": "MB Socket1700, MATX, iB760 (VGA+HDMI), MaxSun Challenger B760M D5, 2DDR5, PCIx16, PCIx1",
+        "price_retail": "56500",
+        "price_wholesale": "52270",
+        "price_reseller": "47520",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "187648",
+        "name": "MB Socket1700, MATX, iB760 (VGA+HDMI), MaxSun Challenger B760M, 2DDR4, PCIx16, PCIx1",
+        "price_retail": "52520",
+        "price_wholesale": "50010",
+        "price_reseller": "44650",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "194785",
+        "name": "MB Socket1700, MATX, iB760 (VGA+HDMI), MaxSun Challenger B760M-F WIFI, 2DDR4, PCIx16, PCIx1",
+        "price_retail": "52360",
+        "price_wholesale": "47600",
+        "price_reseller": "42500",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "187650",
+        "name": "MB Socket1700, MATX, iB760 (VGA+HDMI), MaxSun Challenger B760M-N D5, 2DDR5, PCIx16, PCIx1",
+        "price_retail": "49420",
+        "price_wholesale": "44920",
+        "price_reseller": "40110",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "197569",
+        "name": "MB Socket1700, MATX, iH610 (2HDMI), ASRock H610M-H2/M.2, 2DDR4, PCIx16, PCIx1",
+        "price_retail": "40660",
+        "price_wholesale": "38360",
+        "price_reseller": "33360",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "176812",
+        "name": "MB Socket1700, MATX, iH610 (D-Sub+DP+HDMI,GNIC), ASUS PRIME H610M-A WIFI D4, 2DDR4, PCIx16, PCIx1",
+        "price_retail": "63977",
+        "price_wholesale": "60932",
+        "price_reseller": "52984",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "190310",
+        "name": "MB Socket1700, MATX, iH610 (D-Sub+HDMI), Gigabyte H610M H V2, 2DDR5, PCIx16, PCIx1",
+        "price_retail": "45030",
+        "price_wholesale": "41780",
+        "price_reseller": "39410",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "194829",
+        "name": "MB Socket1700, MATX, iH610 (HDMI), ASUS PRIME H610M-F D4 R2.0, 2DDR4, PCIx16, PCIx1",
+        "price_retail": "39170",
+        "price_wholesale": "37310",
+        "price_reseller": "31890",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "196719",
+        "name": "MB Socket1700, MATX, iH610 (HDMI), MaxSun Challenger H610M-H, 2DDR4,PCIx16",
+        "price_retail": "31610",
+        "price_wholesale": "28740",
+        "price_reseller": "25660",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "197190",
+        "name": "MB Socket1700, MATX, iH610 (HDMII+DP), Afox IH610D4-MA-V2, 2DDR4, PCIx16, PCIx1",
+        "price_retail": "38810",
+        "price_wholesale": "36960",
+        "price_reseller": "30800",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "184225",
+        "name": "MB Socket1700, MATX, iH610 (VGA+DVI+DP+HDMI), ASUS PRIME H610M-R-SI, 2DDR5, PCIx16, PCIx1",
+        "price_retail": "47450",
+        "price_wholesale": "45190",
+        "price_reseller": "37660",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "172973",
+        "name": "MB Socket1700, MATX, iH610 (VGA+HDMI), ASUS PRIME H610M-K D4, 2DDR4, PCIx16, PCIx1",
+        "price_retail": "45890",
+        "price_wholesale": "41720",
+        "price_reseller": "37930",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "182055",
+        "name": "MB Socket1700, MATX, iH610 (VGA+HDMI), Colorful BATTLE-AX H610M-E WIFI V20, 2DDR4, PCIx16, PCIx1",
+        "price_retail": "45650",
+        "price_wholesale": "43480",
+        "price_reseller": "37810",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "182056",
+        "name": "MB Socket1700, MATX, iH610 (VGA+HDMI), Colorful H610M-E M.2 V20, 2DDR4, PCIx16, PCIx1",
+        "price_retail": "39160",
+        "price_wholesale": "37290",
+        "price_reseller": "32430",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "194780",
+        "name": "MB Socket1700, MATX, iH610 (VGA+HDMI), MaxSun H610M 666 WIFI6 ARGB, 2DDR4, PCIx16, PCIx1",
+        "price_retail": "46400",
+        "price_wholesale": "43590",
+        "price_reseller": "38720",
+        "warranty": "3",
+        "status": "resrv"
+    },
+    {
+        "code": "196722",
+        "name": "MB Socket1700, MATX, iH610 (VGA+HDMI), MaxSun H610M 666 WIFI6 D5, 2DDR5, PCIx16, PCIx1",
+        "price_retail": "41570",
+        "price_wholesale": "37800",
+        "price_reseller": "33750",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "187652",
+        "name": "MB Socket1700, MATX, iH610 (VGA+HDMI), MaxSun MS-Challenger H610M-R V2, 2DDR4, PCIx16, 2PCIx1",
+        "price_retail": "39750",
+        "price_wholesale": "36140",
+        "price_reseller": "30390",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "193649",
+        "name": "MB Socket1851, ATX, B860 (DP+HDMI) Gigabyte B860 DS3H WIFI6E, 4DDR5, 4PCIx16",
+        "price_retail": "96340",
+        "price_wholesale": "95390",
+        "price_reseller": "94450",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "191967",
+        "name": "MB Socket1851, ATX, B860 (DP+HDMI) Gigabyte B860 DS3H, 4DDR5, 4PCIx16",
+        "price_retail": "83370",
+        "price_wholesale": "82550",
+        "price_reseller": "81730",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "190292",
+        "name": "MB Socket1851, ATX, iZ890 (DP+HDMI) ASRock Z890 PRO RS, 4DDR5, PCIx16, 2PCIx4, PCIx1",
+        "price_retail": "119390",
+        "price_wholesale": "118210",
+        "price_reseller": "117040",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "190296",
+        "name": "MB Socket1851, ATX, iZ890 (DP+HDMI) ASRock Z890 PRO-A, 4DDR5, PCIx16, 2PCIx4, PCIx1",
+        "price_retail": "99210",
+        "price_wholesale": "98230",
+        "price_reseller": "97260",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "189919",
+        "name": "MB Socket1851, ATX, iZ890 (DP+HDMI) ASUS PRIME Z890-P, 4DDR5, 4PCIx16",
+        "price_retail": "124640",
+        "price_wholesale": "123400",
+        "price_reseller": "122180",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "190288",
+        "name": "MB Socket1851, ATX, iZ890 (HDMI) ASRock Z890 LIVEMIXER WIFI, 4DDR5, 2PCIx16",
+        "price_retail": "128040",
+        "price_wholesale": "126770",
+        "price_reseller": "125510",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "191416",
+        "name": "MB Socket1851, ATX, iZ890 (USB4+HDMI) Gigabyte Z890 AORUS PRO ICE, 4DDR5, PCIx16",
+        "price_retail": "202120",
+        "price_wholesale": "200120",
+        "price_reseller": "198140",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "189938",
+        "name": "MB Socket1851, ATX, iZ890 ASUS ROG MAXIMUS Z890 APEX, 2DDR5, 2PCIx16, 2PCIx4",
+        "price_retail": "349110",
+        "price_wholesale": "345660",
+        "price_reseller": "342240",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "193653",
+        "name": "MB Socket1851, MATX, H810 (DP+HDMI) Gigabyte H810M GAMING WIFI6, 2DDR5, PCIx16",
+        "price_retail": "60110",
+        "price_wholesale": "59510",
+        "price_reseller": "58920",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "193651",
+        "name": "MB Socket1851, MATX, iB860 (2DP+HDMI), Gigabyte B860M DS3H WIFI6E, 4DDR5, PCIx16",
+        "price_retail": "81740",
+        "price_wholesale": "80940",
+        "price_reseller": "80140",
+        "warranty": "3",
+        "status": "resrv"
+    },
+    {
+        "code": "192511",
+        "name": "MB Socket1851, MATX, iB860 (2DP+HDMI), Gigabyte B860M DS3H, 4DDR5, PCIx16",
+        "price_retail": "74620",
+        "price_wholesale": "73870",
+        "price_reseller": "73140",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "193650",
+        "name": "MB Socket1851, MATX, iB860 (2DP+HDMI), Gigabyte B860M GAMING X WIFI6E, 4DDR5, PCIx16",
+        "price_retail": "97100",
+        "price_wholesale": "96140",
+        "price_reseller": "95190",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "193864",
+        "name": "MB Socket1851, MATX, iB860 (DP+HDMI), Colorful CVN B860M GAMING FROZEN V20, 4DDR5, 1PCIx16, 1PCIx1",
+        "price_retail": "76770",
+        "price_wholesale": "76000",
+        "price_reseller": "75250",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "193652",
+        "name": "MB Socket1851, MATX, iB860 (DP+HDMI), Gigabyte B860M EAGLE V2, 4DDR5, PCIx16",
+        "price_retail": "67280",
+        "price_wholesale": "66610",
+        "price_reseller": "65950",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "193868",
+        "name": "MB Socket1851, MATX, iB860 (VGA+HDMI) Colorful BATTLE-AX B860M-E WIFI V20, 2DDR5, PCIx16, PCIx4",
+        "price_retail": "56870",
+        "price_wholesale": "56300",
+        "price_reseller": "55740",
+        "warranty": "3",
+        "status": "resrv"
+    },
+    {
+        "code": "193867",
+        "name": "MB Socket1851, MATX, iB860 (VGA+HDMI) Colorful BATTLE-AX B860M-GHA WIFI V20, 2DDR5, PCIx16, PCIx4",
+        "price_retail": "56440",
+        "price_wholesale": "55880",
+        "price_reseller": "55320",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "193865",
+        "name": "MB Socket1851, MATX, iB860 (VGA+HDMI) Colorful BATTLE-AX B860M-WHITE WIFI V20, 4DDR5, PCIx16, PCIx4",
+        "price_retail": "65860",
+        "price_wholesale": "65200",
+        "price_reseller": "64560",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "189937",
+        "name": "MB Socket1851, MATX, iZ890 (DP+HDMI) ASUS PRIME Z890M-PLUS WIFI, 4DDR5, 4PCIx16",
+        "price_retail": "120120",
+        "price_wholesale": "118930",
+        "price_reseller": "117750",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "194791",
+        "name": "MB Socket1851, MATX, iZ890 (DP+HDMI) MaxSun Challenger Z890M, 2DDR5, PCIx16",
+        "price_retail": "76940",
+        "price_wholesale": "76180",
+        "price_reseller": "75420",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "194790",
+        "name": "MB Socket1851, MATX, iZ890 (DP+HDMI) MaxSun Z890M WIFI , 2DDR5, PCIx16",
+        "price_retail": "86640",
+        "price_wholesale": "85780",
+        "price_reseller": "84940",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "194789",
+        "name": "MB Socket1851, MATX, iZ890 (DP+HDMI) MaxSun Z890M WIFI ICE 2DDR5, PCIx16",
+        "price_retail": "88910",
+        "price_wholesale": "88030",
+        "price_reseller": "87160",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "194808",
+        "name": "MB Socket1851, MATX, iZ890 (DP+TypeC) Gigabyte Z890 AORUS ELITE WIFI7 ICE, 4DDR5, PCIx16",
+        "price_retail": "156950",
+        "price_wholesale": "155390",
+        "price_reseller": "153850",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "172843",
+        "name": "Уц. MB Celeron J3060, mATX,SoC (D-SUB+HDMI,SB,GNIC),EliteGroup BSWI-D2, DDR3L,M.2,oem, б/у",
+        "price_retail": "16480",
+        "price_wholesale": "15845",
+        "price_reseller": "15237",
+        "warranty": "1",
+        "status": " "
+    },
+    {
+        "code": "194073",
+        "name": "Уц. MB Socket AM4, ATX, AMD A520 (DVI+HDMI) Gigabyte A520 AORUS ELITE, 4DDR4, 2PCIx16,3PCIx1",
+        "price_retail": "48816",
+        "price_wholesale": "45200",
+        "price_reseller": "40000",
+        "warranty": "2",
+        "status": " "
+    },
+    {
+        "code": "194046",
+        "name": "Уц. MB Socket AM4, ATX, AMD X470 (HDMI+DVI, SB, GNIC) Biostar X470GTQ, 4DDR4, 2PCIx16, 2PCIx1, M.2",
+        "price_retail": "33659",
+        "price_wholesale": "32052",
+        "price_reseller": "30529",
+        "warranty": "6",
+        "status": " "
+    },
+    {
+        "code": "192451",
+        "name": "Уц. MB Socket AM5, ATX, AMD B650 (DP+HDMI), Gigabyte B650 UD AX-Y1, 4DDR5, 4PCIx16, б/у",
+        "price_retail": "93189",
+        "price_wholesale": "89600",
+        "price_reseller": "80000",
+        "warranty": "6",
+        "status": " "
+    },
+    {
+        "code": "191457",
+        "name": "Уц. MB Socket STRX4, ATX, AMD TRX40 (10GNIC) MSI TRX40 PRO 10G, 8DDR4, 4PCIx16, 1PCIx1,б/у",
+        "price_retail": "69803",
+        "price_wholesale": "68435",
+        "price_reseller": "67097",
+        "warranty": "1",
+        "status": " "
+    },
+    {
+        "code": "191947",
+        "name": "Уц. MB Socket1150, MATX, iH81 (D-Sub+HDMI, GNIC) Biostar H81MHV3, 2DDR3, PCIx16, б/у,нет комплекта",
+        "price_retail": "26317",
+        "price_wholesale": "25801",
+        "price_reseller": "24809",
+        "warranty": "1",
+        "status": " "
+    },
+    {
+        "code": "192534",
+        "name": "Уц. MB Socket1155, MATX, iH61 (D-Sub+HDMI, GNIC) Biostar H61MHV2, 2DDR3, PCIx16, PCIx1,oem",
+        "price_retail": "22979",
+        "price_wholesale": "21624",
+        "price_reseller": "20594",
+        "warranty": "1",
+        "status": " "
+    },
+    {
+        "code": "193837",
+        "name": "Уц. MB Socket1200, MATX, iB460 (DVI+HDMI+DP, GNIC) ASUS TUF GAMING B460M-PLUS, 4DDR4, 2PCIx16,PCIx1",
+        "price_retail": "56691",
+        "price_wholesale": "54501",
+        "price_reseller": "50388",
+        "warranty": "1",
+        "status": " "
+    },
+    {
+        "code": "188832",
+        "name": "Уц. MB Socket1700, ATX, iB760 (DP+HDMI), Gigabyte B760 GAMING X DDR4, 4DDR4, 2PCIx16,oem,б/у",
+        "price_retail": "68783",
+        "price_wholesale": "66591",
+        "price_reseller": "59469",
+        "warranty": "1",
+        "status": " "
+    },
+    {
+        "code": "194072",
+        "name": "Уц. MB Socket1700, MATX, iB660 (2DP+HDMI,GNIC), Gigabyte B660M DS3H AX DDR4, 4DDR4, PCIx16, 2PCIx1",
+        "price_retail": "29598",
+        "price_wholesale": "28191",
+        "price_reseller": "25392",
+        "warranty": "14",
+        "status": "resrv"
+    },
+    {
+        "code": "194732",
+        "name": "Уц. MB Socket1700, MATX, iB660 (VGA+HDMI), ASUS PRIME B660M-K D4, 2DDR4, PCIx16, 2PCIx1",
+        "price_retail": "44016",
+        "price_wholesale": "41918",
+        "price_reseller": "39923",
+        "warranty": "1",
+        "status": "resrv"
+    },
+    {
+        "code": "192588",
+        "name": "Уц. MB Socket1700, MATX, iH610 (VGA+HDMI), ASRock H610M-HDV/M.2+, 2DDR5, PCIx16, PCIx1",
+        "price_retail": "39795",
+        "price_wholesale": "37912",
+        "price_reseller": "34465",
+        "warranty": "1",
+        "status": " "
+    },
+    {
+        "code": "194222",
+        "name": "Уц. MB Socket1700, MATX, iH610 (VGA+HDMI), Gigabyte H610M H V3 DDR4, 2DDR4, PCIx16, PCIx1,",
+        "price_retail": "33300",
+        "price_wholesale": "32010",
+        "price_reseller": "28000",
+        "warranty": "6",
+        "status": " "
+    },
+    {
+        "code": "192441",
+        "name": "Уц. MB Socket1851, ATX, iZ890 (DP+HDMI) ASUS TUF GAMING Z890-PRO WIFI, 4DDR5, 2PCIx16. PCIx4, 2PCIx1",
+        "price_retail": "203840",
+        "price_wholesale": "196000",
+        "price_reseller": "175000",
+        "warranty": "6",
+        "status": " "
+    }
+]

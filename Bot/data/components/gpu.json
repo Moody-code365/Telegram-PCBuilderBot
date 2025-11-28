@@ -1,0 +1,578 @@
+[
+    {
+        "code": "190549",
+        "name": "Cable (райзер), PCIe 3.0x16, OCPC XTENDER [OCCBPCIE3RC250WH], 25cm white",
+        "price_retail": "14950",
+        "price_wholesale": "14240",
+        "price_reseller": "12390",
+        "warranty": "2",
+        "status": " "
+    },
+    {
+        "code": "190552",
+        "name": "Cable (райзер), PCIe 3.0x16, OCPC XTENDER VERTICAL (OCXTP3RC9D250BK), 25cm black",
+        "price_retail": "14950",
+        "price_wholesale": "14240",
+        "price_reseller": "12390",
+        "warranty": "2",
+        "status": " "
+    },
+    {
+        "code": "190551",
+        "name": "Cable (райзер), PCIe 3.0x16, OCPC XTENDER VERTICAl [OCXTP3RC9D250WH], 25cm white",
+        "price_retail": "14950",
+        "price_wholesale": "14240",
+        "price_reseller": "12390",
+        "warranty": "2",
+        "status": " "
+    },
+    {
+        "code": "183439",
+        "name": "Cable ATX 2x8pin to 12VHPWR Corsair Premium Individually Sleeved, CP-8920332, white",
+        "price_retail": "17210",
+        "price_wholesale": "16409",
+        "price_reseller": "14275",
+        "warranty": "1",
+        "status": " "
+    },
+    {
+        "code": "174297",
+        "name": "GPU AMD, 4 GB, Gigabyte RX 6500 XT EAGLE [GV-R65XTEAGLE-4GD], HDMI/DP, GDDR6/64bit",
+        "price_retail": "111532",
+        "price_wholesale": "106220",
+        "price_reseller": "99270",
+        "warranty": "2",
+        "status": " "
+    },
+    {
+        "code": "197191",
+        "name": "GPU AMD, 8 GB, Afox RX 580 [AFRX580-8192D5H6-V2], HDMI/3DP, GDDR5/256bit",
+        "price_retail": "89387",
+        "price_wholesale": "81263",
+        "price_reseller": "70661",
+        "warranty": "1",
+        "status": " "
+    },
+    {
+        "code": "197539",
+        "name": "GPU AMD, 8 GB, ASUS RX 7600 DUAL EVO OC [DUAL-RX7600-O8G-EVO], HDMI/3DP, GDDR6/128bit",
+        "price_retail": "175600",
+        "price_wholesale": "167240",
+        "price_reseller": "145420",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "182252",
+        "name": "GPU AMD, 8 GB, Gigabyte RX 7600 [GV-R76GAMING OC-8GD], HDMI/3DP, GDDR6/128bit",
+        "price_retail": "171650",
+        "price_wholesale": "163480",
+        "price_reseller": "142160",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "196318",
+        "name": "GPU AMD, 8 GB, Gigabyte RX 9060 XT GAMING [GV-R9060XTGAMING-8GD], HDMI/2DP, GDDR6/128bit",
+        "price_retail": "258860",
+        "price_wholesale": "246530",
+        "price_reseller": "205440",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "195576",
+        "name": "GPU AMD, 8 GB, Gigabyte RX 9060 XT GAMING OC [GV-R9060XTGAMING OC-8GD], HDMI/2DP, GDDR6/128bit",
+        "price_retail": "266980",
+        "price_wholesale": "254270",
+        "price_reseller": "211890",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "194381",
+        "name": "GPU AMD,16 GB, ASUS PRIME RX 9070 [PRIME-RX9070-O16G], 2HDMI/2DP, GDDR6/256bit",
+        "price_retail": "457510",
+        "price_wholesale": "435720",
+        "price_reseller": "363100",
+        "warranty": "3",
+        "status": "resrv"
+    },
+    {
+        "code": "194383",
+        "name": "GPU AMD,16 GB, ASUS PRIME RX 9070 XT [PRIME-RX9070XT-O16G], 2HDMI/2DP, GDDR6/256bit",
+        "price_retail": "518170",
+        "price_wholesale": "493490",
+        "price_reseller": "429120",
+        "warranty": "3",
+        "status": "resrv"
+    },
+    {
+        "code": "196317",
+        "name": "GPU AMD,16 GB, ASUS RX 9060 XT DUAL [DUAL-RX9060XT-16G], HDMI/2DP, GDDR6/128bit",
+        "price_retail": "289180",
+        "price_wholesale": "275410",
+        "price_reseller": "239490",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "197551",
+        "name": "GPU AMD,16 GB, ASUS RX 9060 XT DUAL WHITE [DUAL-RX9060XT-16G-WHITE], HDMI/2DP, GDDR6/128bit",
+        "price_retail": "305010",
+        "price_wholesale": "290490",
+        "price_reseller": "242070",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "197548",
+        "name": "GPU AMD,16 GB, Gigabyte RX 9060 XT GAMING [GV-R9060XTGAMING-16GD], HDMI/2DP, GDDR6/128bit",
+        "price_retail": "287090",
+        "price_wholesale": "273420",
+        "price_reseller": "237750",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "196313",
+        "name": "GPU AMD,16 GB, Gigabyte RX 9070 XT Gaming [GV-R9070XTGAMING-16GD], 2HDMI/2DP, GDDR6/256bit",
+        "price_retail": "490210",
+        "price_wholesale": "466860",
+        "price_reseller": "405970",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "196725",
+        "name": "GPU INTEL,  10 GB, MaxSun Intel Arc B570 [MS-Arc B570 Milestone 10G],HDMI/3DP,GDDR6/160bit",
+        "price_retail": "166979",
+        "price_wholesale": "159026",
+        "price_reseller": "144569",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "161476",
+        "name": "GPU NVIDIA, 1 GB, Afox GT 210 [AF210-1024D3L5-V2], DVI/HDMI/VGA, GDDR3/64bit, +LP",
+        "price_retail": "28880",
+        "price_wholesale": "26250",
+        "price_reseller": "21880",
+        "warranty": "2",
+        "status": " "
+    },
+    {
+        "code": "196933",
+        "name": "GPU NVIDIA, 2 GB, Afox GT 1030 [AF1030-2048D5L8], DVI/HDMI, GDDR5/64bit, +LP",
+        "price_retail": "50330",
+        "price_wholesale": "45750",
+        "price_reseller": "38130",
+        "warranty": "2",
+        "status": " "
+    },
+    {
+        "code": "195309",
+        "name": "GPU NVIDIA, 2 GB, Afox GT 710 [AF710-2048D3L5-V3], DVI/HDMI/VGA, GDDR3/64-bit",
+        "price_retail": "26650",
+        "price_wholesale": "24230",
+        "price_reseller": "20190",
+        "warranty": "2",
+        "status": " "
+    },
+    {
+        "code": "161118",
+        "name": "GPU NVIDIA, 2 GB, Afox GT 730 [AF730-2048D3L6], DVI/HDMI/VGA, GDDR3/128bit, +LP",
+        "price_retail": "28877",
+        "price_wholesale": "26251",
+        "price_reseller": "21873",
+        "warranty": "1",
+        "status": " "
+    },
+    {
+        "code": "183771",
+        "name": "GPU NVIDIA, 4 GB, Afox GT 1030 [AF1030-4096D4L5], DVI/HDMI, GDDR4/64bit",
+        "price_retail": "50950",
+        "price_wholesale": "46320",
+        "price_reseller": "38600",
+        "warranty": "2",
+        "status": " "
+    },
+    {
+        "code": "183772",
+        "name": "GPU NVIDIA, 4 GB, Afox GT 730 [AF730-4096D3L5], DVI/HDMI/VGA, DDR3/128bit, +LP",
+        "price_retail": "34110",
+        "price_wholesale": "31010",
+        "price_reseller": "25840",
+        "warranty": "2",
+        "status": " "
+    },
+    {
+        "code": "164589",
+        "name": "GPU NVIDIA, 4 GB, Afox GT 730 [AF730-4096D3L6], DVI/HDMI/D-Sub, GDDR3/128bit, +LP",
+        "price_retail": "31684",
+        "price_wholesale": "30177",
+        "price_reseller": "26244",
+        "warranty": "1",
+        "status": " "
+    },
+    {
+        "code": "171435",
+        "name": "GPU NVIDIA, 4 GB, Afox GT 740 [AF740-4096D3L3], DVI/HDMI/VGA, DDR3/128bit",
+        "price_retail": "44810",
+        "price_wholesale": "40730",
+        "price_reseller": "33950",
+        "warranty": "2",
+        "status": " "
+    },
+    {
+        "code": "196930",
+        "name": "GPU NVIDIA, 4 GB, Afox GTX 1050Ti [AF1050TI-4096D5H7-V9], DP/DVI/HDMI, GDDR5/128bit",
+        "price_retail": "88330",
+        "price_wholesale": "80300",
+        "price_reseller": "66920",
+        "warranty": "2",
+        "status": "resrv"
+    },
+    {
+        "code": "184478",
+        "name": "GPU NVIDIA, 6 GB, Afox GTX 1660 SUPER [AF1660S-6144D6H4-V2], DVI/HDMI/DP, GDDR6/192bit",
+        "price_retail": "131260",
+        "price_wholesale": "119320",
+        "price_reseller": "99440",
+        "warranty": "2",
+        "status": "resrv"
+    },
+    {
+        "code": "190556",
+        "name": "GPU NVIDIA, 6 GB, ASUS RTX 3050 DUAL OC [DUAL-RTX3050-O6G], DP/DVI-D/HDMI, GDDR6/96bit",
+        "price_retail": "132000",
+        "price_wholesale": "125710",
+        "price_reseller": "104760",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "191174",
+        "name": "GPU NVIDIA, 6 GB, Gigabyte RTX 3050 WINDFORCE OC [GV-N3050WF2OCV2-6GD], 2HDMI/2DP, GDDR6/128-bit",
+        "price_retail": "125310",
+        "price_wholesale": "119350",
+        "price_reseller": "103780",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "194125",
+        "name": "GPU NVIDIA, 8 GB Gigabyte RTX 5060 Ti GAMING OC [GV-N506TGAMING OC-8GD], HDMI/3DP, GDDR7/128-bit",
+        "price_retail": "296550",
+        "price_wholesale": "282430",
+        "price_reseller": "252160",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "196202",
+        "name": "GPU NVIDIA, 8 GB, ASUS RTX 5050 DUAL OC [DUAL-RTX5050-O8G], HDMI/3DP, GDDR6/128bit",
+        "price_retail": "203860",
+        "price_wholesale": "194150",
+        "price_reseller": "168830",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "195575",
+        "name": "GPU NVIDIA, 8 GB, ASUS RTX 5060 DUAL OC [DUAL-RTX5060-O8G], HDMI/3DP, GDDR7/128bit",
+        "price_retail": "234930",
+        "price_wholesale": "223250",
+        "price_reseller": "187610",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "195579",
+        "name": "GPU NVIDIA, 8 GB, ASUS RTX 5060 Ti DUAL OC [DUAL-RTX5060TI-O8G], HDMI/3DP, GDDR7/128bit",
+        "price_retail": "286940",
+        "price_wholesale": "278580",
+        "price_reseller": "242240",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "196006",
+        "name": "GPU NVIDIA, 8 GB, Colorful iGame RTX 5050 Ultra W DUO OC 8GB-V,HDMI/3DP,GDDR6/128-bit, white",
+        "price_retail": "192800",
+        "price_wholesale": "183620",
+        "price_reseller": "159670",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "196012",
+        "name": "GPU NVIDIA, 8 GB, Colorful iGame RTX 5060 Ti Ultra W DUO OC 8GB-V,HDMI/3DP,GDDR7/128-bit",
+        "price_retail": "299230",
+        "price_wholesale": "272020",
+        "price_reseller": "236540",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "196013",
+        "name": "GPU NVIDIA, 8 GB, Colorful iGame RTX 5060 Ti Ultra W OC 8GB-V,HDMI/3DP,GDDR7/128-bit, (Triple fan)",
+        "price_retail": "300540",
+        "price_wholesale": "273220",
+        "price_reseller": "248380",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "196009",
+        "name": "GPU NVIDIA, 8 GB, Colorful iGame RTX 5060 Ultra W DUO OC 8GB-V,HDMI/3DP,GDDR7/128-bit",
+        "price_retail": "226150",
+        "price_wholesale": "215390",
+        "price_reseller": "187290",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "196011",
+        "name": "GPU NVIDIA, 8 GB, Colorful RTX 5060 Ti Battle AX DUO 8GB-V,HDMI/3DP,GDDR7/128-bit",
+        "price_retail": "289810",
+        "price_wholesale": "276010",
+        "price_reseller": "230010",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "181878",
+        "name": "GPU NVIDIA, 8 GB, Gigabyte RTX 3060 GAMING OC REV2.0 [GV-N3060GAMING OC-8GD REV2.0], 2HDMI/2DP",
+        "price_retail": "182830",
+        "price_wholesale": "175790",
+        "price_reseller": "156960",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "196316",
+        "name": "GPU NVIDIA, 8 GB, Gigabyte RTX 5050 GAMING OC [GV-N5050GAMING OC-8], 2HDMI/2DP, GDDR6/128bit",
+        "price_retail": "194430",
+        "price_wholesale": "185170",
+        "price_reseller": "161020",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "196312",
+        "name": "GPU NVIDIA, 8 GB, Gigabyte RTX 5050 WINDFORСE OC [GV-N5050WF2OC-8GD], 2HDMI/2DP, GDDR6/128bit",
+        "price_retail": "183070",
+        "price_wholesale": "174350",
+        "price_reseller": "151610",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "194385",
+        "name": "GPU NVIDIA, 8 GB, Gigabyte RTX 5060 EAGLE OC [GV-N5060EAGLE OC-8GD] HDMI/3DP, GDDR7/128-bit",
+        "price_retail": "223870",
+        "price_wholesale": "208520",
+        "price_reseller": "189570",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "194126",
+        "name": "GPU NVIDIA, 8 GB, Gigabyte RTX 5060 Ti EAGLE OC [GV-N506TEAGLE OC-8GD] HDMI/3DP, GDDR7/128-bit",
+        "price_retail": "280380",
+        "price_wholesale": "267030",
+        "price_reseller": "242750",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "194486",
+        "name": "GPU NVIDIA, 8 GB, Gigabyte RTX 5060 Ti EAGLE OC ICE [GV-N506TEAGLEOC ICE-8GD]HDMI/3DP, GDDR7/128-bit",
+        "price_retail": "296670",
+        "price_wholesale": "283930",
+        "price_reseller": "249060",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "194124",
+        "name": "GPU NVIDIA, 8 GB, Gigabyte RTX 5060 TI WINDFORСE [GV-N506TWF2-8GD],HDMI/3DP,GDDR7/128bit",
+        "price_retail": "277270",
+        "price_wholesale": "264060",
+        "price_reseller": "240060",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "194123",
+        "name": "GPU NVIDIA, 8 GB, Gigabyte RTX 5060 TI WINDFORСE OC [GV-N506TWF2OC-8GD],HDMI/3DP,GDDR7/128bit",
+        "price_retail": "279110",
+        "price_wholesale": "265810",
+        "price_reseller": "237330",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "194387",
+        "name": "GPU NVIDIA, 8 GB, Gigabyte RTX 5060 WINDFORСE OC [GV-N5060WF2OC-8GD],HDMI/3DP,GDDR7/128bit",
+        "price_retail": "229760",
+        "price_wholesale": "218820",
+        "price_reseller": "182350",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "195948",
+        "name": "GPU NVIDIA, 8 GB, Gigabyte RTX 5060 WINDFORСE OC MAX [GV-N5060WF2MAX OC-8GD], HDMI/3DP, GDDR7/128bit",
+        "price_retail": "219560",
+        "price_wholesale": "209100",
+        "price_reseller": "186700",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "196727",
+        "name": "GPU NVIDIA, 8 GB, MaxSun RTX 3070TI (MS-RTX3070TI ICraft OC 8G Limited), HDMI/3DP, GDDR6X/256bit",
+        "price_retail": "262239",
+        "price_wholesale": "238400",
+        "price_reseller": "216729",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "196726",
+        "name": "GPU NVIDIA, 8 GB, MaxSun RTX 5060 TRB 8G [MS-RTX5060 TRB 8G T0] HDMI/3DP, GDDR7/128-bit",
+        "price_retail": "211950",
+        "price_wholesale": "196250",
+        "price_reseller": "178410",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "196314",
+        "name": "GPU NVIDIA, 8 GB, MSI RTX 5050 8G GAMING OC ,HDMI/3DP,GDDR6/128-bit",
+        "price_retail": "194200",
+        "price_wholesale": "184960",
+        "price_reseller": "160830",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "194593",
+        "name": "GPU NVIDIA, 8 GB, MSI RTX 5060 OC [RTX 5060 8G VENTUS 2X OC], 3DP/HDMI, GDDR7/128bit",
+        "price_retail": "231770",
+        "price_wholesale": "220730",
+        "price_reseller": "183950",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "195227",
+        "name": "GPU NVIDIA, 8 GB, MSI RTX 5060 Ti 8G VENTUS 2X OC PLUS, 3DP/HDMI, GDDR7/128bit",
+        "price_retail": "280540",
+        "price_wholesale": "267180",
+        "price_reseller": "232330",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "196582",
+        "name": "GPU NVIDIA, 8 GB, ZOTAC RTX 5050 TWIN EDGE OC WHITE ED [ZT-B50500Q-10M],HDMI/3DP,GDDR6/128-bit",
+        "price_retail": "196570",
+        "price_wholesale": "178700",
+        "price_reseller": "162460",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "194770",
+        "name": "GPU NVIDIA, 8 GB, ZOTAC RTX 5060 TWIN EDGE [ZT-B50600E-10M],HDMI/3DP,GDDR7/128-bit",
+        "price_retail": "215220",
+        "price_wholesale": "195650",
+        "price_reseller": "177870",
+        "warranty": "3",
+        "status": "resrv"
+    },
+    {
+        "code": "194769",
+        "name": "GPU NVIDIA, 8 GB, ZOTAC RTX 5060 TWIN EDGE OC WHITE ED [ZT-B50600Q-10M],HDMI/3DP,GDDR7/128-bit",
+        "price_retail": "229550",
+        "price_wholesale": "208690",
+        "price_reseller": "189710",
+        "warranty": "3",
+        "status": "resrv"
+    },
+    {
+        "code": "196729",
+        "name": "GPU NVIDIA,12 GB, MaxSun RTX 3060 Terminator [MS-RTX3060 TR 12G T0 ], 3DP/HDMI, GDDR6/192-bit",
+        "price_retail": "185640",
+        "price_wholesale": "168770",
+        "price_reseller": "153420",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "197549",
+        "name": "GPU NVIDIA,12 GB, MSI RTX 5070 VENTUS 2X OC WHITE, 3DP/HDMI, GDDR7/192bit",
+        "price_retail": "440760",
+        "price_wholesale": "417560",
+        "price_reseller": "363100",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "195598",
+        "name": "GPU NVIDIA,16 GB, ASUS RTX 5070 Ti PRIME OC [PRIME-RTX5070TI-O16G], HDMI/3DP, GDDR7/256bit",
+        "price_retail": "690920",
+        "price_wholesale": "651450",
+        "price_reseller": "566480",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "192297",
+        "name": "GPU NVIDIA,16 GB, Gigabyte RTX 5080 WINDFORCE OC SFF [GV-N5080WF3OC-16GD], HDMI/3DP, GDDR7/256-bit",
+        "price_retail": "823540",
+        "price_wholesale": "777160",
+        "price_reseller": "726320",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "197553",
+        "name": "GPU NVIDIA,16 GB, MSI RTX 5070 Ti 16G EXPERT OC , 3DP/HDMI, GDDR7/256bit",
+        "price_retail": "659120",
+        "price_wholesale": "627730",
+        "price_reseller": "545850",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "196860",
+        "name": "GPU NVIDIA,16 GB, ZOTAC RTX 5060 Ti TWIN EDGE WHITE [ZT-B50620Q-10M],HDMI/3DP,GDDR7/128-bit",
+        "price_retail": "332010",
+        "price_wholesale": "301830",
+        "price_reseller": "274390",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "179839",
+        "name": "Video card holder, OCPC Pole P1 ARGB, OCPOLEP1X2CWH, white",
+        "price_retail": "16540",
+        "price_wholesale": "15460",
+        "price_reseller": "12370",
+        "warranty": "1",
+        "status": " "
+    },
+    {
+        "code": "158065",
+        "name": "Уц. SVGA PCI Express, 4 GB, Sinotex Ninja GTX 1050TI [NH105TI45F], DVI/HDMI/DP, GDDR5/128bit,oem,б/у",
+        "price_retail": "56940",
+        "price_wholesale": "54228",
+        "price_reseller": "51646",
+        "warranty": "1",
+        "status": " "
+    }
+]

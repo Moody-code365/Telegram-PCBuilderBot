@@ -1,0 +1,110 @@
+[
+    {
+        "code": "189991",
+        "name": "HDD SAS 10000 GB Seagate Exos X18, ST10000NM018B, 7200rpm, 256MB cache, SAS 12 Gb/s",
+        "price_retail": "156510",
+        "price_wholesale": "153440",
+        "price_reseller": "150430",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "186866",
+        "name": "HDD SATA  1000 GB Seagate BarraСuda, ST1000DM014, 7200rpm, 256MB cache, SATA 6.0 Gb/s",
+        "price_retail": "41520",
+        "price_wholesale": "39540",
+        "price_reseller": "37660",
+        "warranty": "2",
+        "status": " "
+    },
+    {
+        "code": "125922",
+        "name": "HDD SATA  1000 GB Toshiba P300, HDWD110UZSVA, 7200rpm, 64MB, SATA 6Gb/s, bulk",
+        "price_retail": "42000",
+        "price_wholesale": "38180",
+        "price_reseller": "36360",
+        "warranty": "2",
+        "status": " "
+    },
+    {
+        "code": "183854",
+        "name": "HDD SATA  4000 GB Western Digital Purple Surveillance, WD43PURZ, 5400rpm, 256MB cache, SATA 6 Gb/s",
+        "price_retail": "79530",
+        "price_wholesale": "73640",
+        "price_reseller": "70140",
+        "warranty": "2",
+        "status": "resrv"
+    },
+    {
+        "code": "183856",
+        "name": "HDD SATA  6000 GB Seagate SkyHawk, ST6000VX009, 256MB cache, SATA 6.0 Gb/s",
+        "price_retail": "100470",
+        "price_wholesale": "94670",
+        "price_reseller": "90160",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "183855",
+        "name": "HDD SATA  6000 GB Western Digital Purple Surveillance, WD64PURZ, 5400rpm, 256MB cache, SATA 6 Gb/s",
+        "price_retail": "151140",
+        "price_wholesale": "140240",
+        "price_reseller": "137480",
+        "warranty": "2",
+        "status": " "
+    },
+    {
+        "code": "197825",
+        "name": "HDD SATA  8000 GB Western Digital Gold, WD8005FRYZ, 7200rpm, 256MB cache, SATA 6 Gb/s",
+        "price_retail": "166530",
+        "price_wholesale": "158600",
+        "price_reseller": "151050",
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "192124",
+        "name": "HDD SATA  8000 GB Western Digital Red Pro WD8005FFBX, 7200rpm, 256MB cache, SATA 6 Gb/s",
+        "price_retail": "199220",
+        "price_wholesale": "177870",
+        "price_reseller": "169390",
+        "warranty": "5",
+        "status": "resrv"
+    },
+    {
+        "code": "171795",
+        "name": "HDD SATA 10000 GB Seagate Exos 7E10, ST10000NM017B, 7200rpm, 256MB cache, SATA 6 Gb/s",
+        "price_retail": "203959",
+        "price_wholesale": "192414",
+        "price_reseller": "174926",
+        "warranty": "5",
+        "status": " "
+    },
+    {
+        "code": "172288",
+        "name": "HDD SATA 12000 GB Seagate SkyHawk Al, ST12000VE001, 7200rpm, 256MB cache, SATA 6 Gb/s",
+        "price_retail": "174070",
+        "price_wholesale": "161170",
+        "price_reseller": "154980",
+        "warranty": "5",
+        "status": "resrv"
+    },
+    {
+        "code": "170488",
+        "name": "HDD SATA 18000 GB Seagate Exos X18, ST18000NM000J, 7200rpm, 256MB cache, SATA 6 Gb/s",
+        "price_retail": "250934",
+        "price_wholesale": "233916",
+        "price_reseller": "218612",
+        "warranty": "5",
+        "status": " "
+    },
+    {
+        "code": "187378",
+        "name": "HDD SATA 18000 GB Western Digital Gold WD181KRYZ, 7200rpm, 512MB cache, SATA 6 Gb/s",
+        "price_retail": "323430",
+        "price_wholesale": "294027",
+        "price_reseller": "280026",
+        "warranty": "2",
+        "status": " "
+    }
+]
