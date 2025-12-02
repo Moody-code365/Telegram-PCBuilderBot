@@ -1,0 +1,532 @@
+[
+    {
+        "code": "197840",
+        "name": "Power supply ATX ASUS ROG-STRIX-1200P-GAMING , 1200W, 80plus Platinum, Modular",
+        "price_retail": 142250,
+        "price_wholesale": 134200,
+        "price_reseller": 126610,
+        "price": 126610,
+        "warranty": "1",
+        "status": "resrv"
+    },
+    {
+        "code": "150683",
+        "name": "Power supply ATX Chieftec A-80, CTG-550C, 550W, Modular",
+        "price_retail": 30810,
+        "price_wholesale": 28520,
+        "price_reseller": 26410,
+        "price": 26410,
+        "warranty": "2",
+        "status": " "
+    },
+    {
+        "code": "150684",
+        "name": "Power supply ATX Chieftec A-80, CTG-650C, 650W, Modular",
+        "price_retail": 32950,
+        "price_wholesale": 30510,
+        "price_reseller": 28250,
+        "price": 28250,
+        "warranty": "2",
+        "status": " "
+    },
+    {
+        "code": "150693",
+        "name": "Power supply ATX Chieftec A-90, GDP-650C, 650W, Modular",
+        "price_retail": 31410,
+        "price_wholesale": 29075,
+        "price_reseller": 26920,
+        "price": 26920,
+        "warranty": "2",
+        "status": " "
+    },
+    {
+        "code": "150825",
+        "name": "Power supply ATX Chieftec CORE, BBS-600S, 600W, 80plus Gold",
+        "price_retail": 36170,
+        "price_wholesale": 33490,
+        "price_reseller": 31010,
+        "price": 31010,
+        "warranty": "1",
+        "status": "resrv"
+    },
+    {
+        "code": "150823",
+        "name": "Power supply ATX Chieftec CORE, BBS-700S, 700W, 80plus Gold",
+        "price_retail": 39370,
+        "price_wholesale": 36460,
+        "price_reseller": 33760,
+        "price": 33760,
+        "warranty": "1",
+        "status": " "
+    },
+    {
+        "code": "183236",
+        "name": "Power supply ATX Chieftec EON, ZPU-600S, 600W, 80plus",
+        "price_retail": 21220,
+        "price_wholesale": 19830,
+        "price_reseller": 18700,
+        "price": 18700,
+        "warranty": "2",
+        "status": " "
+    },
+    {
+        "code": "183237",
+        "name": "Power supply ATX Chieftec EON, ZPU-700S, 700W, 80plus",
+        "price_retail": 23080,
+        "price_wholesale": 21170,
+        "price_reseller": 19970,
+        "price": 19970,
+        "warranty": "2",
+        "status": " "
+    },
+    {
+        "code": "150691",
+        "name": "Power supply ATX Chieftec FORCE, CPS-550S, 550W, 80plus Bronze",
+        "price_retail": 26360,
+        "price_wholesale": 24409,
+        "price_reseller": 22603,
+        "price": 22603,
+        "warranty": "2",
+        "status": " "
+    },
+    {
+        "code": "144453",
+        "name": "Power supply ATX Chieftec FORCE, CPS-650S, 650W, 80plus Bronze",
+        "price_retail": 27800,
+        "price_wholesale": 25740,
+        "price_reseller": 23830,
+        "price": 23830,
+        "warranty": "2",
+        "status": " "
+    },
+    {
+        "code": "169462",
+        "name": "Power supply ATX Chieftec SILICON, SLC-1000C, 1000W, 80plus Bronze, Modular",
+        "price_retail": 58060,
+        "price_wholesale": 54260,
+        "price_reseller": 50710,
+        "price": 50710,
+        "warranty": "2",
+        "status": " "
+    },
+    {
+        "code": "150856",
+        "name": "Power supply ATX Chieftec SILICON, SLC-850C, 850W, 80plus Bronze, Modular",
+        "price_retail": 57750,
+        "price_wholesale": 53980,
+        "price_reseller": 48630,
+        "price": 48630,
+        "warranty": "2",
+        "status": " "
+    },
+    {
+        "code": "197613",
+        "name": "Power supply ATX Chieftec Stealth, SPX-1000-FC, 1000W, 80Plus Platinum, modular, ATX3.1",
+        "price_retail": 78370,
+        "price_wholesale": 72570,
+        "price_reseller": 67190,
+        "price": 67190,
+        "warranty": "5",
+        "status": " "
+    },
+    {
+        "code": "163686",
+        "name": "Power supply ATX Chieftec TASK, TPS-500S, 500W, 80plus Bronze",
+        "price_retail": 25090,
+        "price_wholesale": 23230,
+        "price_reseller": 21510,
+        "price": 21510,
+        "warranty": "2",
+        "status": " "
+    },
+    {
+        "code": "155482",
+        "name": "Power supply ATX Chieftec TASK, TPS-600S, 600W, 80plus Bronze",
+        "price_retail": 27480,
+        "price_wholesale": 25440,
+        "price_reseller": 23560,
+        "price": 23560,
+        "warranty": "2",
+        "status": " "
+    },
+    {
+        "code": "155483",
+        "name": "Power supply ATX Chieftec TASK, TPS-700S, 700W, 80plus Bronze",
+        "price_retail": 30190,
+        "price_wholesale": 27950,
+        "price_reseller": 25880,
+        "price": 25880,
+        "warranty": "2",
+        "status": " "
+    },
+    {
+        "code": "197615",
+        "name": "Power supply ATX Chieftec Vega M, PPG-1000-C, 1000W, 80Plus Gold, modular, ATX3.1",
+        "price_retail": 53660,
+        "price_wholesale": 49680,
+        "price_reseller": 46000,
+        "price": 46000,
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "197614",
+        "name": "Power supply ATX Chieftec Vega M, PPG-850-C, 850W, 80Plus Gold, modular, ATX3.1",
+        "price_retail": 48880,
+        "price_wholesale": 45260,
+        "price_reseller": 41910,
+        "price": 41910,
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "191205",
+        "name": "Power supply ATX Chieftec Vega, PPG-750-S, 750W, 80plus Gold, ATX3.1",
+        "price_retail": 40950,
+        "price_wholesale": 37920,
+        "price_reseller": 35110,
+        "price": 35110,
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "191206",
+        "name": "Power supply ATX Chieftec Vega, PPG-850-S, 850W, 80plus Gold, ATX3.1",
+        "price_retail": 44150,
+        "price_wholesale": 40870,
+        "price_reseller": 37850,
+        "price": 37850,
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "197616",
+        "name": "Power supply ATX Chieftec VITA SM3, BPX-750-C, 750W, 80Plus Bronze, ATX3.1",
+        "price_retail": 35420,
+        "price_wholesale": 32790,
+        "price_reseller": 30360,
+        "price": 30360,
+        "warranty": "2",
+        "status": " "
+    },
+    {
+        "code": "197617",
+        "name": "Power supply ATX Chieftec VITA SM3, BPX-850-C, 850W, 80Plus Bronze, ATX3.1",
+        "price_retail": 37820,
+        "price_wholesale": 35020,
+        "price_reseller": 32430,
+        "price": 32430,
+        "warranty": "2",
+        "status": " "
+    },
+    {
+        "code": "171196",
+        "name": "Power supply ATX Chieftronic Powerup (Chieftec), GPX-850FC, 850W, 80plus Gold, Modular",
+        "price_retail": 53740,
+        "price_wholesale": 49760,
+        "price_reseller": 46070,
+        "price": 46070,
+        "warranty": "5",
+        "status": " "
+    },
+    {
+        "code": "179550",
+        "name": "Power supply ATX Chieftronic SteelPower (Chieftec), BDK-550FC, 550W, 80plus Bronze, Modular",
+        "price_retail": 32770,
+        "price_wholesale": 30340,
+        "price_reseller": 27840,
+        "price": 27840,
+        "warranty": "5",
+        "status": " "
+    },
+    {
+        "code": "195907",
+        "name": "Power supply ATX FSP Hydro Pro HP2-700 , Modular, 700W, 80Plus Bronze",
+        "price_retail": 33650,
+        "price_wholesale": 31450,
+        "price_reseller": 29390,
+        "price": 29390,
+        "warranty": "1",
+        "status": " "
+    },
+    {
+        "code": "195908",
+        "name": "Power supply ATX FSP Hydro Pro M HP2-700M , Modular, 700W, 80Plus Bronze",
+        "price_retail": 39360,
+        "price_wholesale": 36780,
+        "price_reseller": 34370,
+        "price": 34370,
+        "warranty": "1",
+        "status": " "
+    },
+    {
+        "code": "194258",
+        "name": "Power supply ATX FSP Hydro PTM Pro HPT2-1200M Gen 5, Modular, 1200W, 80Plus PLATINUM",
+        "price_retail": 141330,
+        "price_wholesale": 132080,
+        "price_reseller": 123440,
+        "price": 123440,
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "194259",
+        "name": "Power supply ATX FSP Hydro PTM X Pro HPT3-1200M White, Modular, 1200W, 80Plus PLATINUM",
+        "price_retail": 143980,
+        "price_wholesale": 134560,
+        "price_reseller": 125760,
+        "price": 125760,
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "194750",
+        "name": "Power supply ATX Seasonic Core GX-750, SRP-CGX751-A5A32SF, 80Plus Gold, Modular, ATX 3.0, 750W",
+        "price_retail": 64520,
+        "price_wholesale": 60300,
+        "price_reseller": 55830,
+        "price": 55830,
+        "warranty": "7",
+        "status": " "
+    },
+    {
+        "code": "194741",
+        "name": "Power supply ATX Seasonic Focus GX-1000 White, SRP-FGX102-A5A32SF,80plus Gold, Modular ATX3.0, 1000W",
+        "price_retail": 115960,
+        "price_wholesale": 108370,
+        "price_reseller": 101280,
+        "price": 101280,
+        "warranty": "10",
+        "status": " "
+    },
+    {
+        "code": "194740",
+        "name": "Power supply ATX Seasonic Focus GX-850-White, SRP-FGX851-A5A32SF, 80 Plus Gold, Modular,ATX3.0, 850W",
+        "price_retail": 96700,
+        "price_wholesale": 90370,
+        "price_reseller": 84460,
+        "price": 84460,
+        "warranty": "10",
+        "status": " "
+    },
+    {
+        "code": "196055",
+        "name": "Power supply ATX Seasonic G12 GM-750, SSR-750FM, 80plus Gold, semi-modular, 750W",
+        "price_retail": 54330,
+        "price_wholesale": 50770,
+        "price_reseller": 47450,
+        "price": 47450,
+        "warranty": "5",
+        "status": "resrv"
+    },
+    {
+        "code": "185537",
+        "name": "Power supply ATX Seasonic Prime Fanless PX-500, SSR-500PL, 80 Plus Platinum, Modular, 500W",
+        "price_retail": 107330,
+        "price_wholesale": 99380,
+        "price_reseller": 92020,
+        "price": 92020,
+        "warranty": "12",
+        "status": " "
+    },
+    {
+        "code": "160588",
+        "name": "Power supply ATX Seasonic Prime Fanless TX-700, SSR-700TL, 80plus Titanium, Modular, 700W",
+        "price_retail": 165070,
+        "price_wholesale": 152840,
+        "price_reseller": 141510,
+        "price": 141510,
+        "warranty": "12",
+        "status": " "
+    },
+    {
+        "code": "175144",
+        "name": "Power supply ATX Seasonic SSP-750, SSP-750RS, 750W, 80plus Gold, oem",
+        "price_retail": 55290,
+        "price_wholesale": 53170,
+        "price_reseller": 51120,
+        "price": 51120,
+        "warranty": "5",
+        "status": " "
+    },
+    {
+        "code": "175142",
+        "name": "Power supply ATX Seasonic SSP-850, SSP-850CM, 850W, 80plus Gold, oem",
+        "price_retail": 66090,
+        "price_wholesale": 63550,
+        "price_reseller": 61110,
+        "price": 61110,
+        "warranty": "5",
+        "status": " "
+    },
+    {
+        "code": "185542",
+        "name": "Power supply ATX Seasonic Vertex PX-1000, 12102PXAFS, 1000W, 80 Plus Platinum, ATX 3.0, Modular",
+        "price_retail": 146760,
+        "price_wholesale": 137160,
+        "price_reseller": 128180,
+        "price": 128180,
+        "warranty": "12",
+        "status": " "
+    },
+    {
+        "code": "196854",
+        "name": "Power supply ATX Wintek WB-700, 700W, 80 Plus Bronze , black",
+        "price_retail": 19180,
+        "price_wholesale": 17920,
+        "price_reseller": 16910,
+        "price": 16910,
+        "warranty": "1",
+        "status": " "
+    },
+    {
+        "code": "196855",
+        "name": "Power supply ATX Wintek WB-800, 800W, 80 Plus Bronze , black",
+        "price_retail": 28040,
+        "price_wholesale": 26200,
+        "price_reseller": 24720,
+        "price": 24720,
+        "warranty": "1",
+        "status": " "
+    },
+    {
+        "code": "196856",
+        "name": "Power supply ATX Wintek WG-1000, 1000W, 80 Plus Gold , black",
+        "price_retail": 43000,
+        "price_wholesale": 40180,
+        "price_reseller": 37910,
+        "price": 37910,
+        "warranty": "1",
+        "status": " "
+    },
+    {
+        "code": "196240",
+        "name": "Power supply ATX Wintek WT-600, 600W, 80 Plus Bronze , black",
+        "price_retail": 15530,
+        "price_wholesale": 14510,
+        "price_reseller": 13690,
+        "price": 13690,
+        "warranty": "1",
+        "status": "resrv"
+    },
+    {
+        "code": "194254",
+        "name": "Power supply ATX, FSP Hydro G PRO HG2-750, 750W, 80plus Gold, modular",
+        "price_retail": 66390,
+        "price_wholesale": 62050,
+        "price_reseller": 57990,
+        "price": 57990,
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "195944",
+        "name": "Power supply ATX, FSP Hydro PRO HP2-800 , 800W, 80plus Bronze",
+        "price_retail": 43100,
+        "price_wholesale": 40280,
+        "price_reseller": 37650,
+        "price": 37650,
+        "warranty": "1",
+        "status": " "
+    },
+    {
+        "code": "197347",
+        "name": "Power supply TFX Seasonic SSP-300TBS, 300W, 80 Plus Bronze, oem,",
+        "price_retail": 31190,
+        "price_wholesale": 29160,
+        "price_reseller": 27250,
+        "price": 27250,
+        "warranty": "3",
+        "status": "call"
+    },
+    {
+        "code": "188556",
+        "name": "Уц. Power supply ATX PCcooler, GI-K700, 700W, 80+ gold, modular, box, небольшой посторонний шум",
+        "price_retail": 16490,
+        "price_wholesale": 16010,
+        "price_reseller": 15550,
+        "price": 15550,
+        "warranty": "1",
+        "status": " "
+    },
+    {
+        "code": "193996",
+        "name": "Уц. Power supply ATX PCcooler, GI-K700,700W,80+ gold,modular,box, после ремонта, замена вентилятора",
+        "price_retail": 21770,
+        "price_wholesale": 21350,
+        "price_reseller": 20930,
+        "price": 20930,
+        "warranty": "6",
+        "status": " "
+    },
+    {
+        "code": "188555",
+        "name": "Уц. Power supply ATX PCcooler, GI-K800, 800W, 80+ gold, modular, box, небольшой посторонний шум",
+        "price_retail": 17350,
+        "price_wholesale": 17010,
+        "price_reseller": 16680,
+        "price": 16680,
+        "warranty": "1",
+        "status": " "
+    },
+    {
+        "code": "193801",
+        "name": "Уц. Power supply ATX PCcooler, GI-K800, 800W, 80+ gold, modular, после ремонта",
+        "price_retail": 23700,
+        "price_wholesale": 23240,
+        "price_reseller": 22790,
+        "price": 22790,
+        "warranty": "1",
+        "status": " "
+    },
+    {
+        "code": "197186",
+        "name": "Уц. Power supply ATX Chieftec (Chieftronic) SteelPower, BDK-750FC, 750W, 80plus Bronze, Modular",
+        "price_retail": 31260,
+        "price_wholesale": 29770,
+        "price_reseller": 28360,
+        "price": 28360,
+        "warranty": "1",
+        "status": " "
+    },
+    {
+        "code": "188557",
+        "name": "Уц. Power supply ATX Chieftec ATMOS Series, CPX-750FC, 750W, 80plus Gold, Modular",
+        "price_retail": 27290,
+        "price_wholesale": 26750,
+        "price_reseller": 26230,
+        "price": 26230,
+        "warranty": "6",
+        "status": " "
+    },
+    {
+        "code": "194001",
+        "name": "Уц. Power supply ATX Chieftec Vega, PPG-750-S, 750W, 80plus Gold, небольшой посторонний шум",
+        "price_retail": 22310,
+        "price_wholesale": 21880,
+        "price_reseller": 21450,
+        "price": 21450,
+        "warranty": "1",
+        "status": " "
+    },
+    {
+        "code": "189370",
+        "name": "Уц. Power supply ATX Seasonic G12 GC-850, 850W, 80 Plus Gold, A851GCAFH,небольшой посторонний шум",
+        "price_retail": 31040,
+        "price_wholesale": 30430,
+        "price_reseller": 29830,
+        "price": 29830,
+        "warranty": "5",
+        "status": " "
+    },
+    {
+        "code": "192448",
+        "name": "Уц. Power supply ATX Seasonic Prime Fanless PX-500, SSR-500PL, 500W, 80 Plus Platinum, Modular",
+        "price_retail": 88340,
+        "price_wholesale": 86600,
+        "price_reseller": 84910,
+        "price": 84910,
+        "warranty": "12",
+        "status": " "
+    }
+]

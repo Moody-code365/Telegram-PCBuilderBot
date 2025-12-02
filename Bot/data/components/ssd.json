@@ -1,0 +1,702 @@
+[
+    {
+        "code": "156283",
+        "name": "SSD M.2 PCIe 256 GB Apacer AS2280P4, AP256GAS2280P4-1, PCIe 3.0 x4",
+        "price_retail": 20224,
+        "price_wholesale": 19273,
+        "price_reseller": 14825,
+        "price": 14825,
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "183131",
+        "name": "SSD M.2 PCIe 256 GB Dahua C900, DHI-SSD-C900N256G , PCIe 3.0 x4, NVMe",
+        "price_retail": 18757,
+        "price_wholesale": 17872,
+        "price_reseller": 14889,
+        "price": 14889,
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "196588",
+        "name": "SSD M.2 PCIe 256 GB Dahua C910, DHI-SSD-C910N256G , PCIe 3.0 x4, NVMe",
+        "price_retail": 19151,
+        "price_wholesale": 18241,
+        "price_reseller": 15199,
+        "price": 15199,
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "158737",
+        "name": "SSD M.2 PCIe 256 GB Netac N930E Pro, NT01N930E-256G-E4X, NVMe",
+        "price_retail": 20322,
+        "price_wholesale": 19353,
+        "price_reseller": 15482,
+        "price": 15482,
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "157391",
+        "name": "SSD M.2 PCIe 256 GB Patriot P300, P300P256GM28, PCIe Gen3 x4",
+        "price_retail": 20431,
+        "price_wholesale": 19462,
+        "price_reseller": 15568,
+        "price": 15568,
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "188603",
+        "name": "SSD M.2 PCIe 500 GB Kingston SNV3S, SNV3S/500G, PCIe 4.0 NVMe",
+        "price_retail": 38457,
+        "price_wholesale": 36561,
+        "price_reseller": 30501,
+        "price": 30501,
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "196593",
+        "name": "SSD M.2 PCIe 500 GB Netac NV3000,NT01NV3000-500-E4X, NVMe",
+        "price_retail": 32523,
+        "price_wholesale": 30973,
+        "price_reseller": 25810,
+        "price": 25810,
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "177456",
+        "name": "SSD M.2 PCIe 512 GB ADATA Legend, ALEG-710-512GCS, PCIe 3.0 x4, NVMe 1.3",
+        "price_retail": 30409,
+        "price_wholesale": 28961,
+        "price_reseller": 26328,
+        "price": 26328,
+        "warranty": "3",
+        "status": "resrv"
+    },
+    {
+        "code": "156284",
+        "name": "SSD M.2 PCIe 512 GB Apacer AS2280P4, AP512GAS2280P4-1, PCIe 3.0 x4",
+        "price_retail": 34445,
+        "price_wholesale": 32815,
+        "price_reseller": 26252,
+        "price": 26252,
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "190385",
+        "name": "SSD M.2 PCIe 512 GB Hiksemi (Hikvision) HS-SSD-WAVE(P) 512G, PCIe 3.0 x4, NVMe",
+        "price_retail": 34260,
+        "price_wholesale": 32628,
+        "price_reseller": 25098,
+        "price": 25098,
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "157392",
+        "name": "SSD M.2 PCIe 512 GB Patriot P300, P300P512GM28, PCIe Gen3 x4",
+        "price_retail": 35979,
+        "price_wholesale": 34263,
+        "price_reseller": 26355,
+        "price": 26355,
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "196976",
+        "name": "SSD M.2 PCIe 1 TB AGI AI298, [AGI1T0GIMAI298], PCIe 3.0",
+        "price_retail": 56908,
+        "price_wholesale": 54199,
+        "price_reseller": 45164,
+        "price": 45164,
+        "warranty": "5",
+        "status": " "
+    },
+    {
+        "code": "197657",
+        "name": "SSD M.2 PCIe 1 TB AGI AI818, [AGI1T0G43AI818-CB], PCIe 4.0",
+        "price_retail": 58655,
+        "price_wholesale": 55861,
+        "price_reseller": 46551,
+        "price": 46551,
+        "warranty": "5",
+        "status": " "
+    },
+    {
+        "code": "196599",
+        "name": "SSD M.2 PCIe 1 TB Apacer AS2280P4, AP1TBAS2280P4-1, PCIe 3.0 x4 ,oem",
+        "price_retail": 65977,
+        "price_wholesale": 62844,
+        "price_reseller": 48330,
+        "price": 48330,
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "182060",
+        "name": "SSD M.2 PCIe 1 TB Colorful CN600 1TB, PCIe 3.0 x4, NVMe",
+        "price_retail": 58980,
+        "price_wholesale": 56170,
+        "price_reseller": 46810,
+        "price": 46810,
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "196862",
+        "name": "SSD M.2 PCIe 1 TB Crucial E100 , CT1000E100SSD8, PCIe 4.0 x4, NVMe",
+        "price_retail": 61940,
+        "price_wholesale": 58980,
+        "price_reseller": 49160,
+        "price": 49160,
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "197114",
+        "name": "SSD M.2 PCIe 1 TB HikSemi (Hikvision) E1000, HS-SSD-E1000 1024G , PCIe 3.0 x4, NVMe 1.3",
+        "price_retail": 60571,
+        "price_wholesale": 55065,
+        "price_reseller": 45887,
+        "price": 45887,
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "180144",
+        "name": "SSD M.2 PCIe 1 TB Kingston Fury, SFYRSK/1000G, PCIe 4.0, NVMe",
+        "price_retail": 105106,
+        "price_wholesale": 100101,
+        "price_reseller": 83417,
+        "price": 83417,
+        "warranty": "5",
+        "status": " "
+    },
+    {
+        "code": "173252",
+        "name": "SSD M.2 PCIe 1 TB Kingston SKC3000S, KC3000S/1024G, PCIe 4.0 NVMe",
+        "price_retail": 79662,
+        "price_wholesale": 75870,
+        "price_reseller": 65975,
+        "price": 65975,
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "188604",
+        "name": "SSD M.2 PCIe 1 TB Kingston SNV3S, SNV3S/1000G, PCIe 4.0 NVMe",
+        "price_retail": 64768,
+        "price_wholesale": 61687,
+        "price_reseller": 51402,
+        "price": 51402,
+        "warranty": "3",
+        "status": "call"
+    },
+    {
+        "code": "173903",
+        "name": "SSD M.2 PCIe 1 TB Patriot P300, P300P1TBM28, PCIe Gen3 x4",
+        "price_retail": 59595,
+        "price_wholesale": 56760,
+        "price_reseller": 47302,
+        "price": 47302,
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "193624",
+        "name": "SSD M.2 PCIe 1 TB Samsung 9100 PRO, MZ-VAP1T0CW , PCIe 5.0, NVMe 2,0",
+        "price_retail": 143740,
+        "price_wholesale": 132550,
+        "price_reseller": 120500,
+        "price": 120500,
+        "warranty": "5",
+        "status": " "
+    },
+    {
+        "code": "191606",
+        "name": "SSD M.2 PCIe 1 TB Samsung 990 PRO, MZ-V9P1T0CW, PCIe 4.0 x4, NVMe 1.3",
+        "price_retail": 98730,
+        "price_wholesale": 94020,
+        "price_reseller": 85480,
+        "price": 85480,
+        "warranty": "5",
+        "status": " "
+    },
+    {
+        "code": "191607",
+        "name": "SSD M.2 PCIe 1 TB Samsung 990 PRO, MZ-V9P1T0GW, PCIe 4.0 x4, NVMe 1.3",
+        "price_retail": 98780,
+        "price_wholesale": 94080,
+        "price_reseller": 85530,
+        "price": 85530,
+        "warranty": "5",
+        "status": " "
+    },
+    {
+        "code": "161733",
+        "name": "SSD M.2 PCIe 1 TB Silicon Power A60, SP001TBP34A60M28, NVMe",
+        "price_retail": 58800,
+        "price_wholesale": 56000,
+        "price_reseller": 46667,
+        "price": 46667,
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "181664",
+        "name": "SSD M.2 PCIe 2 TB Kingston SFYRDK, SFYRDK/2000G, PCIe 4.0 NVMe",
+        "price_retail": 145940,
+        "price_wholesale": 141684,
+        "price_reseller": 128803,
+        "price": 128803,
+        "warranty": "3",
+        "status": "resrv"
+    },
+    {
+        "code": "188605",
+        "name": "SSD M.2 PCIe 2 TB Kingston SNV3S, SNV3S/2000G, PCIe 4.0 NVMe",
+        "price_retail": 119490,
+        "price_wholesale": 113810,
+        "price_reseller": 94840,
+        "price": 94840,
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "196140",
+        "name": "SSD M.2 PCIe 2 TB Kingston SNV3SM3, SNV3SM3/2T0, PCIe 4.0 NVMe",
+        "price_retail": 104798,
+        "price_wholesale": 99809,
+        "price_reseller": 83173,
+        "price": 83173,
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "184121",
+        "name": "SSD M.2 PCIe 4 TB Corsair MP600 Pro LPX, CSSD-F4000GBMP600PLPW, PCIe Gen4 x4, NVMe",
+        "price_retail": 183309,
+        "price_wholesale": 177969,
+        "price_reseller": 172786,
+        "price": 172786,
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "191668",
+        "name": "SSD M.2 PCIe 4 TB Corsair MP600 PRO XT, CSSD-F4000GBMP600PHXT, PCIe 4.0 x4, NVMe",
+        "price_retail": 186379,
+        "price_wholesale": 180946,
+        "price_reseller": 175673,
+        "price": 175673,
+        "warranty": "5",
+        "status": "resrv"
+    },
+    {
+        "code": "193626",
+        "name": "SSD M.2 PCIe 4 TB Samsung 9100 PRO W/HS, MZ-VAP4T0CW , PCIe 5.0, NVMe 2,0",
+        "price_retail": 376900,
+        "price_wholesale": 358950,
+        "price_reseller": 312130,
+        "price": 312130,
+        "warranty": "5",
+        "status": " "
+    },
+    {
+        "code": "193619",
+        "name": "SSD M.2 PCIe 4 TB Samsung 990 PRO,MZ-V9P4T0GW, PCIe 4.0, NVMe 2,0",
+        "price_retail": 231620,
+        "price_wholesale": 220590,
+        "price_reseller": 191820,
+        "price": 191820,
+        "warranty": "5",
+        "status": " "
+    },
+    {
+        "code": "190380",
+        "name": "SSD M.2 SATA 128 GB Hiksemi (Hikvision) HS-SSD-WAVE(N) 128G, SATA 6Gb/s",
+        "price_retail": 10909,
+        "price_wholesale": 9919,
+        "price_reseller": 8268,
+        "price": 8268,
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "197115",
+        "name": "SSD M.2 SATA 128 GB HikSemi (Hikvision), HS-SSD-E100N 128G, SATA 6Gb/s",
+        "price_retail": 10909,
+        "price_wholesale": 9919,
+        "price_reseller": 8268,
+        "price": 8268,
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "190381",
+        "name": "SSD M.2 SATA 256 GB Hiksemi (Hikvision) HS-SSD-WAVE(N) 256G, SATA 6Gb/s",
+        "price_retail": 14346,
+        "price_wholesale": 13042,
+        "price_reseller": 10869,
+        "price": 10869,
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "195983",
+        "name": "SSD M.2 SATA 256 GB HikSemi E100N, HS-SSD-E100N 256G, SATA 6Gb/s",
+        "price_retail": 14345,
+        "price_wholesale": 13041,
+        "price_reseller": 10869,
+        "price": 10869,
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "190382",
+        "name": "SSD M.2 SATA 512 GB Hiksemi (Hikvision) HS-SSD-WAVE(N) 512G, SATA 6Gb/s",
+        "price_retail": 26777,
+        "price_wholesale": 24344,
+        "price_reseller": 20289,
+        "price": 20289,
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "195984",
+        "name": "SSD M.2 SATA 512 GB HikSemi E100N, HS-SSD-E100N 512G, SATA 6Gb/s",
+        "price_retail": 26778,
+        "price_wholesale": 24344,
+        "price_reseller": 20289,
+        "price": 20289,
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "197120",
+        "name": "SSD M.2 SATA 1 TB Hiksemi (Hikvision) HS-SSD-WAVE(N) 1024G, SATA 6Gb/s",
+        "price_retail": 51647,
+        "price_wholesale": 46952,
+        "price_reseller": 39128,
+        "price": 39128,
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "190373",
+        "name": "SSD SATA 128 GB Hiksemi (Hikvision), HS-SSD-WAVE(S) 128G, SATA 6Gb/s",
+        "price_retail": 11318,
+        "price_wholesale": 10780,
+        "price_reseller": 8984,
+        "price": 8984,
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "195794",
+        "name": "SSD SATA 128 GB Hiksemi E100 (Hikvision), HS-SSD-E100 128G, SATA 6Gb/s",
+        "price_retail": 11319,
+        "price_wholesale": 10778,
+        "price_reseller": 8984,
+        "price": 8984,
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "140504",
+        "name": "SSD SATA 240 GB Apacer Panther AS340, AP240GAS340G-1, SATA 6Gb/s",
+        "price_retail": 15481,
+        "price_wholesale": 14731,
+        "price_reseller": 11349,
+        "price": 11349,
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "190374",
+        "name": "SSD SATA 240 GB Hiksemi (Hikvision), HS-SSD-WAVE(S) 240G, SATA 6Gb/s",
+        "price_retail": 12772,
+        "price_wholesale": 11610,
+        "price_reseller": 9677,
+        "price": 9677,
+        "warranty": "3",
+        "status": "resrv"
+    },
+    {
+        "code": "133911",
+        "name": "SSD SATA 240 GB Kingston A400, SA400S37/240G, SATA 6Gb/s",
+        "price_retail": 22060,
+        "price_wholesale": 21005,
+        "price_reseller": 16803,
+        "price": 16803,
+        "warranty": "3",
+        "status": "resrv"
+    },
+    {
+        "code": "162960",
+        "name": "SSD SATA 240 GB Patriot Burst Elite, PBE240GS25SSDR, SATA 6Gb/s",
+        "price_retail": 17078,
+        "price_wholesale": 16264,
+        "price_reseller": 12511,
+        "price": 12511,
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "196977",
+        "name": "SSD SATA 256 GB AGI AI138, AGI256G06AI138-CB , SATA 6Gb/s",
+        "price_retail": 17608,
+        "price_wholesale": 16769,
+        "price_reseller": 12899,
+        "price": 12899,
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "182064",
+        "name": "SSD SATA 256 GB Colorful SL500 256GB, SATA 6Gb/s",
+        "price_retail": 17230,
+        "price_wholesale": 16400,
+        "price_reseller": 12620,
+        "price": 12620,
+        "warranty": "3",
+        "status": "resrv"
+    },
+    {
+        "code": "195797",
+        "name": "SSD SATA 256 GB Hiksemi E100 (Hikvision), HS-SSD-E100 256G, SATA 6Gb/s",
+        "price_retail": 17949,
+        "price_wholesale": 17095,
+        "price_reseller": 13150,
+        "price": 13150,
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "158735",
+        "name": "SSD SATA 256 GB Netac N600S, NT01N600S-256G-S3X, SATA 6Gb/s",
+        "price_retail": 18221,
+        "price_wholesale": 17351,
+        "price_reseller": 13348,
+        "price": 13348,
+        "warranty": "2",
+        "status": " "
+    },
+    {
+        "code": "194110",
+        "name": "SSD SATA 256 GB Netac SA500, NT01SA500-256-S3X, SATA 6Gb/s",
+        "price_retail": 17007,
+        "price_wholesale": 16197,
+        "price_reseller": 12957,
+        "price": 12957,
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "159118",
+        "name": "SSD SATA 256 GB Patriot P210, P210S256G25, SATA 6Gb/s",
+        "price_retail": 19020,
+        "price_wholesale": 18114,
+        "price_reseller": 13934,
+        "price": 13934,
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "161721",
+        "name": "SSD SATA 256 GB Silicon Power A56, SP256GBSS3A56B25, SATA 6Gb/s",
+        "price_retail": 18643,
+        "price_wholesale": 17752,
+        "price_reseller": 13654,
+        "price": 13654,
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "196594",
+        "name": "SSD SATA 256 GB Team Group VULCAN Z, T253TZ256G0C101, SATA 6Gb/s",
+        "price_retail": 19061,
+        "price_wholesale": 17330,
+        "price_reseller": 13864,
+        "price": 13864,
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "164190",
+        "name": "SSD SATA 480 GB Apacer AS340X, AP480GAS340XC-1, SATA 6Gb/s",
+        "price_retail": 29868,
+        "price_wholesale": 28447,
+        "price_reseller": 21880,
+        "price": 21880,
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "133912",
+        "name": "SSD SATA 480 GB Kingston A400, SA400S37/480G, SATA 6Gb/s",
+        "price_retail": 32961,
+        "price_wholesale": 31393,
+        "price_reseller": 26160,
+        "price": 26160,
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "164771",
+        "name": "SSD SATA 512 GB ADATA Ultimate SU650, ASU650SS-512GT-R , SATA 6Gb/s",
+        "price_retail": 30985,
+        "price_wholesale": 29507,
+        "price_reseller": 23605,
+        "price": 23605,
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "163749",
+        "name": "SSD SATA 512 GB Apacer Panther AS350X, AP512GAS350XR-1, SATA 6Gb/s",
+        "price_retail": 29393,
+        "price_wholesale": 27991,
+        "price_reseller": 22391,
+        "price": 22391,
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "152509",
+        "name": "SSD SATA 512 GB Kingston KC600, SKC600/512G, SATA 6Gb/s",
+        "price_retail": 48810,
+        "price_wholesale": 46480,
+        "price_reseller": 38740,
+        "price": 38740,
+        "warranty": "5",
+        "status": "resrv"
+    },
+    {
+        "code": "197113",
+        "name": "SSD SATA 960 GB HikSemi (Hikvision) C100, HS-SSD-C100 960G, SATA 6Gb/s",
+        "price_retail": 52142,
+        "price_wholesale": 47404,
+        "price_reseller": 39502,
+        "price": 39502,
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "197118",
+        "name": "SSD SATA 960 GB Hiksemi (Hikvision), HS-SSD-WAVE(S) 960G, SATA 6Gb/s",
+        "price_retail": 52130,
+        "price_wholesale": 47390,
+        "price_reseller": 39490,
+        "price": 39490,
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "139131",
+        "name": "SSD SATA 960 GB Kingston A400, SA400S37/960G, SATA 6Gb/s",
+        "price_retail": 59647,
+        "price_wholesale": 56806,
+        "price_reseller": 47337,
+        "price": 47337,
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "196366",
+        "name": "SSD SATA 1 TB ADATA Ultimate SU650, ASU650SS-1TT-R , SATA 6Gb/s",
+        "price_retail": 54786,
+        "price_wholesale": 52177,
+        "price_reseller": 45371,
+        "price": 45371,
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "164871",
+        "name": "SSD SATA 1 TB Apacer Panther AS350X, AP1TBAS350XR-1, SATA 6Gb/s",
+        "price_retail": 50352,
+        "price_wholesale": 47954,
+        "price_reseller": 41690,
+        "price": 41690,
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "190378",
+        "name": "SSD SATA 1 TB Hiksemi (Hikvision), HS-SSD-WAVE(S) 1024G, SATA 6Gb/s",
+        "price_retail": 54440,
+        "price_wholesale": 49490,
+        "price_reseller": 41240,
+        "price": 41240,
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "196151",
+        "name": "SSD SATA 1 TB Hiksemi E100 (Hikvision), HS-SSD-E100 1024G, SATA 6Gb/s",
+        "price_retail": 54443,
+        "price_wholesale": 49494,
+        "price_reseller": 41242,
+        "price": 41242,
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "152507",
+        "name": "SSD SATA 1 TB Kingston KC600, SKC600/1024G, SATA 6Gb/s",
+        "price_retail": 82393,
+        "price_wholesale": 78471,
+        "price_reseller": 65392,
+        "price": 65392,
+        "warranty": "5",
+        "status": " "
+    },
+    {
+        "code": "169238",
+        "name": "SSD SATA 1 TB Patriot P210, P210S1TB25, SATA 6Gb/s",
+        "price_retail": 58823,
+        "price_wholesale": 56024,
+        "price_reseller": 46689,
+        "price": 46689,
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "179966",
+        "name": "SSD SATA 1 TB Patriot P220, P220S1TB25, SATA 6Gb/s",
+        "price_retail": 59720,
+        "price_wholesale": 56875,
+        "price_reseller": 47400,
+        "price": 47400,
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "197631",
+        "name": "SSD SATA 1TB AGI AI178, AGI1T0G17AI178-CB , SATA 6Gb/s",
+        "price_retail": 60732,
+        "price_wholesale": 57835,
+        "price_reseller": 44485,
+        "price": 44485,
+        "warranty": "3",
+        "status": " "
+    },
+    {
+        "code": "177947",
+        "name": "SSD SATA 2 TB Kingston KC600, SKC600/2048G, SATA 6Gb/s",
+        "price_retail": 153581,
+        "price_wholesale": 146265,
+        "price_reseller": 121890,
+        "price": 121890,
+        "warranty": "5",
+        "status": " "
+    }
+]
