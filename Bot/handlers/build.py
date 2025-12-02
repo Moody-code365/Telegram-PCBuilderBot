@@ -9,6 +9,7 @@ from Bot.keyboards.FSM_kb import budget_keyboard, usage_keyboard, preferences_ke
 from Bot.utils.text_cleaner import remove_emoji, normalize
 from Bot.services.pc_builder import build_pc
 from Bot.data.options import BUDGET_OPTIONS,USAGE_OPTIONS
+from Bot.utils.formatter import format_build_message
 
 
 router = Router()
@@ -104,36 +105,25 @@ async def set_usage(message: Message, state: FSMContext):
 # ---------------------- ПРЕДПОЧТЕНИЯ ----------------------
 @router.message(BuildPC.preferences)
 async def set_preferences(message: Message, state: FSMContext):
-
-    # --- Назад ---
     if message.text == "⬅️ Назад":
         await state.set_state(BuildPC.usage)
-        return await message.answer(
-            "🔙 Вернулся к выбору назначения",
-            reply_markup=usage_keyboard()
-        )
+        return await message.answer("🔙 Вернулся к выбору назначения", reply_markup=usage_keyboard())
 
     await state.update_data(preferences=message.text)
     data = await state.get_data()
 
-    budget = data["budget"]
-    usage = data["usage"]
-    prefs = data["preferences"]
-
+    # result может быть в любом формате — formatter приведёт к нужному виду
     result = build_pc(data)
-    parts_text = "\n".join([f"{k.upper()}: {v}" for k, v in result.items()])
 
-    await message.answer(
-        f"🧩 Отлично! Вот твоя конфигурация:\n"
-        f"💸 Бюджет: {data['budget']}\n"
-        f"🎯 Назначение: {data['usage']}\n"
-        f"✨ Предпочтения: {data['preferences']}\n\n"
-        f"🖥 Итоговая сборка:\n"
-        f"{parts_text}",
-        reply_markup=get_start_keyboard()
-
+    # подготовим текст (formatter сам вычислит total если нужно)
+    message_text = format_build_message(
+        result,
+        budget=data.get("budget"),
+        usage=data.get("usage"),
+        prefs=data.get("preferences"),
     )
 
+    await message.answer(message_text, parse_mode="Markdown", reply_markup=get_start_keyboard())
     await state.clear()
 
 
