@@ -55,33 +55,62 @@ def _is_trash_name(name: str) -> bool:
 def extract_cpu_specs(name: str) -> Dict[str, Any]:
     s = name.lower()
     specs = {}
+
     # socket
-    if "am5" in s: specs["socket"] = "AM5"
-    elif "am4" in s: specs["socket"] = "AM4"
-    elif re.search(r"\blga\s*1700\b", s) or "1700" in s: specs["socket"] = "LGA1700"
-    elif re.search(r"\b(lga\s*1200|1200)\b", s): specs["socket"] = "LGA1200"
+    if "am5" in s:
+        specs["socket"] = "AM5"
+    elif "am4" in s:
+        specs["socket"] = "AM4"
+    elif "1851" in s or re.search(r"\blga\s*1851\b", s):
+        specs["socket"] = "LGA1851"
+    elif re.search(r"\blga\s*1700\b", s) or "1700" in s:
+        specs["socket"] = "LGA1700"
+    elif re.search(r"\b(lga\s*1200|1200)\b", s):
+        specs["socket"] = "LGA1200"
+
     # tdp (try find number + W)
     m = re.search(r"(\d{2,3})\s*w", s)
-    if m: specs["tdp"] = int(m.group(1))
+    if m:
+        specs["tdp"] = int(m.group(1))
+
     # cores/threads (basic heuristics)
     m2 = re.search(r"(\d+)c\/(\d+)t", s)
     if m2:
-        specs["cores"] = int(m2.group(1)); specs["threads"] = int(m2.group(2))
-    # fallback try single number that looks like model
+        specs["cores"] = int(m2.group(1))
+        specs["threads"] = int(m2.group(2))
+
     return specs
 
 def extract_mobo_specs(name: str) -> Dict[str, Any]:
     s = name.lower()
     specs = {}
-    if "am5" in s: specs["socket"] = "AM5"
-    elif "am4" in s: specs["socket"] = "AM4"
-    elif "lga1700" in s or "1700" in s: specs["socket"] = "LGA1700"
-    # ddr
-    m = re.search(r"(ddr[345])", s)
-    if m: specs["ram_type"] = m.group(1).upper()
-    # form factor
-    if "matx" in s or "m-atx" in s or "micro" in s: specs["formfactor"] = "mATX"
-    elif "atx" in s: specs["formfactor"] = "ATX"
+
+    # ---- SOCKET ----
+    if "am5" in s:
+        specs["socket"] = "AM5"
+    elif "am4" in s:
+        specs["socket"] = "AM4"
+    elif "1851" in s or re.search(r"\blga\s*1851\b", s):
+        specs["socket"] = "LGA1851"
+    elif "1700" in s or re.search(r"\blga\s*1700\b", s):
+        specs["socket"] = "LGA1700"
+    elif "1200" in s or re.search(r"\blga\s*1200\b", s):
+        specs["socket"] = "LGA1200"
+
+    # ---- RAM type ----
+    if "ddr5" in s:
+        specs["ram_type"] = "DDR5"
+    elif "ddr4" in s:
+        specs["ram_type"] = "DDR4"
+
+    # ---- Form factor ----
+    if "atx" in s and not "matx" in s:
+        specs["formfactor"] = "ATX"
+    elif "matx" in s or "m-atx" in s or "microatx" in s:
+        specs["formfactor"] = "mATX"
+    elif "itx" in s:
+        specs["formfactor"] = "ITX"
+
     return specs
 
 def extract_ram_specs(name: str) -> Dict[str, Any]:
@@ -161,6 +190,71 @@ def extract_cooler_specs(name: str) -> Dict[str, Any]:
         "water": is_water
     }
 
+def extract_case_specs(name: str) -> Dict[str, Any]:
+    s = name.lower()
+    specs: Dict[str, Any] = {}
+
+    # --- 1. Form-factor (ATX, mATX, ITX) ---
+    if "matx" in s or "microatx" in s or "micro-atx" in s:
+        specs["form_factor"] = "mATX"
+    elif "atx" in s:
+        specs["form_factor"] = "ATX"
+    elif "itx" in s or "mini-itx" in s:
+        specs["form_factor"] = "ITX"
+
+    # --- 2. Tower type (mini / midi / full) ---
+    if "mini tower" in s or "minitower" in s:
+        specs["tower_type"] = "mini"
+    elif "midi tower" in s or "miditower" in s or "mid tower" in s:
+        specs["tower_type"] = "midi"
+    elif "full tower" in s:
+        specs["tower_type"] = "full"
+
+    # --- 3. Built-in PSU ---
+    m = re.search(r"(\d{3,4})\s*w", s)
+    if m and "без бп" not in s:
+        specs["psu_watts"] = int(m.group(1))
+    else:
+        specs["psu_watts"] = None
+
+    # --- 4. Number of fans included ---
+    m = re.search(r"(\d+)\s*\*\s*120", s)
+    if m:
+        specs["fans_count"] = int(m.group(1))
+    else:
+        # maybe something like "3x120"
+        m = re.search(r"(\d+)x120", s)
+        if m:
+            specs["fans_count"] = int(m.group(1))
+
+    # --- 5. Supported fan size ---
+    if "140" in s:
+        specs["supported_fan_size"] = 140
+    elif "120" in s:
+        specs["supported_fan_size"] = 120
+
+    # --- 6. Color ---
+    if "white" in s or "бел" in s:
+        specs["color"] = "white"
+    elif "black" in s or "черн" in s:
+        specs["color"] = "black"
+
+    # --- 7. RGB lighting ---
+    if "argb" in s or "rgb" in s:
+        specs["rgb"] = True
+    else:
+        specs["rgb"] = False
+
+    # --- 8. Side panel material ---
+    if "glass" in s or "tg" in s or "tempered" in s:
+        specs["side_panel"] = "tempered_glass"
+    elif "acryl" in s or "акрил" in s:
+        specs["side_panel"] = "acrylic"
+    else:
+        specs["side_panel"] = "steel"
+
+    return specs
+
 
 # ----- Normalizer for a raw item -----
 def normalize_raw_item(raw: Dict[str, Any], category: str) -> Optional[Dict[str, Any]]:
@@ -207,7 +301,7 @@ def normalize_raw_item(raw: Dict[str, Any], category: str) -> Optional[Dict[str,
         "psu": extract_psu_specs,
         "ssd": extract_ssd_specs,
         "hdd": extract_ssd_specs,
-        "case": lambda _: {},
+        "case": extract_case_specs,
         "coolers": extract_cooler_specs
     }
     extractor = extractor_map.get(category, lambda _: {})
