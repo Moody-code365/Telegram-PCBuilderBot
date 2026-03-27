@@ -11,6 +11,7 @@ from Bot.utils.text_cleaner import remove_emoji, normalize
 from Bot.services.pc_builder import build_pc
 from Bot.data.options import BUDGET_OPTIONS,USAGE_OPTIONS
 from Bot.utils.formatter import format_build_message
+from Bot.services.pc_builder import escape_md
 
 
 router = Router()
@@ -136,6 +137,9 @@ async def set_preferences(message: Message, state: FSMContext):
         all_parts
     )
     print("▶ STEP 5: build result:", result)
+
+    for cat, item in result.items():
+        item["name"] = escape_md(item["name"])
 
     message_text = format_build_message(
         result,
