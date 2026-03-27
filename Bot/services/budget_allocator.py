@@ -1,134 +1,99 @@
+"""
+Бюджетный планировщик v2.
+Гарантия: sum(квот) == total_budget (ни тенге больше).
+"""
+
+from typing import Dict
+
+# ── Профили весов (сумма = 1.0) ──────────────────────────
+PROFILES: Dict[str, Dict[str, float]] = {
+    "gaming": {
+        "cpu": 0.18, "gpu": 0.35, "motherboard": 0.12,
+        "ram": 0.10, "ssd": 0.08, "psu": 0.07,
+        "coolers": 0.05, "case": 0.05,
+    },
+    "work": {
+        "cpu": 0.28, "gpu": 0.10, "motherboard": 0.15,
+        "ram": 0.18, "ssd": 0.12, "psu": 0.07,
+        "coolers": 0.05, "case": 0.05,
+    },
+    "universal": {
+        "cpu": 0.22, "gpu": 0.28, "motherboard": 0.13,
+        "ram": 0.11, "ssd": 0.09, "psu": 0.07,
+        "coolers": 0.05, "case": 0.05,
+    },
+}
+
+# Абсолютные минимумы (₸) — ниже нельзя, иначе компонент будет мусорный
+MIN_ABS: Dict[str, int] = {
+    "coolers": 4000,
+    "psu": 13000,
+    "case": 5000,
+    "ssd": 8000,
+    "ram": 20000,
+}
+
+
 class BudgetAllocator:
-    """
-    Умный динамический бюджетный планировщик.
-    Возможности:
-    - Учитывает тип сборки (gaming / work / universal)
-    - Увеличивает бюджет под горячие и мощные CPU
-    - Гарантирует минимальный уровень для БП / кулера / корпуса
-    - Умно корректирует веса, чтобы CPU/GPU не съедали весь бюджет
-    - Выдаёт готовые суммы по категориям
-    """
 
-    def __init__(self, total_budget: int, preset: str = "universal", cpu_tdp: int | None = None):
-        self.total_budget = total_budget
-        self.preset = preset
-        self.cpu_tdp = cpu_tdp
-        self.budgets = self._allocate_budgets()
+    def __init__(self, total_budget: int, preset: str = "universal"):
+        self.total_budget = max(total_budget, 0)
+        self.preset = preset if preset in PROFILES else "universal"
+        self._budgets = self._allocate()
 
-    # -------------------------------------------------------------------------
-    # ГЛАВНАЯ ФУНКЦИЯ РАСПРЕДЕЛЕНИЯ
-    # -------------------------------------------------------------------------
-    def _allocate_budgets(self) -> dict:
+    def _allocate(self) -> Dict[str, int]:
         total = self.total_budget
+        if total <= 0:
+            return {k: 0 for k in PROFILES[self.preset]}
 
-        # -----------------------------------------------------------
-        # 1. БАЗОВЫЕ ВЕСА
-        # -----------------------------------------------------------
-        if self.preset == "gaming":
-            weights = {
-                "cpu": 0.18,
-                "gpu": 0.42,
-                "motherboard": 0.12,
-                "ram": 0.10,
-                "ssd": 0.08,
-                "psu": 0.07,
-                "coolers": 0.02,
-                "case": 0.01,
-            }
+        weights = dict(PROFILES[self.preset])
+        w_sum = sum(weights.values())
+        weights = {k: v / w_sum for k, v in weights.items()}
 
-        elif self.preset == "work":
-            weights = {
-                "cpu": 0.32,
-                "gpu": 0.12,
-                "motherboard": 0.15,
-                "ram": 0.18,
-                "ssd": 0.10,
-                "psu": 0.06,
-                "coolers": 0.04,
-                "case": 0.03,
-            }
+        # Первичный расчёт
+        budgets = {k: int(total * w) for k, w in weights.items()}
 
-        else:  # universal
-            weights = {
-                "cpu": 0.24,
-                "gpu": 0.32,
-                "motherboard": 0.14,
-                "ram": 0.12,
-                "ssd": 0.10,
-                "psu": 0.06,
-                "coolers": 0.02,
-                "case": 0.02,
-            }
+        # Применяем минимумы (но только если total позволяет)
+        min_total_needed = sum(MIN_ABS.get(k, 0) for k in budgets)
+        if total >= min_total_needed:
+            for cat, minimum in MIN_ABS.items():
+                if cat in budgets and budgets[cat] < minimum:
+                    budgets[cat] = minimum
 
-        # -----------------------------------------------------------
-        # 2. МИНИМАЛЬНЫЕ ПОРОГИ ДЛЯ БП / КУЛЕРА / КОРПУСА
-        # -----------------------------------------------------------
-        min_limits = {
-            "coolers": 20000 if total > 200000 else 12000,
-            "psu": 25000 if total > 250000 else 15000,
-            "case": 15000,
-        }
-
-        # -----------------------------------------------------------
-        # 3. ДОП. БЮДЖЕТ ПОД ГОРЯЧИЙ CPU
-        # -----------------------------------------------------------
-        if self.cpu_tdp:
-
-            # умеренно горячий
-            if self.cpu_tdp >= 140:
-                weights["coolers"] += 0.01
-
-            # i7 / Ryzen 7 — высокое тепловыделение
-            if self.cpu_tdp >= 160:
-                weights["coolers"] += 0.02
-                weights["psu"] += 0.01
-
-            # i9 / R9 / X3D — экстремально горячий
-            if self.cpu_tdp >= 200:
-                weights["coolers"] += 0.03
-                weights["psu"] += 0.02
-                weights["motherboard"] += 0.01
-
-        # -----------------------------------------------------------
-        # 4. НОРМАЛИЗАЦИЯ ВЕСОВ (на всякий случай)
-        # -----------------------------------------------------------
-        total_weight = sum(weights.values())
-        weights = {k: v / total_weight for k, v in weights.items()}
-
-        # -----------------------------------------------------------
-        # 5. ПЕРЕВОД В СУММЫ
-        # -----------------------------------------------------------
-        budgets = {name: int(total * w) for name, w in weights.items()}
-
-        # -----------------------------------------------------------
-        # 6. ПРИМЕНЯЕМ МИНИМАЛЬНЫЕ ПОРЯДКИ
-        # -----------------------------------------------------------
-        for key, minimum in min_limits.items():
-            budgets[key] = max(budgets[key], minimum)
-
-        # -----------------------------------------------------------
-        # 7. ОГРАНИЧИВАЕМ GPU И CPU, ЕСЛИ ОНИ СЛИШКОМ БОЛЬШИЕ
-        # -----------------------------------------------------------
-
-        # GPU не должен съедать > 40% бюджета
-        if budgets["gpu"] > total * 0.40:
-            diff = budgets["gpu"] - int(total * 0.40)
-            budgets["gpu"] -= diff
-            # перераспределяем избыток на полезные категории
-            budgets["psu"] += diff // 3
-            budgets["coolers"] += diff // 4
-            budgets["motherboard"] += diff // 4
-
-        # CPU не должен занимать > 28–30%
-        if budgets["cpu"] > total * 0.30:
-            diff = budgets["cpu"] - int(total * 0.28)
-            budgets["cpu"] -= diff
-            budgets["coolers"] += diff // 2
-            budgets["psu"] += diff // 2
-
+        # Балансировка
+        self._balance_to_total(budgets, total)
         return budgets
 
-    # -------------------------------------------------------------------------
-    def get_budgets(self) -> dict:
-        """Возвращает итоговое распределение бюджета по категориям."""
-        return self.budgets
+    def _balance_to_total(self, budgets: Dict[str, int], total: int) -> None:
+        """Корректирует budgets in-place так, что sum == total."""
+        current = sum(budgets.values())
+        diff = current - total
+
+        if diff == 0:
+            return
+
+        if diff > 0:
+            # Перебор — нужно урезать
+            # Сортируем по убыванию размера квоты, режем сверху
+            ordered = sorted(budgets.keys(), key=lambda k: -budgets[k])
+            remaining = diff
+            for k in ordered:
+                if remaining <= 0:
+                    break
+                floor = MIN_ABS.get(k, 0)
+                can_cut = max(0, budgets[k] - floor)
+                cut = min(can_cut, remaining)
+                budgets[k] -= cut
+                remaining -= cut
+            # Если из-за минимумов всё ещё перебор — режем принудительно
+            if remaining > 0:
+                biggest = max(budgets, key=lambda k: budgets[k])
+                budgets[biggest] -= remaining
+        else:
+            # Недобор — добавляем остаток к главной категории
+            bonus_map = {"gaming": "gpu", "work": "cpu", "universal": "gpu"}
+            target = bonus_map.get(self.preset, "gpu")
+            budgets[target] += abs(diff)
+
+    def get_budgets(self) -> Dict[str, int]:
+        return dict(self._budgets)

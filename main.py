@@ -1,26 +1,32 @@
 import asyncio
+import logging
 
 from aiogram import Bot, Dispatcher
-from Bot.handlers.start import register_start_handlers
-from Bot.handlers.help import register_help_handlers
-from Bot.handlers.about import register_about_handlers
-from Bot.handlers.build import register_build_handlers
 from config import TOKEN
+
+from Bot.handlers.start import router as start_router
+from Bot.handlers.help import router as help_router
+from Bot.handlers.about import router as about_router
+from Bot.handlers.build import router as build_router
+
+logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
 
 bot = Bot(token=TOKEN)
 dp = Dispatcher()
 
-def register_all_handlers(disp: Dispatcher):
-    register_start_handlers(dp)
-    register_help_handlers(dp)
-    register_about_handlers(dp)
-    register_build_handlers(dp)
 
-async def main():
-    register_all_handlers(dp)
+def register_all_routers() -> None:
+    dp.include_router(start_router)
+    dp.include_router(help_router)
+    dp.include_router(about_router)
+    dp.include_router(build_router)
+
+
+async def main() -> None:
+    register_all_routers()
+    logging.info("Бот запускается...")
     await dp.start_polling(bot)
 
 
-
-if __name__ == '__main__':
+if __name__ == "__main__":
     asyncio.run(main())

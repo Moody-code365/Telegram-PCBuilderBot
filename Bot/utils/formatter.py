@@ -1,115 +1,135 @@
-from typing import Dict, Any
+from typing import Any, Dict
 
 
-def _human_name(key: str) -> str:
-    nice = {
-        "cpu": "🖥️ Процессор (CPU)",
-        "gpu": "🎮 Видеокарта (GPU)",
-        "ram": "💾 Оперативная память (RAM)",
-        "ssd": "⚡ SSD-накопитель",
-        "hdd": "📀 HDD",
-        "psu": "🔌 Блок питания (PSU)",
-        "motherboard": "🧩 Материнская плата",
-        "case": "🧱 Корпус",
-        "coolers": "🌀 Кулер / Система охлаждения",
-    }
-    return nice.get(key, key.capitalize())
+# ── Человекочитаемые названия категорий ──
+_NICE_NAMES: dict[str, str] = {
+    "cpu":         "🖥 Процессор",
+    "motherboard": "🧩 Материнская плата",
+    "gpu":         "🎮 Видеокарта",
+    "ram":         "💾 Оперативная память",
+    "ssd":         "⚡ SSD-накопитель",
+    "hdd":         "📀 HDD-накопитель",
+    "psu":         "🔌 Блок питания",
+    "cooler":      "❄️ Охлаждение",
+    "coolers":     "❄️ Охлаждение",
+    "case":        "🧱 Корпус",
+}
+
+# ── Порядок вывода ──
+_ORDER = ["cpu", "motherboard", "gpu", "ram", "ssd", "hdd", "psu", "cooler", "case"]
 
 
-def _fmt_price(p) -> str:
+def _fmt_price(price: Any) -> str:
+    """Форматирует цену: 123456 → '123 456 ₸'."""
     try:
-        p = int(p)
+        p = int(price)
         return f"{p:,} ₸".replace(",", " ")
-    except Exception:
-        return "—"
+    except (ValueError, TypeError):
+        return "— ₸"
 
 
-def normalize_result(result: Any):
+def _normalize_build(result: Any) -> tuple[dict, int]:
     """
-    Поддерживает разные форматы:
-     - {'build': {...}, 'total_price': 123}
-     - {'cpu': {...}, 'gpu': {...}, ...}
-     - None / {}
-    Возвращает (build_dict, total_price:int)
+    Приводит результат build_pc к единому формату.
+    Возвращает (build_dict, total_price).
     """
-    if not result:
+    if not result or not isinstance(result, dict):
         return {}, 0
 
-    if isinstance(result, dict) and "build" in result and "total_price" in result:
-        build = result.get("build") or {}
-        total = result.get("total_price") or 0
-        return build, int(total)
+    build = {k: v for k, v in result.items() if isinstance(v, dict)}
 
-    # if dict with components directly
-    if isinstance(result, dict):
-        # try to detect numbers inside -> assume it's total_price or something else
-        # build elements should be dicts, so keep only those
-        build = {k: v for k, v in result.items() if isinstance(v, dict)}
-        # try to find a total_price key if exists
-        total = result.get("total_price") or result.get("total") or 0
-        # if total is 0, compute from items
-        if not total:
-            s = 0
-            for v in build.values():
-                price = None
-                if isinstance(v, dict):
-                    price = v.get("price") or v.get("price_retail") or v.get("price_reseller")
-                try:
-                    s += int(price or 0)
-                except:
-                    continue
-            total = s
-        return build, int(total)
+    total = 0
+    for v in build.values():
+        try:
+            total += int(v.get("price", 0))
+        except (ValueError, TypeError):
+            pass
 
-    return {}, 0
+    return build, total
 
 
-def format_build_message(result: Any, budget: Any = None, usage: str = None, prefs: str = None) -> str:
-    """
-    Возвращает готовый к отправке Markdown-текст.
-    Параметры:
-      - result: то, что возвращает build_pc
-      - budget/usage/prefs: дополнительные поля для шапки (можно передать None)
-    """
-    build, total = normalize_result(result)
+def format_build_message(
+    result: Any,
+    budget: Any = None,
+    usage: str | None = None,
+    prefs: str | None = None,
+) -> str:
+    """Форматирует результат сборки в Markdown-сообщение для Telegram."""
 
-    lines = []
-    # header
-    header = "🧩 *Ваша итоговая сборка:*\n"
+    build, total = _normalize_build(result)
+
+    lines: list[str] = []
+
+    # ── Шапка ──
+    lines.append("━━━━━━━━━━━━━━━━━━━━")
+    lines.append("🛒 *Ваша сборка ПК*")
+    lines.append("━━━━━━━━━━━━━━━━━━━━\n")
+
     if budget is not None:
-        header = f"💸 *Бюджет:* {budget}\n" + header
+        lines.append(f"💰 *Бюджет:* {budget}")
     if usage:
-        header = f"🎯 *Назначение:* {usage}\n" + header
+        usage_nice = {"gaming": "🎮 Игры", "work": "🧪 Работа", "universal": "🎯 Универсальный"}
+        lines.append(f"🎯 *Назначение:* {usage_nice.get(usage, usage)}")
     if prefs:
-        header = f"✨ *Предпочтения:* {prefs}\n\n" + header
-    lines.append(header)
+        lines.append(f"✨ *Предпочтения:* {prefs}")
 
+    lines.append("")
+
+    # ── Компоненты ──
     if not build:
-        lines.append("🔍 *Компоненты не найдены или не корректны.*\n")
-        lines.append(f"💰 *Итого:* {_fmt_price(total)}")
+        lines.append("🔍 Компоненты не найдены. Попробуй другой бюджет.")
         return "\n".join(lines)
 
-    # body: по порядку — удобный порядок
-    order = ["cpu", "motherboard", "gpu", "ram", "ssd", "hdd", "psu", "coolers", "case"]
-    for key in order:
+    seen: set[str] = set()
+    for key in _ORDER:
+        if key in seen:
+            continue
+
         item = build.get(key)
         if not item or not isinstance(item, dict):
             continue
-        name = item.get("name") or item.get("title") or "Не указано"
-        # цена — нормализуем
-        price = item.get("price") or item.get("price_retail") or item.get("price_reseller") or 0
-        lines.append(f"{_human_name(key)}:\n• {name}\n• Цена: *{_fmt_price(price)}*\n")
 
-    # если есть другие ключи в build, покажем их тоже
-    extras = [k for k in build.keys() if k not in order]
-    for k in extras:
-        item = build.get(k)
-        if not item or not isinstance(item, dict):
+        seen.add(key)
+        # Алиасы cooler/coolers
+        if key in ("cooler", "coolers"):
+            seen.update({"cooler", "coolers"})
+
+        name = item.get("name", "—")
+        price = item.get("price", 0)
+        nice = _NICE_NAMES.get(key, key.upper())
+
+        lines.append(f"{nice}:")
+        lines.append(f"  _{name}_")
+        lines.append(f"  *{_fmt_price(price)}*")
+        lines.append("")
+
+    # Прочие категории (если вдруг есть)
+    for key, item in build.items():
+        if key in seen or not isinstance(item, dict):
             continue
-        name = item.get("name") or "Не указано"
-        price = item.get("price") or 0
-        lines.append(f"{_human_name(k)}:\n• {name}\n• Цена: *{_fmt_price(price)}*\n")
+        name = item.get("name", "—")
+        price = item.get("price", 0)
+        lines.append(f"{_NICE_NAMES.get(key, key)}:")
+        lines.append(f"  _{name}_")
+        lines.append(f"  *{_fmt_price(price)}*")
+        lines.append("")
 
-    lines.append(f"💰 *Итого:* *{_fmt_price(total)}*")
+    # ── Итого ──
+    lines.append("━━━━━━━━━━━━━━━━━━━━")
+    lines.append(f"💵 *ИТОГО: {_fmt_price(total)}*")
+
+    if budget is not None:
+        try:
+            b = int(budget) if isinstance(budget, (int, float)) else int("".join(c for c in str(budget) if c.isdigit()) or "0")
+            if b > 0:
+                saved = b - total
+                if saved > 0:
+                    lines.append(f"✅ Экономия: {_fmt_price(saved)}")
+                elif saved == 0:
+                    lines.append("✅ Точно в бюджет!")
+        except (ValueError, TypeError):
+            pass
+
+    lines.append("━━━━━━━━━━━━━━━━━━━━")
 
     return "\n".join(lines)
