@@ -1,0 +1,227 @@
+МОДЕЛЬ: openai/gpt-oss-120b
+БЮДЖЕТ: 350,000 ₸
+НАЗНАЧЕНИЕ: gaming
+КОМПОНЕНТОВ: 624
+================================================================================
+
+Ты - эксперт по сборке ПК. Проанализируй бюджет и предложи оптимальное распределение средств.
+
+ВАЖНОЕ ПРАВИЛО: Общая сумма всех компонентов НЕ ДОЛЖНА превышать 350,000 тенге!
+
+Бюджет: 350,000 тенге
+Назначение: игровой ПК с акцентом на видеокарту и производительность
+
+Анализ доступных компонентов (после фильтрации мусора):
+{
+  "cpu": {
+    "min": 25461,
+    "max": 326230,
+    "count": 63,
+    "avg": 132962
+  },
+  "ram": {
+    "min": 13356,
+    "max": 484727,
+    "count": 69,
+    "avg": 162780
+  },
+  "gpu": {
+    "min": 14980,
+    "max": 1920360,
+    "count": 64,
+    "avg": 307827
+  },
+  "coolers": {
+    "min": 1360,
+    "max": 74320,
+    "count": 119,
+    "avg": 22786
+  },
+  "psu": {
+    "min": 8350,
+    "max": 293730,
+    "count": 43,
+    "avg": 68873
+  },
+  "case": {
+    "min": 6300,
+    "max": 128962,
+    "count": 62,
+    "avg": 32918
+  },
+  "hdd": {
+    "min": 57020,
+    "max": 346700,
+    "count": 21,
+    "avg": 147435
+  },
+  "ssd": {
+    "min": 14172,
+    "max": 583793,
+    "count": 81,
+    "avg": 85146
+  },
+  "motherboard": {
+    "min": 25100,
+    "max": 432310,
+    "count": 102,
+    "avg": 82266
+  }
+}
+
+Примеры лучших компонентов в каждой категории (топ-3):
+{
+  "cpu": [
+    {
+      "name": "CPU AMD Ryzen 9 7950X3D, 4.2GHz (Raphael, 5.7), 16",
+      "price": 326230
+    },
+    {
+      "name": "СPU Intel Сore Ultra 9 285, 2.5GHz (Arrow Lake, 5.",
+      "price": 308666
+    },
+    {
+      "name": "СPU Intel Сore Ultra 9 285K, 3.2GHz (Arrow Lake, 5",
+      "price": 297430
+    }
+  ],
+  "ram": [
+    {
+      "name": "DIMM DDR5 64 GB kit <5200MHz> Kingston Fury Beast,",
+      "price": 484727
+    },
+    {
+      "name": "DIMM DDR5 64 GB kit <5200MHz> Kingston Fury Beast ",
+      "price": 482766
+    },
+    {
+      "name": "DIMM DDR4 64 GB kit <3600MHz> Kingston Fury Beast ",
+      "price": 335730
+    }
+  ],
+  "gpu": [
+    {
+      "name": "GPU NVIDIA,32 GB, Gigabyte RTX 5090 Gaming OC [GV-",
+      "price": 1920360
+    },
+    {
+      "name": "GPU NVIDIA,16 GB, ASUS RTX 5080 OC [PRIME-RTX5080-",
+      "price": 833310
+    },
+    {
+      "name": "GPU NVIDIA,16 GB, Gigabyte RTX 5080 AERO OC SFF [G",
+      "price": 792500
+    }
+  ],
+  "coolers": [
+    {
+      "name": "Water Cooler Gigabyte AORUS WATERFORCE X280, for 2",
+      "price": 74320
+    },
+    {
+      "name": "Water Cooler Arctic Liquid Freezer III Pro 420 ARG",
+      "price": 71770
+    },
+    {
+      "name": "Water Cooler ARCTIC Liquid Freezer III Pro 420 Bla",
+      "price": 70630
+    }
+  ],
+  "psu": [
+    {
+      "name": "Power supply ATX Seasonic Prime PX-2200, SRP-PPX22",
+      "price": 293730
+    },
+    {
+      "name": "Power supply ATX Seasonic Prime TX-1600, SSR-1600T",
+      "price": 276040
+    },
+    {
+      "name": "Power supply ATX Seasonic Prime PX-1600, SSR-1600P",
+      "price": 224410
+    }
+  ],
+  "case": [
+    {
+      "name": "Case ATX midi tower Arctic Cooling Xtender VG ACPC",
+      "price": 128962
+    },
+    {
+      "name": "Case ATX midi tower Corsair, iCUE 5000X RGB QL Edi",
+      "price": 110610
+    },
+    {
+      "name": "Case ATX midi tower NZXT, H9 ELITE, 4*120 , (Без Б",
+      "price": 109810
+    }
+  ],
+  "hdd": [
+    {
+      "name": "HDD SATA 22000 GB Western Digital Purple, WD221PUR",
+      "price": 346700
+    },
+    {
+      "name": "HDD SATA 18000 GB Western Digital Gold WD181KRYZ, ",
+      "price": 279406
+    },
+    {
+      "name": "HDD SATA 10000 GB Western Digital Purple PRO, WD10",
+      "price": 223910
+    }
+  ],
+  "ssd": [
+    {
+      "name": "SSD M.2 PCIe 4 TB Kingston FURY Renegade, SFYRDK/4",
+      "price": 583793
+    },
+    {
+      "name": "SSD M.2 PCIe 4 TB Kingston SFYR2S, SFYR2S/4T0, PCI",
+      "price": 450396
+    },
+    {
+      "name": "SSD M.2 PCIe 4 TB Kingston SNV3S, SNV3S/4000G, PCI",
+      "price": 356189
+    }
+  ],
+  "motherboard": [
+    {
+      "name": "MB Socket sTR5, E-ATX, AMD TRX50 (DP) GigabyteTRX5",
+      "price": 432310
+    },
+    {
+      "name": "MB Socket AM5, ATX, AMD X870E (HDMI), Gigabyte X87",
+      "price": 279940
+    },
+    {
+      "name": "MB Socket AM5, ATX, AMD X870 (DP+HDMI), ASUS ROG S",
+      "price": 221450
+    }
+  ]
+}
+
+Верни JSON с распределением бюджета по категориям:
+{
+    "cpu": бюджет_процессор,
+    "motherboard": бюджет_материнская_плата,
+    "ram": бюджет_оперативная_память,
+    "gpu": бюджет_видеокарта,
+    "ssd": бюджет_накопитель,
+    "psu": бюджет_блок_питания,
+    "coolers": бюджет_кулер,
+    "case": бюджет_корпус
+}
+
+Учитывай:
+
+- Распределяй бюджет логично исходя из назначения ПК
+- Для игровых ПК: приоритет видеокарте, затем процессору
+- Для рабочих ПК: приоритет процессору и оперативной памяти  
+- Для универсальных: сбалансированное распределение
+- Обеспечь совместимость сокетов и чипсетов
+- СУММА НЕ ДОЛЖНА ПРЕВЫШАТЬ 350,000 тенге - ЭТО КРАЙНЕ ВАЖНО!
+- Оставь небольшой запас (~5% бюджета) для непредвиденных расходов
+- Все значения должны быть целыми числами
+- Ориентируй на СРЕДНИЕ цены из доступных компонентов: {"cpu": 132962, "ram": 162780, "gpu": 307827, "coolers": 22786, "psu": 68873, "case": 32918, "hdd": 147435, "ssd": 85146, "motherboard": 82266}
+- Используй только компоненты из предоставленного списка
+- При большом бюджете выбирай более производительные компоненты
+- Учитывай что названия компонентов содержат информацию об объеме и характеристиках
