@@ -7,38 +7,36 @@ from aiogram.fsm.context import FSMContext
 
 from Bot.states.build_state import BuildPC
 from Bot.keyboards.main_kb import main_keyboard
-from Bot.keyboards.build_kb import budget_keyboard, usage_keyboard, preferences_keyboard
+from Bot.keyboards.build_kb import usage_keyboard
 from Bot.services.component_loader import load_components
-from Bot.services.pc_builder import build_pc, escape_md
-from Bot.utils.formatter import format_build_message
+from Bot.services.ai_pc_builder import build_pc_with_ai
+from Bot.services.pc_builder import escape_md
+from Bot.utils.enhanced_formatter import (
+    format_enhanced_ai_build_message, 
+    get_ai_welcome_message, 
+    get_ai_process_messages,
+    get_ai_completion_message,
+    get_build_status_emoji
+)
 from Bot.utils.text_cleaner import normalize
-from Bot.data.options import BUDGET_OPTIONS, USAGE_OPTIONS
+
+from Bot.data.options import USAGE_OPTIONS
 
 logger = logging.getLogger(__name__)
 
+
 router = Router()
-
-# ── Маппинг кнопок бюджета → число (верхняя граница) ────
-BUDGET_MAP: dict[str, int] = {
-    "💰 до 150 000 ₸":    150_000,
-    "💰 150–250 000 ₸":   250_000,
-    "💰 250–400 000 ₸":   400_000,
-    "💰 400–600 000 ₸":   600_000,
-    "💰 600–900 000 ₸":   900_000,
-    "💰 900 000 ₸+":      1_200_000,
-}
-
-
-# ────────────────────────── СТАРТ СБОРКИ ──────────────────────────
 
 @router.message(F.text == "🖥 Собрать ПК")
 @router.message(Command("build"))
 async def cmd_build(message: Message, state: FSMContext) -> None:
     await state.clear()
     await message.answer(
-        "💰 Укажи бюджет на сборку (₸):\n\n"
-        "Выбери вариант или введи число вручную.",
-        reply_markup=budget_keyboard(),
+        "💰 *Введи бюджет на сборку в тенге*\n\n"
+        "Просто напиши число, например: `350000`\n\n"
+        "Бот подберёт комплектующие *строго в пределах* этой суммы — "
+        "итоговая сборка будет стоить ровно столько или дешевле.",
+        parse_mode="Markdown",
     )
     await state.set_state(BuildPC.budget)
 
@@ -49,62 +47,57 @@ async def cmd_build(message: Message, state: FSMContext) -> None:
 async def set_budget(message: Message, state: FSMContext) -> None:
     text = (message.text or "").strip()
 
-    # Кнопка «Назад»
-    if text == "⬅️ Назад":
+    if text == "⬅️ Отмена":
         await state.clear()
-        return await message.answer("🔙 Главное меню", reply_markup=main_keyboard())
+        return await message.answer("🏠 Главное меню", reply_markup=main_keyboard())
 
-    # Пользователь выбрал готовый вариант
-    if text in BUDGET_MAP:
-        numeric = BUDGET_MAP[text]
-        await state.update_data(budget=numeric, budget_label=text)
-        await state.set_state(BuildPC.usage)
-        return await message.answer(
-            "🎯 Для чего нужен ПК?",
-            reply_markup=usage_keyboard(),
-        )
-
-    # Пользователь также мог нажать старые кнопки из BUDGET_OPTIONS
-    if text in BUDGET_OPTIONS:
-        # Пытаемся найти в BUDGET_MAP по частичному совпадению
-        numeric = 300_000  # fallback
-        for key, val in BUDGET_MAP.items():
-            if any(part in key for part in text.split()):
-                numeric = val
-                break
-        await state.update_data(budget=numeric, budget_label=text)
-        await state.set_state(BuildPC.usage)
-        return await message.answer(
-            "🎯 Для чего нужен ПК?",
-            reply_markup=usage_keyboard(),
-        )
-
-    # Пользователь ввёл число
+    # Извлекаем цифры из текста
     digits = "".join(c for c in text if c.isdigit())
-    if digits and len(digits) >= 4:
-        numeric = int(digits)
-        label = f"{numeric:,} ₸".replace(",", " ")
-        await state.update_data(budget=numeric, budget_label=label)
-        await state.set_state(BuildPC.usage)
+
+    if not digits or len(digits) < 5:
         return await message.answer(
-            "🎯 Для чего нужен ПК?",
-            reply_markup=usage_keyboard(),
+            "⚠️ Введи сумму числом, минимум 100 000 ₸.\n"
+            "Например: `400000`",
+            parse_mode="Markdown",
         )
 
-    return await message.answer(
-        "⚠️ Введи число (например: 300000) или выбери вариант на клавиатуре."
+    numeric = int(digits)
+
+    if numeric < 100_000:
+        return await message.answer(
+            "⚠️ Минимальный бюджет — *100 000 ₸*.\n"
+            "С меньшей суммой невозможно собрать рабочий ПК.",
+            parse_mode="Markdown",
+        )
+
+    if numeric > 5_000_000:
+        return await message.answer(
+            "⚠️ Максимальный бюджет — *5 000 000 ₸*.\n"
+            "Введи реальную сумму.",
+            parse_mode="Markdown",
+        )
+
+    label = f"{numeric:,} ₸".replace(",", " ")
+
+    await state.update_data(budget=numeric, budget_label=label)
+    await state.set_state(BuildPC.usage)
+    await message.answer(
+        f"✅ Бюджет: *{label}*\n\n"
+        "Для чего нужен ПК?",
+        parse_mode="Markdown",
+        reply_markup=usage_keyboard(),
     )
 
 
-# ────────────────────────── НАЗНАЧЕНИЕ ──────────────────────────
+# ────────────────────────── НАЗНАЧЕНИЕ + СБОРКА ──────────────────────────
 
 @router.message(BuildPC.usage)
 async def set_usage(message: Message, state: FSMContext) -> None:
     text = (message.text or "").strip()
 
-    if text == "⬅️ Назад":
-        await state.set_state(BuildPC.budget)
-        return await message.answer("🔙 Выбери бюджет:", reply_markup=budget_keyboard())
+    if text == "⬅️ Отмена":
+        await state.clear()
+        return await message.answer("🏠 Главное меню", reply_markup=main_keyboard())
 
     cleaned = normalize(text)
 
@@ -115,40 +108,28 @@ async def set_usage(message: Message, state: FSMContext) -> None:
             break
 
     if not matched:
-        return await message.answer("⚠️ Выбери вариант из меню или напиши: игры / работа / универсальный")
+        return await message.answer(
+            "⚠️ Выбери вариант из меню:\n"
+            "🎮 Игры · 💼 Работа · 🔄 Универсальный"
+        )
 
     await state.update_data(usage=matched)
-    await state.set_state(BuildPC.preferences)
-    await message.answer(
-        "✨ Есть предпочтения?\n"
-        "Выбери или напиши своё.",
-        reply_markup=preferences_keyboard(),
-    )
-
-
-# ────────────────────────── ПРЕДПОЧТЕНИЯ + СБОРКА ──────────────────────────
-
-@router.message(BuildPC.preferences)
-async def set_preferences(message: Message, state: FSMContext) -> None:
-    text = (message.text or "").strip()
-
-    if text == "⬅️ Назад":
-        await state.set_state(BuildPC.usage)
-        return await message.answer("🔙 Выбери назначение:", reply_markup=usage_keyboard())
-
-    await state.update_data(preferences=text)
     data = await state.get_data()
 
-    # ── Парсим бюджет (гарантируем int) ──
-    budget_val = data.get("budget", 300_000)
-    if isinstance(budget_val, str):
-        digits = "".join(c for c in budget_val if c.isdigit())
-        budget_val = int(digits) if digits else 300_000
-    budget_val = int(budget_val)
+    budget_val: int = data["budget"]
+    preset: str = matched
+    label: str = data.get("budget_label", str(budget_val))
 
-    preset = data.get("usage") or "universal"
+    usage_nice = {"gaming": "🎮 Игры", "work": "💼 Работа", "universal": "🔄 Универсальный"}
 
-    logger.info("Сборка: budget=%s, preset=%s, prefs=%s", budget_val, preset, text)
+    # Уведомление о начале сборки
+    await message.answer(
+        f"🤖 *Анализирую ваши требования...*\n\n"
+        f"💰 Бюджет: *{label}*\n"
+        f"🎯 Назначение: *{usage_nice.get(preset, preset)}*\n\n"
+        f"⚡ *ИИ подбирает оптимальные компоненты...*",
+        parse_mode="Markdown",
+    )
 
     # ── Загружаем компоненты ──
     try:
@@ -161,30 +142,43 @@ async def set_preferences(message: Message, state: FSMContext) -> None:
             reply_markup=main_keyboard(),
         )
 
+    # ── Сообщение о процессе сборки ──
+    await message.answer(
+        "🔍 *Анализирую совместимость компонентов...*\n\n"
+        "🧠 *ИИ проверяет оптимальные конфигурации...*\n\n"
+        "⚙️ *Формирую финальную сборку...*",
+        parse_mode="Markdown",
+    )
+
     # ── Собираем ПК ──
     try:
-        result = build_pc(budget_val, preset, all_parts)
+        result, used_ai, ai_explanation = build_pc_with_ai(budget_val, preset, all_parts, enable_ai=True)
     except Exception as e:
-        logger.error("Ошибка сборки: %s", e)
+        logger.error("Ошибка сборки: %s", e, exc_info=True)
         await state.clear()
         return await message.answer(
-            "❌ Ошибка при подборе. Попробуй другой бюджет.",
+            "❌ Не удалось подобрать сборку. Попробуй другой бюджет.",
             reply_markup=main_keyboard(),
         )
 
     # ── Экранируем Markdown в именах ──
-    for cat, item in result.items():
+    for item in result.values():
         if item and isinstance(item, dict) and "name" in item:
             item["name"] = escape_md(item["name"])
 
     # ── Форматируем и отправляем ──
-    message_text = format_build_message(
+    message_text = format_enhanced_ai_build_message(
         result,
-        budget=data.get("budget_label", budget_val),
-        usage=data.get("usage"),
-        prefs=data.get("preferences"),
+        budget=budget_val,
+        usage=preset,
+        used_ai=used_ai,
+        ai_explanation=ai_explanation
     )
 
+    # ── Сообщение о завершении сборки ──
+    completion_message = get_ai_completion_message(used_ai)
+    await message.answer(completion_message, parse_mode="Markdown")
+
     await message.answer(message_text, parse_mode="Markdown", reply_markup=main_keyboard())
-    logger.info("Сборка отправлена пользователю %s", message.from_user.id)
+    logger.info("Сборка отправлена: user=%s budget=%s preset=%s", message.from_user.id, budget_val, preset)
     await state.clear()

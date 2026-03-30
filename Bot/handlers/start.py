@@ -10,8 +10,11 @@ router = Router()
 @router.message(CommandStart())
 async def cmd_start(message: Message) -> None:
     await message.answer(
-        "👋 Привет! Я — бот-сборщик ПК.\n\n"
-        "Подберу оптимальные комплектующие под твой бюджет.\n"
-        "Нажми кнопку ниже, чтобы начать!",
+        "👋 *Привет!* Я — бот для подбора комплектующих ПК.\n\n"
+        "🔹 Укажи бюджет\n"
+        "🔹 Выбери назначение\n"
+        "🔹 Получи готовую сборку\n\n"
+        "Нажми кнопку ниже, чтобы начать 👇",
+        parse_mode="Markdown",
         reply_markup=main_keyboard(),
     )

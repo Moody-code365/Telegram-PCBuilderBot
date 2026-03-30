@@ -9,10 +9,9 @@ router = Router()
 @router.message(Command("about"))
 async def cmd_about(message: Message) -> None:
     await message.answer(
-        "🤖 *PC Builder Bot*\n\n"
+        "ℹ️ *PC Builder Bot v2.0*\n\n"
         "Автоматический подбор комплектующих для ПК.\n"
         "Учитывает совместимость, бюджет и назначение.\n\n"
-        "⚙️ Python · Aiogram 3\n"
-        "📦 Версия: 2.0",
+        "⚙️ Python · Aiogram 3",
         parse_mode="Markdown",
     )
