@@ -8,6 +8,7 @@ from Bot.handlers.start import router as start_router
 from Bot.handlers.help import router as help_router
 from Bot.handlers.about import router as about_router
 from Bot.handlers.build import router as build_router
+from Bot.handlers.preferences import router as preferences_router
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
 
@@ -20,6 +21,7 @@ def register_all_routers() -> None:
     dp.include_router(help_router)
     dp.include_router(about_router)
     dp.include_router(build_router)
+    dp.include_router(preferences_router)
 
 
 async def main() -> None:

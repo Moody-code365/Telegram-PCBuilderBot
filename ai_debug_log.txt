@@ -1,0 +1,2260 @@
+
+================================================================================
+🕐 2026-03-31 01:48:45.399230
+🤖 Модель: openai/gpt-oss-120b
+📋 JSON: True
+📤 ПРОМПТ:
+Ты - эксперт по сборке ПК. Выбери лучший вариант из предложенных.
+
+БЮДЖЕТ: 500,000 ₸
+НАЗНАЧЕНИЕ: gaming
+ПРЕДПОЧТЕНИЯ ПОЛЬЗОВАТЕЛЯ:
+Процессор: Intel. Видеокарта: NVIDIA. 
+
+ДОСТУПНЫЕ ВАРИАНТЫ (выбери 1 из каждой категории):
+
+{
+ "hdd": [
+  {
+   "name": "HDD SATA 2000 GB Toshiba P300, HDWD220UZSVA, 5400rpm, 128MB, SATA 6Gb/s, bulk",
+   "price": 57020,
+   "code": ""
+  },
+  {
+   "name": "HDD SATA 4000 GB Seagate IronWolf Pro, ST4000NT001, 7200rpm, 256MB cache, SATA 6.0 Gb/s",
+   "price": 105320,
+   "code": ""
+  },
+  {
+   "name": "HDD SATA 6000 GB Western Digital Gold, WD6004FRYZ, 7200rpm, 256MB cache, SATA 6 Gb/s",
+   "price": 146088,
+   "code": ""
+  },
+  {
+   "name": "HDD SATA 10000 GB Western Digital Purple PRO, WD102PURP, 7200rpm, 267MB cache, SATA 6 Gb/s",
+   "price": 223910,
+   "code": ""
+  }
+ ],
+ "gpu": [
+  {
+   "name": "GPU NVIDIA, 1 GB, Afox GT 210 [AF210-1024D3L5-V2], DVI/HDMI/VGA, GDDR3/64bit, +LP",
+   "price": 21840,
+   "code": ""
+  },
+  {
+   "name": "GPU NVIDIA, 4 GB, Afox GT 420 [AF420-4096D3L2], DVI/HDMI/VGA, DDR3/128bit, +LP",
+   "price": 25200,
+   "code": ""
+  },
+  {
+   "name": "GPU NVIDIA, 4 GB, Afox GT 420 [AF420-4096D3L5], DVI/HDMI/VGA, DDR3/128bit, +LP",
+   "price": 25200,
+   "code": ""
+  }
+ ],
+ "motherboard": [
+  {
+   "name": "MB Socket1200, MATX, iH510 (VGA, HDMI), Biostar H510MHP, 2DDR4, PCIx16, 2PCIx1",
+   "price": 27146,
+   "code": ""
+  },
+  {
+   "name": "MB Socket1700, MATX, iB760 (DP+HDMI), MaxSun Terminator B760M D5, 4DDR5, PCIx16, PCIx1",
+   "price": 59370,
+   "code": ""
+  },
+  {
+   "name": "MB Socket AM5, ATX, AMD B850 (DP+HDMI), ASRock B850 PRO RS WIFI, 4DDR5, PCIx16",
+   "price": 95580,
+   "code": ""
+  },
+  {
+   "name": "MB Socket AM5, ATX, AMD X870 (DP+HDMI), ASUS ROG STRIX X870-A GAMING WIFI, 4DDR5, 2PCIx16",
+   "price": 221450,
+   "code": ""
+  }
+ ],
+ "ram": [
+  {
+   "name": "DIMM DDR3 8 GB <1600MHz> KingBank KDUN, K5.01.FP034C4001, CL11",
+   "price": 13356,
+   "code": ""
+  },
+  {
+   "name": "DIMM DDR5 16 GB <5600MHz> MAXSUN, MSDS16G56W5, 16 GB CL46",
+   "price": 96971,
+   "code": ""
+  },
+  {
+   "name": "DIMM DDR4 32 GB kit <3200MHz> G.Skill Trident Z RGB (AMD), F4-3200C16D-32GTZRX, (2x16GB),16-18-18-38",
+   "price": 153616,
+   "code": ""
+  },
+  {
+   "name": "DIMM DDR5 32 GB kit <5600MHz> Kingston Fury Beast (AMD+Intel), KF556C36BBEK2-32, (2x16GB), CL36",
+   "price": 246989,
+   "code": ""
+  }
+ ],
+ "case": [
+  {
+   "name": "Case MATX midi tower ONVYX, PCM355W, (без БП), White",
+   "price": 11900,
+   "code": ""
+  },
+  {
+   "name": "Case ATX midi tower APEX, 3701, 1*120mm ARGB + 3*120mm black + ARGB fan hub + remote contr. (без БП)",
+   "price": 21380,
+   "code": ""
+  },
+  {
+   "name": "Case ATX midi tower SAMA, V60 , (Без БП), Black",
+   "price": 34810,
+   "code": ""
+  },
+  {
+   "name": "Case ATX midi tower Arctic Cooling Xtender VG ACPCC00017A, (без БП), white",
+   "price": 128962,
+   "code": ""
+  }
+ ],
+ "psu": [
+  {
+   "name": "Power supply ATX Wintek WT-450, 450W, 80 Plus Bronze , black",
+   "price": 11370,
+   "code": ""
+  },
+  {
+   "name": "Power supply TFX Seasonic SSP-300TBS, 300W, 80 Plus Bronze, oem,",
+   "price": 27220,
+   "code": ""
+  },
+  {
+   "name": "Power supply ATX ASUS TUF-GAMING-750G, 750W, 80plus Gold, full modular, ATX 3.0",
+   "price": 69070,
+   "code": ""
+  },
+  {
+   "name": "Power supply ATX Seasonic Prime PX-1600, SSR-1600PD2, 80plus Platinum, Modular, ATX 3.0, 1600W",
+   "price": 224410,
+   "code": ""
+  }
+ ],
+ "ssd": [
+  {
+   "name": "SSD SATA 128 GB Indilinx, IND-S325S128GX, SATA 6Gb/s",
+   "price": 14172,
+   "code": ""
+  },
+  {
+   "name": "SSD M.2 PCIe 250 GB Patriot P400 Lite, P400LP250GM28H, PCIe Gen4 x4",
+   "price": 33580,
+   "code": ""
+  },
+  {
+   "name": "SSD M.2 PCIe 1 TB HikSemi (Hikvision) E1000, HS-SSD-E1000 1024G , PCIe 3.0 x4, NVMe 1.3",
+   "price": 73724,
+   "code": ""
+  },
+  {
+   "name": "SSD M.2 PCIe 4 TB Patriot P400 Lite, P400LP4KGM28H, PCIe Gen4 x4",
+   "price": 246160,
+   "code": ""
+  }
+ ],
+ "cpu": [
+  {
+   "name": "СPU Intel Сore i3-10105F, 3.7GHz (Comet Lake, 4.4), 4C/8T, 6 MB L3, TDP 65W, S1200, oem",
+   "price": 30299,
+   "code": ""
+  },
+  {
+   "name": "СPU Intel Сore i3-12100F, 3.3GHz (Alder Lake, 4.3), 4C/8T, 12 MB L3, MTP 89W, S1700, oem",
+   "price": 40786,
+   "code": ""
+  },
+  {
+   "name": "СPU Intel Сore i3-10105, 3.7GHz (Comet Lake, 4.4), 4C/8T, 6 MB L3, TDP 65W, UHD630, S1200, oem",
+   "price": 50900,
+   "code": ""
+  }
+ ],
+ "coolers": [
+  {
+   "name": "Cooler PCCooler, RZ400 V2 BK, for S1700/1851/1200/115x/AMD, 245W, 2000 rpm",
+   "price": 10040,
+   "code": ""
+  },
+  {
+   "name": "Cooler ID-Cooling, FROZN A620 BLACK, for S1700/1200/115x/AMD, 270W, 500-2000rpm, 4pin",
+   "price": 20290,
+   "code": ""
+  },
+  {
+   "name": "Water Cooler ID-Cooling FX360 LCD PE WHITE, for S1851/1700/1200/115x/AMD",
+   "price": 36230,
+   "code": ""
+  },
+  {
+   "name": "Water Cooler Gigabyte AORUS WATERFORCE X280, for 2011/2066/1366/115*/1700/AMD, 800-2500rpm",
+   "price": 74320,
+   "code": ""
+  }
+ ]
+}
+
+ПРАВИЛА ВЫБОРА:
+- Выбери ОДИН вариант из каждой категории
+- Учитывай бюджет и предпочтения пользователя
+- Игровой ПК: приоритет видеокарте и процессору
+- Рабочий ПК: приоритет процессору и памяти
+- Совместимость сокетов и типов памяти
+- Бюджет можно превысить на 5-10% если стоит того
+
+Верни JSON:
+{
+  "cpu": {"name": "", "price": 0, "code": ""},
+  "motherboard": {"name": "", "price": 0, "code": ""},
+  "ram": {"name": "", "price": 0, "code": ""},
+  "gpu": {"name": "", "price": 0, "code": ""},
+  "ssd": {"name": "", "price": 0, "code": ""},
+  "psu": {"name": "", "price": 0, "code": ""},
+  "coolers": {"name": "", "price": 0, "code": ""},
+  "case": {"name": "", "price": 0, "code": ""}
+}
+📥 ОТВЕТ:
+{"cpu":{"name":"СPU Intel Сore i3-12100F, 3.3GHz (Alder Lake, 4.3), 4C/8T, 12 MB L3, MTP 89W, S1700, oem","price":40786,"code":""},"motherboard":{"name":"MB Socket1700, MATX, iB760 (DP+HDMI), MaxSun Terminator B760M D5, 4DDR5, PCIx16, PCIx1","price":59370,"code":""},"ram":{"name":"DIMM DDR5 16 GB <5600MHz> MAXSUN, MSDS16G56W5, 16 GB CL46","price":96971,"code":""},"gpu":{"name":"GPU NVIDIA, 4 GB, Afox GT 420 [AF420-4096D3L5], DVI/HDMI/VGA, DDR3/128bit, +LP","price":25200,"code":""},"ssd":{"name":"SSD M.2 PCIe 1 TB HikSemi (Hikvision) E1000, HS-SSD-E1000 1024G , PCIe 3.0 x4, NVMe 1.3","price":73724,"code":""},"psu":{"name":"Power supply ATX ASUS TUF-GAMING-750G, 750W, 80plus Gold, full modular, ATX 3.0","price":69070,"code":""},"coolers":{"name":"Cooler ID-Cooling, FROZN A620 BLACK, for S1700/1200/115x/AMD, 270W, 500-2000rpm, 4pin","price":20290,"code":""},"case":{"name":"Case ATX midi tower APEX, 3701, 1*120mm ARGB + 3*120mm black + ARGB fan hub + remote contr. (без БП)","price":21380,"code":""}}
+================================================================================
+
+================================================================================
+🕐 2026-03-31 01:48:46.177525
+🤖 Модель: openai/gpt-oss-120b
+📋 JSON: False
+📤 ПРОМПТ:
+
+Объясни выбор ПК для gaming на бюджет 500,000 ₸.
+
+Ключевые компоненты:
+- Процессор: СPU Intel Сore i3-12100F
+- Оперативная память: DIMM DDR5 16 GB <5600MHz> MAXSUN  
+- Видеокарта: GPU NVIDIA
+- Общая стоимость: 406,791 ₸
+
+Дай краткое объяснение (2-3 предложения) почему это хороший выбор для gaming.
+Объясни простым языком для обычного пользователя.
+
+📥 ОТВЕТ:
+Это хороший набор для игр, потому что процессор i3‑12100F обеспечивает отличную однопоточную производительность, а большинство современных игр именно на этом и «живут». 16 ГБ DDR5‑памяти с высокой частотой 5600 МГц позволяют быстро загружать уровни и держать стабильный FPS, а видеокарта NVIDIA (модель, подходящая под ваш бюджет) даст достаточную графическую мощность для плавного геймплея в Full HD и даже в 1440p. При стоимости ≈ 406 тыс. ₸ это оставляет запас в бюджете для корпуса, блока питания и SSD, так что вы получаете сбалансированную систему без лишних переплат.
+================================================================================
+
+================================================================================
+🕐 2026-03-31 01:55:03.518374
+🤖 Модель: openai/gpt-oss-120b
+📋 JSON: True
+📤 ПРОМПТ:
+Ты - эксперт по сборке ПК. Выбери лучший вариант из предложенных.
+
+БЮДЖЕТ: 600,000 ₸
+НАЗНАЧЕНИЕ: gaming
+ПРЕДПОЧТЕНИЯ ПОЛЬЗОВАТЕЛЯ:
+Процессор: AMD. Видеокарта: AMD Radeon. 
+
+ДОСТУПНЫЕ ВАРИАНТЫ (выбери 1 из каждой категории):
+
+{
+ "motherboard": [
+  {
+   "name": "MB Socket1200, MATX, iH510 (VGA, HDMI), Biostar H510MHP, 2DDR4, PCIx16, 2PCIx1",
+   "price": 27146,
+   "code": ""
+  },
+  {
+   "name": "MB Socket1700, MATX, iB760 (DP+HDMI), MaxSun Terminator B760M D5, 4DDR5, PCIx16, PCIx1",
+   "price": 59370,
+   "code": ""
+  },
+  {
+   "name": "MB Socket AM5, ATX, AMD B850 (DP/HDMI), Gigabyte B850 EAGLE ICE, 4DDR5, PCIx16",
+   "price": 96140,
+   "code": ""
+  },
+  {
+   "name": "MB Socket AM5, ATX, AMD X870E (HDMI), Gigabyte X870E AORUS MASTER, 4DDR5, 2PCIx16",
+   "price": 279940,
+   "code": ""
+  }
+ ],
+ "psu": [
+  {
+   "name": "Power supply ATX Wintek WT-450, 450W, 80 Plus Bronze , black",
+   "price": 11370,
+   "code": ""
+  },
+  {
+   "name": "Power supply TFX Seasonic SSP-300TBS, 300W, 80 Plus Bronze, oem,",
+   "price": 27220,
+   "code": ""
+  },
+  {
+   "name": "Power supply ATX, FSP ADVAN-850GM, 850W, 80 Plus Gold, modular, black",
+   "price": 70330,
+   "code": ""
+  },
+  {
+   "name": "Power supply ATX Seasonic Prime PX-2200, SRP-PPX222-A5A22ST, 2200W, 80PLUS Platinum, modular, ATX3.0",
+   "price": 293730,
+   "code": ""
+  }
+ ],
+ "ram": [
+  {
+   "name": "DIMM DDR3 8 GB <1600MHz> KingBank KDUN, K5.01.FP034C4001, CL11",
+   "price": 13356,
+   "code": ""
+  },
+  {
+   "name": "DIMM DDR5 16 GB <5600MHz> Netac Basic, NTBSD5P56SP-16, CL46",
+   "price": 110762,
+   "code": ""
+  },
+  {
+   "name": "DIMM DDR4 32 GB kit <3200MHz> Kingston Fury Beast RGB, KF432C16BB12AK2/32, (2x16GB), CL16",
+   "price": 168317,
+   "code": ""
+  },
+  {
+   "name": "DIMM DDR5 32 GB kit <6000MHz> Kingston Fury Beast RGB (AMD+Intel), KF560C36BWE2AK2-32, (2x16GB),CL36",
+   "price": 264420,
+   "code": ""
+  }
+ ],
+ "gpu": [
+  {
+   "name": "GPU AMD, 2 GB, Afox HD 6450 [AF6450-2048D3L5], HDMI/DVI/VGA, DDR3/64bit",
+   "price": 14980,
+   "code": ""
+  },
+  {
+   "name": "GPU NVIDIA, 6 GB, ASUS RTX 3050 DUAL OC [DUAL-RTX3050-O6G], DP/DVI-D/HDMI, GDDR6/96bit",
+   "price": 125620,
+   "code": ""
+  },
+  {
+   "name": "GPU NVIDIA, 8 GB, Colorful RTX 5060 Ti Battle AX DUO 8GB-V,HDMI/3DP,GDDR7/128-bit",
+   "price": 233540,
+   "code": ""
+  },
+  {
+   "name": "GPU AMD,16 GB, ASUS RX 9060 XT DUAL WHITE [DUAL-RX9060XT-16G-WHITE], HDMI/2DP, GDDR6/128bit",
+   "price": 297900,
+   "code": ""
+  }
+ ],
+ "ssd": [
+  {
+   "name": "SSD SATA 128 GB Indilinx, IND-S325S128GX, SATA 6Gb/s",
+   "price": 14172,
+   "code": ""
+  },
+  {
+   "name": "SSD SATA 480 GB Netac N535S, NT01N535S-480G-S3X, SATA 6Gb/s",
+   "price": 38050,
+   "code": ""
+  },
+  {
+   "name": "SSD SATA 1 TB ADATA Ultimate SU650, ASU650SS-1TT-R , SATA 6Gb/s",
+   "price": 73840,
+   "code": ""
+  },
+  {
+   "name": "SSD M.2 PCIe 2 TB Kingston SFYRDK, SFYRDK/2000G, PCIe 4.0 NVMe",
+   "price": 298812,
+   "code": ""
+  }
+ ],
+ "case": [
+  {
+   "name": "Case MATX midi tower ONVYX, PCM355W, (без БП), White",
+   "price": 11900,
+   "code": ""
+  },
+  {
+   "name": "Case ATX midi tower APEX, 3701, 1*120mm ARGB + 3*120mm black + ARGB fan hub + remote contr. (без БП)",
+   "price": 21380,
+   "code": ""
+  },
+  {
+   "name": "Case ATX midi tower SAMA, V60 , (Без БП), Black",
+   "price": 34810,
+   "code": ""
+  },
+  {
+   "name": "Case ATX midi tower Arctic Cooling Xtender VG ACPCC00017A, (без БП), white",
+   "price": 128962,
+   "code": ""
+  }
+ ],
+ "hdd": [
+  {
+   "name": "HDD SATA 2000 GB Toshiba P300, HDWD220UZSVA, 5400rpm, 128MB, SATA 6Gb/s, bulk",
+   "price": 57020,
+   "code": ""
+  },
+  {
+   "name": "HDD SATA 4000 GB Seagate IronWolf Pro, ST4000NT001, 7200rpm, 256MB cache, SATA 6.0 Gb/s",
+   "price": 105320,
+   "code": ""
+  },
+  {
+   "name": "HDD SATA 8000 GB Seagate Exos 7E8, ST8000NM017B, 7200rpm, 256MB cache, SATA 6.0 Gb/s",
+   "price": 155400,
+   "code": ""
+  },
+  {
+   "name": "HDD SATA 18000 GB Western Digital Gold WD181KRYZ, 7200rpm, 512MB cache, SATA 6 Gb/s",
+   "price": 279406,
+   "code": ""
+  }
+ ],
+ "coolers": [
+  {
+   "name": "Cooler PCCooler, RZ400 V2 BK, for S1700/1851/1200/115x/AMD, 245W, 2000 rpm",
+   "price": 10040,
+   "code": ""
+  },
+  {
+   "name": "Cooler ID-Cooling, FROZN A620 BLACK, for S1700/1200/115x/AMD, 270W, 500-2000rpm, 4pin",
+   "price": 20290,
+   "code": ""
+  },
+  {
+   "name": "Water Cooler ID-Cooling FX360 LCD PE WHITE, for S1851/1700/1200/115x/AMD",
+   "price": 36230,
+   "code": ""
+  },
+  {
+   "name": "Water Cooler Gigabyte AORUS WATERFORCE X280, for 2011/2066/1366/115*/1700/AMD, 800-2500rpm",
+   "price": 74320,
+   "code": ""
+  }
+ ],
+ "cpu": [
+  {
+   "name": "CPU AMD Ryzen 5 3500X, 3.6GHz (Matisse, 4.1), 6C/6T, (100-000000050), 3/32MB, 65W, AM4, oem",
+   "price": 27167,
+   "code": ""
+  },
+  {
+   "name": "CPU AMD Ryzen 3 3200G, 3.6GHz (Picasso, 4.0), 4C/4T, YD3200C5M4MFH, 2/4MB, Vega8, 65W, AM4, oem",
+   "price": 27880,
+   "code": ""
+  },
+  {
+   "name": "CPU AMD Ryzen 5 3400G, 3.7GHz (Picasso, 4.2), 4C/8T, YD3400C5M4MFH, 2/4MB, Vega11, 65W, AM4, oem",
+   "price": 36833,
+   "code": ""
+  }
+ ]
+}
+
+ПРАВИЛА ВЫБОРА:
+- Выбери ОДИН вариант из каждой категории
+- Учитывай бюджет и предпочтения пользователя
+- Игровой ПК: приоритет видеокарте и процессору
+- Рабочий ПК: приоритет процессору и памяти
+- Совместимость сокетов и типов памяти
+- Бюджет можно превысить на 5-10% если стоит того
+
+Верни JSON:
+{
+  "cpu": {"name": "", "price": 0, "code": ""},
+  "motherboard": {"name": "", "price": 0, "code": ""},
+  "ram": {"name": "", "price": 0, "code": ""},
+  "gpu": {"name": "", "price": 0, "code": ""},
+  "ssd": {"name": "", "price": 0, "code": ""},
+  "psu": {"name": "", "price": 0, "code": ""},
+  "coolers": {"name": "", "price": 0, "code": ""},
+  "case": {"name": "", "price": 0, "code": ""}
+}
+📥 ОТВЕТ:
+{
+  "cpu": {"name": "CPU AMD Ryzen 5 3500X, 3.6GHz (Matisse, 4.1), 6C/6T, (100-000000050), 3/32MB, 65W, AM4, oem", "price": 27167, "code": ""},
+  "motherboard": {"name": "MB Socket AM5, ATX, AMD B850 (DP/HDMI), Gigabyte B850 EAGLE ICE, 4DDR5, PCIx16", "price": 96140, "code": ""},
+  "ram": {"name": "DIMM DDR5 16 GB <5600MHz> Netac Basic, NTBSD5P56SP-16, CL46", "price": 110762, "code": ""},
+  "gpu": {"name": "GPU AMD,16 GB, ASUS RX 9060 XT DUAL WHITE [DUAL-RX9060XT-16G-WHITE], HDMI/2DP, GDDR6/128bit", "price": 297900, "code": ""},
+  "ssd": {"name": "SSD SATA 128 GB Indilinx, IND-S325S128GX, SATA 6Gb/s", "price": 14172, "code": ""},
+  "psu": {"name": "Power supply ATX, FSP ADVAN-850GM, 850W, 80 Plus Gold, modular, black", "price": 70330, "code": ""},
+  "coolers": {"name": "Cooler PCCooler, RZ400 V2 BK, for S1700/1851/1200/115x/AMD, 245W, 2000 rpm", "price": 10040, "code": ""},
+  "case": {"name": "Case MATX midi tower ONVYX, PCM355W, (без БП), White", "price": 11900, "code": ""}
+}
+================================================================================
+
+================================================================================
+🕐 2026-03-31 01:55:04.194940
+🤖 Модель: openai/gpt-oss-120b
+📋 JSON: False
+📤 ПРОМПТ:
+
+Объясни выбор ПК для gaming на бюджет 600,000 ₸.
+
+Ключевые компоненты:
+- Процессор: CPU AMD Ryzen 5 3500X
+- Оперативная память: DIMM DDR5 16 GB <5600MHz> Netac Basic  
+- Видеокарта: GPU AMD
+- Общая стоимость: 638,411 ₸
+
+Дай краткое объяснение (2-3 предложения) почему это хороший выбор для gaming.
+Объясни простым языком для обычного пользователя.
+
+📥 ОТВЕТ:
+Это сочетание процессора Ryzen 5 3500X и быстрой DDR5‑памяти 16 ГБ @ 5600 МГц обеспечивает достаточную вычислительную мощность и плавный отклик в современных играх, а видеокарта AMD (модель с хорошей графической производительностью) справится с высоким разрешением и настройками качества. При бюджете около 600 тыс. ₸ такой набор даёт отличный баланс цены и игрового потенциала, позволяя играть в большинство популярных игр без серьёзных «узких мест».
+================================================================================
+
+================================================================================
+🕐 2026-03-31 01:56:22.126787
+🤖 Модель: openai/gpt-oss-120b
+📋 JSON: True
+📤 ПРОМПТ:
+Ты - эксперт по сборке ПК. Выбери лучший вариант из предложенных.
+
+БЮДЖЕТ: 450,000 ₸
+НАЗНАЧЕНИЕ: gaming
+ПРЕДПОЧТЕНИЯ ПОЛЬЗОВАТЕЛЯ:
+Процессор: Intel. Видеокарта: NVIDIA. 
+
+ДОСТУПНЫЕ ВАРИАНТЫ (выбери 1 из каждой категории):
+
+{
+ "motherboard": [
+  {
+   "name": "MB Socket1200, MATX, iH510 (VGA, HDMI), Biostar H510MHP, 2DDR4, PCIx16, 2PCIx1",
+   "price": 27146,
+   "code": ""
+  },
+  {
+   "name": "MB Socket1700, MATX, iB760 (DP+HDMI), MaxSun Terminator B760M D5, 4DDR5, PCIx16, PCIx1",
+   "price": 59370,
+   "code": ""
+  },
+  {
+   "name": "MB Socket AM5, ATX, AMD B850 (DP+HDMI), ASRock B850 PRO RS WIFI, 4DDR5, PCIx16",
+   "price": 95580,
+   "code": ""
+  },
+  {
+   "name": "MB Socket AM5, ATX, AMD X870 (DP+HDMI), ASUS ROG STRIX X870-A GAMING WIFI, 4DDR5, 2PCIx16",
+   "price": 221450,
+   "code": ""
+  }
+ ],
+ "psu": [
+  {
+   "name": "Power supply ATX Wintek WT-450, 450W, 80 Plus Bronze , black",
+   "price": 11370,
+   "code": ""
+  },
+  {
+   "name": "Power supply TFX Seasonic SSP-300TBS, 300W, 80 Plus Bronze, oem,",
+   "price": 27220,
+   "code": ""
+  },
+  {
+   "name": "Power supply ATX ASUS TUF-GAMING-750G, 750W, 80plus Gold, full modular, ATX 3.0",
+   "price": 69070,
+   "code": ""
+  },
+  {
+   "name": "Power supply ATX Seasonic Prime PX-1600, SSR-1600PD2, 80plus Platinum, Modular, ATX 3.0, 1600W",
+   "price": 224410,
+   "code": ""
+  }
+ ],
+ "ram": [
+  {
+   "name": "DIMM DDR3 8 GB <1600MHz> KingBank KDUN, K5.01.FP034C4001, CL11",
+   "price": 13356,
+   "code": ""
+  },
+  {
+   "name": "DIMM DDR4 16 GB <3200MHz> Kingston KVR32N22S8/16, CL22, 8 chip",
+   "price": 77037,
+   "code": ""
+  },
+  {
+   "name": "DIMM DDR4 32 GB kit <3200MHz> G.Skill FlareX (AMD), F4-3200C16D-32GFX, (2x16GB), 16-18-18-38",
+   "price": 149678,
+   "code": ""
+  },
+  {
+   "name": "DIMM DDR5 32 GB kit <6400MHz> KingBank KRXB, K5.01.FPM5FD9401, (2x16GB), CL32",
+   "price": 221193,
+   "code": ""
+  }
+ ],
+ "gpu": [
+  {
+   "name": "GPU NVIDIA, 1 GB, Afox GT 210 [AF210-1024D3L5-V2], DVI/HDMI/VGA, GDDR3/64bit, +LP",
+   "price": 21840,
+   "code": ""
+  },
+  {
+   "name": "GPU NVIDIA, 4 GB, Afox GT 420 [AF420-4096D3L2], DVI/HDMI/VGA, DDR3/128bit, +LP",
+   "price": 25200,
+   "code": ""
+  },
+  {
+   "name": "GPU NVIDIA, 4 GB, Afox GT 420 [AF420-4096D3L5], DVI/HDMI/VGA, DDR3/128bit, +LP",
+   "price": 25200,
+   "code": ""
+  }
+ ],
+ "ssd": [
+  {
+   "name": "SSD SATA 128 GB Indilinx, IND-S325S128GX, SATA 6Gb/s",
+   "price": 14172,
+   "code": ""
+  },
+  {
+   "name": "SSD M.2 PCIe 250 GB Patriot P400 Lite, P400LP250GM28H, PCIe Gen4 x4",
+   "price": 33580,
+   "code": ""
+  },
+  {
+   "name": "SSD SATA 1 TB Silicon Power A56, SP001TBSS3A56A25, SATA 6Gb/s",
+   "price": 73669,
+   "code": ""
+  },
+  {
+   "name": "SSD M.2 PCIe 1 TB Kingston Fury, SFYRSK/1000G, PCIe 4.0, NVMe",
+   "price": 183713,
+   "code": ""
+  }
+ ],
+ "case": [
+  {
+   "name": "Case MATX midi tower ONVYX, PCM355W, (без БП), White",
+   "price": 11900,
+   "code": ""
+  },
+  {
+   "name": "Case ATX midi tower APEX, 3701, 1*120mm ARGB + 3*120mm black + ARGB fan hub + remote contr. (без БП)",
+   "price": 21380,
+   "code": ""
+  },
+  {
+   "name": "Case ATX midi tower SAMA, V60 , (Без БП), Black",
+   "price": 34810,
+   "code": ""
+  },
+  {
+   "name": "Case ATX midi tower Arctic Cooling Xtender VG ACPCC00017A, (без БП), white",
+   "price": 128962,
+   "code": ""
+  }
+ ],
+ "hdd": [
+  {
+   "name": "HDD SATA 2000 GB Toshiba P300, HDWD220UZSVA, 5400rpm, 128MB, SATA 6Gb/s, bulk",
+   "price": 57020,
+   "code": ""
+  },
+  {
+   "name": "HDD SATA 4000 GB Seagate IronWolf Pro, ST4000NT001, 7200rpm, 256MB cache, SATA 6.0 Gb/s",
+   "price": 105320,
+   "code": ""
+  },
+  {
+   "name": "HDD SATA 6000 GB Western Digital Gold, WD6004FRYZ, 7200rpm, 256MB cache, SATA 6 Gb/s",
+   "price": 146088,
+   "code": ""
+  },
+  {
+   "name": "HDD SATA 10000 GB Western Digital Purple PRO, WD102PURP, 7200rpm, 267MB cache, SATA 6 Gb/s",
+   "price": 223910,
+   "code": ""
+  }
+ ],
+ "coolers": [
+  {
+   "name": "Cooler PCCooler, RZ400 V2 BK, for S1700/1851/1200/115x/AMD, 245W, 2000 rpm",
+   "price": 10040,
+   "code": ""
+  },
+  {
+   "name": "Cooler ID-Cooling, FROZN A620 BLACK, for S1700/1200/115x/AMD, 270W, 500-2000rpm, 4pin",
+   "price": 20290,
+   "code": ""
+  },
+  {
+   "name": "Water Cooler ID-Cooling FX360 LCD PE WHITE, for S1851/1700/1200/115x/AMD",
+   "price": 36230,
+   "code": ""
+  },
+  {
+   "name": "Water Cooler Gigabyte AORUS WATERFORCE X280, for 2011/2066/1366/115*/1700/AMD, 800-2500rpm",
+   "price": 74320,
+   "code": ""
+  }
+ ],
+ "cpu": [
+  {
+   "name": "СPU Intel Сore i3-10105F, 3.7GHz (Comet Lake, 4.4), 4C/8T, 6 MB L3, TDP 65W, S1200, oem",
+   "price": 30299,
+   "code": ""
+  },
+  {
+   "name": "СPU Intel Сore i3-12100F, 3.3GHz (Alder Lake, 4.3), 4C/8T, 12 MB L3, MTP 89W, S1700, oem",
+   "price": 40786,
+   "code": ""
+  },
+  {
+   "name": "СPU Intel Сore i3-10105, 3.7GHz (Comet Lake, 4.4), 4C/8T, 6 MB L3, TDP 65W, UHD630, S1200, oem",
+   "price": 50900,
+   "code": ""
+  }
+ ]
+}
+
+ПРАВИЛА ВЫБОРА:
+- Выбери ОДИН вариант из каждой категории
+- Учитывай бюджет и предпочтения пользователя
+- Игровой ПК: приоритет видеокарте и процессору
+- Рабочий ПК: приоритет процессору и памяти
+- Совместимость сокетов и типов памяти
+- Бюджет можно превысить на 5-10% если стоит того
+
+Верни JSON:
+{
+  "cpu": {"name": "", "price": 0, "code": ""},
+  "motherboard": {"name": "", "price": 0, "code": ""},
+  "ram": {"name": "", "price": 0, "code": ""},
+  "gpu": {"name": "", "price": 0, "code": ""},
+  "ssd": {"name": "", "price": 0, "code": ""},
+  "psu": {"name": "", "price": 0, "code": ""},
+  "coolers": {"name": "", "price": 0, "code": ""},
+  "case": {"name": "", "price": 0, "code": ""}
+}
+📥 ОТВЕТ:
+{
+  "cpu": {"name": "СPU Intel Сore i3-10105F, 3.7GHz (Comet Lake, 4.4), 4C/8T, 6 MB L3, TDP 65W, S1200, oem", "price": 30299, "code": ""},
+  "motherboard": {"name": "MB Socket1200, MATX, iH510 (VGA, HDMI), Biostar H510MHP, 2DDR4, PCIx16, 2PCIx1", "price": 27146, "code": ""},
+  "ram": {"name": "DIMM DDR4 32 GB kit <3200MHz> G.Skill FlareX (AMD), F4-3200C16D-32GFX, (2x16GB), 16-18-18-38", "price": 149678, "code": ""},
+  "gpu": {"name": "GPU NVIDIA, 4 GB, Afox GT 420 [AF420-4096D3L5], DVI/HDMI/VGA, DDR3/128bit, +LP", "price": 25200, "code": ""},
+  "ssd": {"name": "SSD SATA 1 TB Silicon Power A56, SP001TBSS3A56A25, SATA 6Gb/s", "price": 73669, "code": ""},
+  "psu": {"name": "Power supply ATX Wintek WT-450, 450W, 80 Plus Bronze , black", "price": 11370, "code": ""},
+  "coolers": {"name": "Cooler PCCooler, RZ400 V2 BK, for S1700/1851/1200/115x/AMD, 245W, 2000 rpm", "price": 10040, "code": ""},
+  "case": {"name": "Case MATX midi tower ONVYX, PCM355W, (без БП), White", "price": 11900, "code": ""}
+}
+================================================================================
+
+================================================================================
+🕐 2026-03-31 01:56:22.918253
+🤖 Модель: openai/gpt-oss-120b
+📋 JSON: False
+📤 ПРОМПТ:
+
+Объясни выбор ПК для gaming на бюджет 450,000 ₸.
+
+Ключевые компоненты:
+- Процессор: СPU Intel Сore i3-10105F
+- Оперативная память: DIMM DDR4 32 GB kit <3200MHz> G.Skill FlareX (AMD)  
+- Видеокарта: GPU NVIDIA
+- Общая стоимость: 339,302 ₸
+
+Дай краткое объяснение (2-3 предложения) почему это хороший выбор для gaming.
+Объясни простым языком для обычного пользователя.
+
+📥 ОТВЕТ:
+Это хороший набор, потому что процессор i3‑10105F обеспечивает достаточную мощность для большинства современных игр, а 32 ГБ оперативной памяти DDR4 3200 МГц даёт большой запас для многозадачности и будущих обновлений. Видеокарта NVIDIA (какую бы модель вы ни выбрали) справится с высоким качеством графики в популярных играх, а общая стоимость ≈ 339 тыс. ₸ оставляет деньги на остальные детали (корпус, блок питания, SSD) и гарантирует стабильную работу системы.
+================================================================================
+
+================================================================================
+🕐 2026-03-31 02:04:13.836108
+🤖 Модель: openai/gpt-oss-120b
+📋 JSON: True
+📤 ПРОМПТ:
+Ты - эксперт по сборке ПК. Выбери лучший вариант из предложенных.
+
+БЮДЖЕТ: 250,000 ₸
+НАЗНАЧЕНИЕ: work
+ПРЕДПОЧТЕНИЯ ПОЛЬЗОВАТЕЛЯ:
+Процессор: Intel. Видеокарта НЕ НУЖНА. 
+
+ДОСТУПНЫЕ ВАРИАНТЫ (выбери 1 из каждой категории):
+
+{
+ "cpu": [
+  {
+   "name": "СPU Intel Сore i3-10105F, 3.7GHz (Comet Lake, 4.4), 4C/8T, 6 MB L3, TDP 65W, S1200, oem",
+   "price": 30299,
+   "code": ""
+  },
+  {
+   "name": "СPU Intel Сore i3-12100F, 3.3GHz (Alder Lake, 4.3), 4C/8T, 12 MB L3, MTP 89W, S1700, oem",
+   "price": 40786,
+   "code": ""
+  },
+  {
+   "name": "СPU Intel Сore i3-10105, 3.7GHz (Comet Lake, 4.4), 4C/8T, 6 MB L3, TDP 65W, UHD630, S1200, oem",
+   "price": 50900,
+   "code": ""
+  }
+ ],
+ "ram": [
+  {
+   "name": "DIMM DDR3 8 GB <1600MHz> KingBank KDUN, K5.01.FP034C4001, CL11",
+   "price": 13356,
+   "code": ""
+  },
+  {
+   "name": "DIMM DDR4 16 GB <3200MHz> Indilinx, IND-ID4P32SP16X, CL22",
+   "price": 61891,
+   "code": ""
+  },
+  {
+   "name": "DIMM DDR4 16 GB <3200MHz> G.Skill Aegis, F4-3200C16S-16GIS, 16-18-18-38",
+   "price": 68339,
+   "code": ""
+  },
+  {
+   "name": "DIMM DDR5 16 GB <5600MHz> Patriot, PSD516G560081, CL46",
+   "price": 113850,
+   "code": ""
+  }
+ ],
+ "motherboard": [
+  {
+   "name": "MB Socket1200, MATX, iH510 (VGA, HDMI), Biostar H510MHP, 2DDR4, PCIx16, 2PCIx1",
+   "price": 27146,
+   "code": ""
+  },
+  {
+   "name": "MB Socket AM5, MATX, AMD B650 (HDMI) ASUS PRIME B650M-R, 2DDR5, PCIx16",
+   "price": 56014,
+   "code": ""
+  },
+  {
+   "name": "MB Socket AM5, MATX, AMD B850 (2DP+HDMI), Gigabyte B850M DS3H, 4DDR5, 4PCIx16",
+   "price": 81110,
+   "code": ""
+  },
+  {
+   "name": "MB Socket1700, ATX, iZ790 (DP+HDMI), ASUS PRIME Z790-P, 4DDR5, 4PCIx16, PCIx1",
+   "price": 122330,
+   "code": ""
+  }
+ ],
+ "gpu": [
+  {
+   "name": "Встроенная графика",
+   "price": 0,
+   "code": "integrated"
+  }
+ ],
+ "case": [
+  {
+   "name": "Case MATX midi tower ONVYX, PCM355W, (без БП), White",
+   "price": 11900,
+   "code": ""
+  },
+  {
+   "name": "Case ATX midi tower Huntkey, MVP Destiny B (без БП), BLACK",
+   "price": 20610,
+   "code": ""
+  },
+  {
+   "name": "Case ATX midi tower Formula V, Crystal U2 Floe Black, (Без БП), Black",
+   "price": 33600,
+   "code": ""
+  },
+  {
+   "name": "Case ATX midi tower Corsair, iCUE 5000X RGB QL Edition, CC-9011233-WW(без БП), white",
+   "price": 110610,
+   "code": ""
+  }
+ ],
+ "ssd": [
+  {
+   "name": "SSD SATA 128 GB Indilinx, IND-S325S128GX, SATA 6Gb/s",
+   "price": 14172,
+   "code": ""
+  },
+  {
+   "name": "SSD M.2 PCIe 256 GB Colorful CN600 256GB PRO, PCIe 3.0 x4, NVMe",
+   "price": 29620,
+   "code": ""
+  },
+  {
+   "name": "SSD SATA 1 TB Hiksemi E100 (Hikvision), HS-SSD-E100 1024G, SATA 6Gb/s",
+   "price": 70406,
+   "code": ""
+  },
+  {
+   "name": "SSD M.2 PCIe 1 TB Samsung PM9E1, MZ-VLC1T0A , PCIe 5.0, NVMe 2,0, oem",
+   "price": 118583,
+   "code": ""
+  }
+ ],
+ "hdd": [
+  {
+   "name": "HDD SATA 2000 GB Toshiba P300, HDWD220UZSVA, 5400rpm, 128MB, SATA 6Gb/s, bulk",
+   "price": 57020,
+   "code": ""
+  },
+  {
+   "name": "HDD SATA 2000 GB Seagate IronWolf, ST2000VN003, 5900rpm, 256MB cache, SATA 6.0 Gb/s",
+   "price": 69380,
+   "code": ""
+  },
+  {
+   "name": "HDD SATA 4000 GB Western Digital Purple Surveillance, WD43PURZ, 5400rpm, 256MB cache, SATA 6 Gb/s",
+   "price": 99990,
+   "code": ""
+  },
+  {
+   "name": "HDD SATA 6000 GB Seagate IronWolf NAS, ST6000VN006, 5400rpm, 256MB cache, SATA 6.0 Gb/s",
+   "price": 123390,
+   "code": ""
+  }
+ ],
+ "coolers": [
+  {
+   "name": "Cooler PCCooler, RZ400 V2 BK, for S1700/1851/1200/115x/AMD, 245W, 2000 rpm",
+   "price": 10040,
+   "code": ""
+  },
+  {
+   "name": "Cooler ID-Cooling, FROZN A620 BLACK, for S1700/1200/115x/AMD, 270W, 500-2000rpm, 4pin",
+   "price": 20290,
+   "code": ""
+  },
+  {
+   "name": "Water Cooler ID-Cooling FX360 LCD PE WHITE, for S1851/1700/1200/115x/AMD",
+   "price": 36230,
+   "code": ""
+  },
+  {
+   "name": "Water Cooler Gigabyte AORUS WATERFORCE X280, for 2011/2066/1366/115*/1700/AMD, 800-2500rpm",
+   "price": 74320,
+   "code": ""
+  }
+ ],
+ "psu": [
+  {
+   "name": "Power supply ATX Wintek WT-450, 450W, 80 Plus Bronze , black",
+   "price": 11370,
+   "code": ""
+  },
+  {
+   "name": "Power supply ATX Wintek WB-800, 800W, 80 Plus Bronze , black",
+   "price": 26150,
+   "code": ""
+  },
+  {
+   "name": "Power supply ATX, FSP VITA-1000GM, 1000W, Cybernetics Gold, modular, black",
+   "price": 63400,
+   "code": ""
+  },
+  {
+   "name": "Power supply ATX FSP Hydro PTM Pro HPT2-1350M, Modular, 1350W, 80Plus PLATINUM",
+   "price": 124970,
+   "code": ""
+  }
+ ]
+}
+
+ПРАВИЛА ВЫБОРА:
+- Выбери ОДИН вариант из каждой категории
+- Учитывай бюджет и предпочтения пользователя
+- Игровой ПК: приоритет видеокарте и процессору
+- Рабочий ПК: приоритет процессору и памяти
+- Совместимость сокетов и типов памяти
+- Бюджет можно превысить на 5-10% если стоит того
+
+Верни JSON:
+{
+  "cpu": {"name": "", "price": 0, "code": ""},
+  "motherboard": {"name": "", "price": 0, "code": ""},
+  "ram": {"name": "", "price": 0, "code": ""},
+  "gpu": {"name": "", "price": 0, "code": ""},
+  "ssd": {"name": "", "price": 0, "code": ""},
+  "psu": {"name": "", "price": 0, "code": ""},
+  "coolers": {"name": "", "price": 0, "code": ""},
+  "case": {"name": "", "price": 0, "code": ""}
+}
+📥 ОТВЕТ:
+{
+  "cpu": {"name": "СPU Intel Сore i3-10105, 3.7GHz (Comet Lake, 4.4), 4C/8T, 6 MB L3, TDP 65W, UHD630, S1200, oem", "price": 50900, "code": ""},
+  "motherboard": {"name": "MB Socket1200, MATX, iH510 (VGA, HDMI), Biostar H510MHP, 2DDR4, PCIx16, 2PCIx1", "price": 27146, "code": ""},
+  "ram": {"name": "DIMM DDR4 16 GB <3200MHz> Indilinx, IND-ID4P32SP16X, CL22", "price": 61891, "code": ""},
+  "gpu": {"name": "Встроенная графика", "price": 0, "code": "integrated"},
+  "ssd": {"name": "SSD SATA 1 TB Hiksemi E100 (Hikvision), HS-SSD-E100 1024G, SATA 6Gb/s", "price": 70406, "code": ""},
+  "psu": {"name": "Power supply ATX Wintek WT-450, 450W, 80 Plus Bronze , black", "price": 11370, "code": ""},
+  "coolers": {"name": "Cooler PCCooler, RZ400 V2 BK, for S1700/1851/1200/115x/AMD, 245W, 2000 rpm", "price": 10040, "code": ""},
+  "case": {"name": "Case MATX midi tower ONVYX, PCM355W, (без БП), White", "price": 11900, "code": ""}
+}
+================================================================================
+
+================================================================================
+🕐 2026-03-31 02:04:15.295990
+🤖 Модель: openai/gpt-oss-120b
+📋 JSON: False
+📤 ПРОМПТ:
+
+Объясни выбор ПК для work на бюджет 250,000 ₸.
+
+Ключевые компоненты:
+- Процессор: СPU Intel Сore i3-10105
+- Оперативная память: DIMM DDR4 16 GB <3200MHz> Indilinx  
+- Видеокарта: Встроенная графика
+- Общая стоимость: 243,653 ₸
+
+Дай краткое объяснение (2-3 предложения) почему это хороший выбор для work.
+Объясни простым языком для обычного пользователя.
+
+📥 ОТВЕТ:
+Это хороший вариант для работы, потому что процессор Intel Core i3‑10105 обеспечивает достаточную мощность для большинства офисных задач, веб‑серфинга и работы с документами, а 16 ГБ оперативной памяти позволяют одновременно открывать множество программ без задержек. Встроенная графика экономит деньги, но при этом справляется с обычной графикой, презентациями и видеоконференциями. При стоимости ≈ 244 тыс. ₸ вы получаете сбалансированную систему, которая укладывается в ваш бюджет и будет надёжно работать в течение нескольких лет.
+================================================================================
+
+================================================================================
+🕐 2026-03-31 02:07:19.211178
+🤖 Модель: openai/gpt-oss-120b
+📋 JSON: True
+📤 ПРОМПТ:
+Ты - эксперт по сборке ПК. Выбери лучший вариант из предложенных.
+
+БЮДЖЕТ: 580,000 ₸
+НАЗНАЧЕНИЕ: gaming
+ПРЕДПОЧТЕНИЯ ПОЛЬЗОВАТЕЛЯ:
+Процессор: Intel. Видеокарта: NVIDIA. 
+
+ДОСТУПНЫЕ ВАРИАНТЫ (выбери 1 из каждой категории):
+
+{
+ "cpu": [
+  {
+   "name": "СPU Intel Сore i3-10105F, 3.7GHz (Comet Lake, 4.4), 4C/8T, 6 MB L3, TDP 65W, S1200, oem",
+   "price": 30299,
+   "code": ""
+  },
+  {
+   "name": "СPU Intel Сore i3-12100F, 3.3GHz (Alder Lake, 4.3), 4C/8T, 12 MB L3, MTP 89W, S1700, oem",
+   "price": 40786,
+   "code": ""
+  },
+  {
+   "name": "СPU Intel Сore i3-10105, 3.7GHz (Comet Lake, 4.4), 4C/8T, 6 MB L3, TDP 65W, UHD630, S1200, oem",
+   "price": 50900,
+   "code": ""
+  }
+ ],
+ "ram": [
+  {
+   "name": "DIMM DDR3 8 GB <1600MHz> KingBank KDUN, K5.01.FP034C4001, CL11",
+   "price": 13356,
+   "code": ""
+  },
+  {
+   "name": "DIMM DDR5 16 GB <5600MHz> Netac Basic, NTBSD5P56SP-16, CL46",
+   "price": 110762,
+   "code": ""
+  },
+  {
+   "name": "DIMM DDR4 32 GB kit <3200MHz> Kingston Fury Beast RGB, KF432C16BB12AK2/32, (2x16GB), CL16",
+   "price": 168317,
+   "code": ""
+  },
+  {
+   "name": "DIMM DDR5 32 GB kit <6000MHz> Kingston Fury Beast RGB (AMD+Intel), KF560C36BWE2AK2-32, (2x16GB),CL36",
+   "price": 264420,
+   "code": ""
+  }
+ ],
+ "motherboard": [
+  {
+   "name": "MB Socket1200, MATX, iH510 (VGA, HDMI), Biostar H510MHP, 2DDR4, PCIx16, 2PCIx1",
+   "price": 27146,
+   "code": ""
+  },
+  {
+   "name": "MB Socket1700, MATX, iB760 (DP+HDMI), MaxSun Terminator B760M D5, 4DDR5, PCIx16, PCIx1",
+   "price": 59370,
+   "code": ""
+  },
+  {
+   "name": "MB Socket AM5, ATX, AMD B850 (DP/HDMI), Gigabyte B850 EAGLE ICE, 4DDR5, PCIx16",
+   "price": 96140,
+   "code": ""
+  },
+  {
+   "name": "MB Socket AM5, ATX, AMD X870E (HDMI), Gigabyte X870E AORUS MASTER, 4DDR5, 2PCIx16",
+   "price": 279940,
+   "code": ""
+  }
+ ],
+ "gpu": [
+  {
+   "name": "GPU NVIDIA, 1 GB, Afox GT 210 [AF210-1024D3L5-V2], DVI/HDMI/VGA, GDDR3/64bit, +LP",
+   "price": 21840,
+   "code": ""
+  },
+  {
+   "name": "GPU NVIDIA, 4 GB, Afox GT 420 [AF420-4096D3L2], DVI/HDMI/VGA, DDR3/128bit, +LP",
+   "price": 25200,
+   "code": ""
+  },
+  {
+   "name": "GPU NVIDIA, 4 GB, Afox GT 420 [AF420-4096D3L5], DVI/HDMI/VGA, DDR3/128bit, +LP",
+   "price": 25200,
+   "code": ""
+  }
+ ],
+ "case": [
+  {
+   "name": "Case MATX midi tower ONVYX, PCM355W, (без БП), White",
+   "price": 11900,
+   "code": ""
+  },
+  {
+   "name": "Case ATX midi tower APEX, 3701, 1*120mm ARGB + 3*120mm black + ARGB fan hub + remote contr. (без БП)",
+   "price": 21380,
+   "code": ""
+  },
+  {
+   "name": "Case ATX midi tower SAMA, V60 , (Без БП), Black",
+   "price": 34810,
+   "code": ""
+  },
+  {
+   "name": "Case ATX midi tower Arctic Cooling Xtender VG ACPCC00017A, (без БП), white",
+   "price": 128962,
+   "code": ""
+  }
+ ],
+ "ssd": [
+  {
+   "name": "SSD SATA 128 GB Indilinx, IND-S325S128GX, SATA 6Gb/s",
+   "price": 14172,
+   "code": ""
+  },
+  {
+   "name": "SSD M.2 PCIe 250 GB Patriot P400 Lite, P400LP250GM28H, PCIe Gen4 x4",
+   "price": 33580,
+   "code": ""
+  },
+  {
+   "name": "SSD M.2 PCIe 1 TB HikSemi (Hikvision) E1000, HS-SSD-E1000 1024G , PCIe 3.0 x4, NVMe 1.3",
+   "price": 73724,
+   "code": ""
+  },
+  {
+   "name": "SSD M.2 PCIe 4 TB Patriot P400 Lite, P400LP4KGM28H, PCIe Gen4 x4",
+   "price": 246160,
+   "code": ""
+  }
+ ],
+ "hdd": [
+  {
+   "name": "HDD SATA 2000 GB Toshiba P300, HDWD220UZSVA, 5400rpm, 128MB, SATA 6Gb/s, bulk",
+   "price": 57020,
+   "code": ""
+  },
+  {
+   "name": "HDD SATA 4000 GB Seagate IronWolf Pro, ST4000NT001, 7200rpm, 256MB cache, SATA 6.0 Gb/s",
+   "price": 105320,
+   "code": ""
+  },
+  {
+   "name": "HDD SATA 8000 GB Seagate Exos 7E8, ST8000NM017B, 7200rpm, 256MB cache, SATA 6.0 Gb/s",
+   "price": 155400,
+   "code": ""
+  },
+  {
+   "name": "HDD SATA 18000 GB Western Digital Gold WD181KRYZ, 7200rpm, 512MB cache, SATA 6 Gb/s",
+   "price": 279406,
+   "code": ""
+  }
+ ],
+ "coolers": [
+  {
+   "name": "Cooler PCCooler, RZ400 V2 BK, for S1700/1851/1200/115x/AMD, 245W, 2000 rpm",
+   "price": 10040,
+   "code": ""
+  },
+  {
+   "name": "Cooler ID-Cooling, FROZN A620 BLACK, for S1700/1200/115x/AMD, 270W, 500-2000rpm, 4pin",
+   "price": 20290,
+   "code": ""
+  },
+  {
+   "name": "Water Cooler ID-Cooling FX360 LCD PE WHITE, for S1851/1700/1200/115x/AMD",
+   "price": 36230,
+   "code": ""
+  },
+  {
+   "name": "Water Cooler Gigabyte AORUS WATERFORCE X280, for 2011/2066/1366/115*/1700/AMD, 800-2500rpm",
+   "price": 74320,
+   "code": ""
+  }
+ ],
+ "psu": [
+  {
+   "name": "Power supply ATX Wintek WT-450, 450W, 80 Plus Bronze , black",
+   "price": 11370,
+   "code": ""
+  },
+  {
+   "name": "Power supply TFX Seasonic SSP-300TBS, 300W, 80 Plus Bronze, oem,",
+   "price": 27220,
+   "code": ""
+  },
+  {
+   "name": "Power supply ATX ASUS TUF-GAMING-750G, 750W, 80plus Gold, full modular, ATX 3.0",
+   "price": 69070,
+   "code": ""
+  },
+  {
+   "name": "Power supply ATX Seasonic Prime TX-1600, SSR-1600TR2, 1600W, 80 PLUS Titanium, ATX3.0, Modular",
+   "price": 276040,
+   "code": ""
+  }
+ ]
+}
+
+ПРАВИЛА ВЫБОРА:
+- Выбери ОДИН вариант из каждой категории
+- Учитывай бюджет и предпочтения пользователя
+- Игровой ПК: приоритет видеокарте и процессору
+- Рабочий ПК: приоритет процессору и памяти
+- Совместимость сокетов и типов памяти
+- Бюджет можно превысить на 5-10% если стоит того
+
+Верни JSON:
+{
+  "cpu": {"name": "", "price": 0, "code": ""},
+  "motherboard": {"name": "", "price": 0, "code": ""},
+  "ram": {"name": "", "price": 0, "code": ""},
+  "gpu": {"name": "", "price": 0, "code": ""},
+  "ssd": {"name": "", "price": 0, "code": ""},
+  "psu": {"name": "", "price": 0, "code": ""},
+  "coolers": {"name": "", "price": 0, "code": ""},
+  "case": {"name": "", "price": 0, "code": ""}
+}
+📥 ОТВЕТ:
+{"cpu":{"name":"СPU Intel Сore i3-12100F, 3.3GHz (Alder Lake, 4.3), 4C/8T, 12 MB L3, MTP 89W, S1700, oem","price":40786,"code":""},"motherboard":{"name":"MB Socket1700, MATX, iB760 (DP+HDMI), MaxSun Terminator B760M D5, 4DDR5, PCIx16, PCIx1","price":59370,"code":""},"ram":{"name":"DIMM DDR5 16 GB <5600MHz> Netac Basic, NTBSD5P56SP-16, CL46","price":110762,"code":""},"gpu":{"name":"GPU NVIDIA, 4 GB, Afox GT 420 [AF420-4096D3L5], DVI/HDMI/VGA, DDR3/128bit, +LP","price":25200,"code":""},"ssd":{"name":"SSD M.2 PCIe 1 TB HikSemi (Hikvision) E1000, HS-SSD-E1000 1024G , PCIe 3.0 x4, NVMe 1.3","price":73724,"code":""},"psu":{"name":"Power supply ATX Wintek WT-450, 450W, 80 Plus Bronze , black","price":11370,"code":""},"coolers":{"name":"Cooler PCCooler, RZ400 V2 BK, for S1700/1851/1200/115x/AMD, 245W, 2000 rpm","price":10040,"code":""},"case":{"name":"Case MATX midi tower ONVYX, PCM355W, (без БП), White","price":11900,"code":""}}
+================================================================================
+
+================================================================================
+🕐 2026-03-31 02:07:19.733059
+🤖 Модель: openai/gpt-oss-120b
+📋 JSON: False
+📤 ПРОМПТ:
+
+Объясни выбор ПК для gaming на бюджет 580,000 ₸.
+
+Ключевые компоненты:
+- Процессор: СPU Intel Сore i3-12100F
+- Оперативная память: DIMM DDR5 16 GB <5600MHz> Netac Basic  
+- Видеокарта: GPU NVIDIA
+- Общая стоимость: 343,152 ₸
+
+Дай краткое объяснение (2-3 предложения) почему это хороший выбор для gaming.
+Объясни простым языком для обычного пользователя.
+
+📥 ОТВЕТ:
+Это хороший игровой набор, потому что процессор Intel i3‑12100F даёт отличную однопоточную производительность, а большинство современных игр именно на этом и «живут». 16 ГБ DDR5‑5600 памяти обеспечивают быстрый доступ к данным и позволяют без задержек держать открытыми несколько приложений одновременно, а видеокарта NVIDIA (даже базовая модель) легко справляется с 1080p‑играми на средних‑высоких настройках. В итоге вы получаете плавный геймплей и хорошее соотношение цены и качества в пределах вашего бюджета.
+================================================================================
+
+================================================================================
+🕐 2026-03-31 02:08:58.003927
+🤖 Модель: openai/gpt-oss-120b
+📋 JSON: True
+📤 ПРОМПТ:
+Ты - эксперт по сборке ПК. Выбери лучший вариант из предложенных.
+
+БЮДЖЕТ: 680,000 ₸
+НАЗНАЧЕНИЕ: gaming
+ПРЕДПОЧТЕНИЯ ПОЛЬЗОВАТЕЛЯ:
+Процессор: AMD. Видеокарта: NVIDIA. 
+
+ДОСТУПНЫЕ ВАРИАНТЫ (выбери 1 из каждой категории):
+
+{
+ "cpu": [
+  {
+   "name": "CPU AMD Ryzen 5 3500X, 3.6GHz (Matisse, 4.1), 6C/6T, (100-000000050), 3/32MB, 65W, AM4, oem",
+   "price": 27167,
+   "code": ""
+  },
+  {
+   "name": "CPU AMD Ryzen 3 3200G, 3.6GHz (Picasso, 4.0), 4C/4T, YD3200C5M4MFH, 2/4MB, Vega8, 65W, AM4, oem",
+   "price": 27880,
+   "code": ""
+  },
+  {
+   "name": "CPU AMD Ryzen 5 3400G, 3.7GHz (Picasso, 4.2), 4C/8T, YD3400C5M4MFH, 2/4MB, Vega11, 65W, AM4, oem",
+   "price": 36833,
+   "code": ""
+  }
+ ],
+ "ram": [
+  {
+   "name": "DIMM DDR3 8 GB <1600MHz> KingBank KDUN, K5.01.FP034C4001, CL11",
+   "price": 13356,
+   "code": ""
+  },
+  {
+   "name": "DIMM DDR5 16 GB <5600MHz> Patriot, PSD516G560081, CL46",
+   "price": 113850,
+   "code": ""
+  },
+  {
+   "name": "DIMM DDR4 32 GB kit <3600MHz> Kingston Fury Beast, KF436C18BBK2/32, (2x16GB), CL18",
+   "price": 171724,
+   "code": ""
+  },
+  {
+   "name": "DIMM DDR4 64 GB kit <3600MHz> Kingston Fury Beast RGB, KF436C18BB2AK2/64, (2x32GB), CL18",
+   "price": 335730,
+   "code": ""
+  }
+ ],
+ "motherboard": [
+  {
+   "name": "MB Socket1200, MATX, iH510 (VGA, HDMI), Biostar H510MHP, 2DDR4, PCIx16, 2PCIx1",
+   "price": 27146,
+   "code": ""
+  },
+  {
+   "name": "MB Socket1700, MATX, iB760 (DP+HDMI), MaxSun Terminator B760M D5, 4DDR5, PCIx16, PCIx1",
+   "price": 59370,
+   "code": ""
+  },
+  {
+   "name": "MB Socket AM5, ATX, AMD B850 (DP/HDMI), Gigabyte B850 EAGLE ICE, 4DDR5, PCIx16",
+   "price": 96140,
+   "code": ""
+  },
+  {
+   "name": "MB Socket AM5, ATX, AMD X870E (HDMI), Gigabyte X870E AORUS MASTER, 4DDR5, 2PCIx16",
+   "price": 279940,
+   "code": ""
+  }
+ ],
+ "gpu": [
+  {
+   "name": "GPU NVIDIA, 1 GB, Afox GT 210 [AF210-1024D3L5-V2], DVI/HDMI/VGA, GDDR3/64bit, +LP",
+   "price": 21840,
+   "code": ""
+  },
+  {
+   "name": "GPU NVIDIA, 4 GB, Afox GT 420 [AF420-4096D3L2], DVI/HDMI/VGA, DDR3/128bit, +LP",
+   "price": 25200,
+   "code": ""
+  },
+  {
+   "name": "GPU NVIDIA, 4 GB, Afox GT 420 [AF420-4096D3L5], DVI/HDMI/VGA, DDR3/128bit, +LP",
+   "price": 25200,
+   "code": ""
+  }
+ ],
+ "case": [
+  {
+   "name": "Case MATX midi tower ONVYX, PCM355W, (без БП), White",
+   "price": 11900,
+   "code": ""
+  },
+  {
+   "name": "Case ATX midi tower APEX, 3701, 1*120mm ARGB + 3*120mm black + ARGB fan hub + remote contr. (без БП)",
+   "price": 21380,
+   "code": ""
+  },
+  {
+   "name": "Case ATX midi tower SAMA, V60 , (Без БП), Black",
+   "price": 34810,
+   "code": ""
+  },
+  {
+   "name": "Case ATX midi tower Arctic Cooling Xtender VG ACPCC00017A, (без БП), white",
+   "price": 128962,
+   "code": ""
+  }
+ ],
+ "ssd": [
+  {
+   "name": "SSD SATA 128 GB Indilinx, IND-S325S128GX, SATA 6Gb/s",
+   "price": 14172,
+   "code": ""
+  },
+  {
+   "name": "SSD SATA 480 GB Netac N535S, NT01N535S-480G-S3X, SATA 6Gb/s",
+   "price": 38050,
+   "code": ""
+  },
+  {
+   "name": "SSD SATA 1 TB ADATA Ultimate SU650, ASU650SS-1TT-R , SATA 6Gb/s",
+   "price": 73840,
+   "code": ""
+  },
+  {
+   "name": "SSD M.2 PCIe 2 TB Kingston SFYR2S, SFYR2S/2T0, PCIe 5.0 NVMe",
+   "price": 339763,
+   "code": ""
+  }
+ ],
+ "hdd": [
+  {
+   "name": "HDD SATA 2000 GB Toshiba P300, HDWD220UZSVA, 5400rpm, 128MB, SATA 6Gb/s, bulk",
+   "price": 57020,
+   "code": ""
+  },
+  {
+   "name": "HDD SATA 4000 GB Seagate IronWolf Pro, ST4000NT001, 7200rpm, 256MB cache, SATA 6.0 Gb/s",
+   "price": 105320,
+   "code": ""
+  },
+  {
+   "name": "HDD SATA 8000 GB Seagate Exos 7E8, ST8000NM017B, 7200rpm, 256MB cache, SATA 6.0 Gb/s",
+   "price": 155400,
+   "code": ""
+  },
+  {
+   "name": "HDD SATA 18000 GB Western Digital Gold WD181KRYZ, 7200rpm, 512MB cache, SATA 6 Gb/s",
+   "price": 279406,
+   "code": ""
+  }
+ ],
+ "coolers": [
+  {
+   "name": "Cooler PCCooler, RZ400 V2 BK, for S1700/1851/1200/115x/AMD, 245W, 2000 rpm",
+   "price": 10040,
+   "code": ""
+  },
+  {
+   "name": "Cooler ID-Cooling, FROZN A620 BLACK, for S1700/1200/115x/AMD, 270W, 500-2000rpm, 4pin",
+   "price": 20290,
+   "code": ""
+  },
+  {
+   "name": "Water Cooler ID-Cooling FX360 LCD PE WHITE, for S1851/1700/1200/115x/AMD",
+   "price": 36230,
+   "code": ""
+  },
+  {
+   "name": "Water Cooler Gigabyte AORUS WATERFORCE X280, for 2011/2066/1366/115*/1700/AMD, 800-2500rpm",
+   "price": 74320,
+   "code": ""
+  }
+ ],
+ "psu": [
+  {
+   "name": "Power supply ATX Wintek WT-450, 450W, 80 Plus Bronze , black",
+   "price": 11370,
+   "code": ""
+  },
+  {
+   "name": "Power supply TFX Seasonic SSP-300TBS, 300W, 80 Plus Bronze, oem,",
+   "price": 27220,
+   "code": ""
+  },
+  {
+   "name": "Power supply ATX, FSP ADVAN-850GM, 850W, 80 Plus Gold, modular, black",
+   "price": 70330,
+   "code": ""
+  },
+  {
+   "name": "Power supply ATX Seasonic Prime PX-2200, SRP-PPX222-A5A22ST, 2200W, 80PLUS Platinum, modular, ATX3.0",
+   "price": 293730,
+   "code": ""
+  }
+ ]
+}
+
+ПРАВИЛА ВЫБОРА:
+- Выбери ОДИН вариант из каждой категории
+- Учитывай бюджет и предпочтения пользователя
+- Игровой ПК: приоритет видеокарте и процессору
+- Рабочий ПК: приоритет процессору и памяти
+- Совместимость сокетов и типов памяти
+- Бюджет можно превысить на 5-10% если стоит того
+
+Верни JSON:
+{
+  "cpu": {"name": "", "price": 0, "code": ""},
+  "motherboard": {"name": "", "price": 0, "code": ""},
+  "ram": {"name": "", "price": 0, "code": ""},
+  "gpu": {"name": "", "price": 0, "code": ""},
+  "ssd": {"name": "", "price": 0, "code": ""},
+  "psu": {"name": "", "price": 0, "code": ""},
+  "coolers": {"name": "", "price": 0, "code": ""},
+  "case": {"name": "", "price": 0, "code": ""}
+}
+📥 ОТВЕТ:
+{
+  "cpu": {"name": "CPU AMD Ryzen 5 3500X, 3.6GHz (Matisse, 4.1), 6C/6T, (100-000000050), 3/32MB, 65W, AM4, oem", "price": 27167, "code": ""},
+  "motherboard": {"name": "MB Socket AM5, ATX, AMD B850 (DP/HDMI), Gigabyte B850 EAGLE ICE, 4DDR5, PCIx16", "price": 96140, "code": ""},
+  "ram": {"name": "DIMM DDR5 16 GB <5600MHz> Patriot, PSD516G560081, CL46", "price": 113850, "code": ""},
+  "gpu": {"name": "GPU NVIDIA, 4 GB, Afox GT 420 [AF420-4096D3L5], DVI/HDMI/VGA, DDR3/128bit, +LP", "price": 25200, "code": ""},
+  "ssd": {"name": "SSD SATA 1 TB ADATA Ultimate SU650, ASU650SS-1TT-R , SATA 6Gb/s", "price": 73840, "code": ""},
+  "psu": {"name": "Power supply ATX, FSP ADVAN-850GM, 850W, 80 Plus Gold, modular, black", "price": 70330, "code": ""},
+  "coolers": {"name": "Cooler PCCooler, RZ400 V2 BK, for S1700/1851/1200/115x/AMD, 245W, 2000 rpm", "price": 10040, "code": ""},
+  "case": {"name": "Case MATX midi tower ONVYX, PCM355W, (без БП), White", "price": 11900, "code": ""}
+}
+================================================================================
+
+================================================================================
+🕐 2026-03-31 02:08:58.520094
+🤖 Модель: openai/gpt-oss-120b
+📋 JSON: False
+📤 ПРОМПТ:
+
+Объясни выбор ПК для gaming на бюджет 680,000 ₸.
+
+Ключевые компоненты:
+- Процессор: CPU AMD Ryzen 5 3500X
+- Оперативная память: DIMM DDR5 16 GB <5600MHz> Patriot  
+- Видеокарта: GPU NVIDIA
+- Общая стоимость: 428,467 ₸
+
+Дай краткое объяснение (2-3 предложения) почему это хороший выбор для gaming.
+Объясни простым языком для обычного пользователя.
+
+📥 ОТВЕТ:
+Это сочетание даёт отличную производительность в играх без лишних трат: процессор Ryzen 5 3500X обеспечивает достаточную мощность для большинства современных титулов, а видеокарта NVIDIA (даже базовой модели) берёт на себя всё графическое рендеринг, позволяя играть в Full HD/1440p с хорошим FPS. Память DDR5 16 ГБ @ 5600 MHz ускоряет загрузку уровней и уменьшает задержки, а общая цена в 428 467 ₸ оставляет запас в бюджете для монитора, периферии или будущих апгрейдов.
+================================================================================
+
+================================================================================
+🕐 2026-03-31 02:09:31.890866
+🤖 Модель: openai/gpt-oss-120b
+📋 JSON: True
+📤 ПРОМПТ:
+Ты - эксперт по сборке ПК. Выбери лучший вариант из предложенных.
+
+БЮДЖЕТ: 800,000 ₸
+НАЗНАЧЕНИЕ: universal
+
+ДОСТУПНЫЕ ВАРИАНТЫ (выбери 1 из каждой категории):
+
+{
+ "cpu": [
+  {
+   "name": "CPU AMD Ryzen 5 3500X, 3.6GHz (Matisse, 4.1), 6C/6T, (100-000000050), 3/32MB, 65W, AM4, oem",
+   "price": 27167,
+   "code": ""
+  },
+  {
+   "name": "CPU AMD Ryzen 7 5700X, 3.4GHz (Vermeer, 4.6), 8C/16T, (100-100000926), 4/32MB, 65W, AM4, oem",
+   "price": 78719,
+   "code": ""
+  },
+  {
+   "name": "CPU AMD Ryzen 7 7800X3D, 4.2GHz (Raphael, 5.3), 8C/16T, (100-000000910), 120W, AM5, oem",
+   "price": 161945,
+   "code": ""
+  },
+  {
+   "name": "CPU AMD Ryzen 9 7950X3D, 4.2GHz (Raphael, 5.7), 16C/32T, (100-100000908), 16/64MB, 120W, AM5, oem",
+   "price": 326230,
+   "code": ""
+  }
+ ],
+ "ram": [
+  {
+   "name": "DIMM DDR3 8 GB <1600MHz> KingBank KDUN, K5.01.FP034C4001, CL11",
+   "price": 13356,
+   "code": ""
+  },
+  {
+   "name": "DIMM DDR5 16 GB <5600MHz> Patriot, PSD516G560081, CL46",
+   "price": 113850,
+   "code": ""
+  },
+  {
+   "name": "DIMM DDR4 32 GB kit <3600MHz> Kingston Fury Beast, KF436C18BBK2/32, (2x16GB), CL18",
+   "price": 171724,
+   "code": ""
+  },
+  {
+   "name": "DIMM DDR4 64 GB kit <3600MHz> Kingston Fury Beast RGB, KF436C18BB2AK2/64, (2x32GB), CL18",
+   "price": 335730,
+   "code": ""
+  }
+ ],
+ "motherboard": [
+  {
+   "name": "MB Socket1200, MATX, iH510 (VGA, HDMI), Biostar H510MHP, 2DDR4, PCIx16, 2PCIx1",
+   "price": 27146,
+   "code": ""
+  },
+  {
+   "name": "MB Socket1700, MATX, iB760 (DP+HDMI), MaxSun Terminator B760M D5, 4DDR5, PCIx16, PCIx1",
+   "price": 59370,
+   "code": ""
+  },
+  {
+   "name": "MB Socket AM5, ATX, AMD B850 (DP/HDMI), Gigabyte B850 EAGLE ICE, 4DDR5, PCIx16",
+   "price": 96140,
+   "code": ""
+  },
+  {
+   "name": "MB Socket AM5, ATX, AMD X870E (HDMI), Gigabyte X870E AORUS MASTER, 4DDR5, 2PCIx16",
+   "price": 279940,
+   "code": ""
+  }
+ ],
+ "gpu": [
+  {
+   "name": "GPU AMD, 2 GB, Afox HD 6450 [AF6450-2048D3L5], HDMI/DVI/VGA, DDR3/64bit",
+   "price": 14980,
+   "code": ""
+  },
+  {
+   "name": "GPU NVIDIA, 8 GB, Gigabyte RTX 5050 GAMING OC [GV-N5050GAMING OC-8], 2HDMI/2DP, GDDR6/128bit",
+   "price": 169290,
+   "code": ""
+  },
+  {
+   "name": "GPU NVIDIA, 8 GB, ASUS RTX 5060 Ti DUAL OC [DUAL-RTX5060TI-O8G], HDMI/3DP, GDDR7/128bit",
+   "price": 249260,
+   "code": ""
+  },
+  {
+   "name": "GPU NVIDIA,12 GB, ZOTAC RTX 5070 TWIN EDGE OC WHITE [ZT-B50700Q-10P],HDMI/3DP,GDDR7/192-bit",
+   "price": 396180,
+   "code": ""
+  }
+ ],
+ "case": [
+  {
+   "name": "Case MATX midi tower ONVYX, PCM355W, (без БП), White",
+   "price": 11900,
+   "code": ""
+  },
+  {
+   "name": "Case ATX midi tower APEX, 3701, 1*120mm ARGB + 3*120mm black + ARGB fan hub + remote contr. (без БП)",
+   "price": 21380,
+   "code": ""
+  },
+  {
+   "name": "Case ATX midi tower SAMA, V60 , (Без БП), Black",
+   "price": 34810,
+   "code": ""
+  },
+  {
+   "name": "Case ATX midi tower Arctic Cooling Xtender VG ACPCC00017A, (без БП), white",
+   "price": 128962,
+   "code": ""
+  }
+ ],
+ "ssd": [
+  {
+   "name": "SSD SATA 128 GB Indilinx, IND-S325S128GX, SATA 6Gb/s",
+   "price": 14172,
+   "code": ""
+  },
+  {
+   "name": "SSD SATA 480 GB Netac N535S, NT01N535S-480G-S3X, SATA 6Gb/s",
+   "price": 38050,
+   "code": ""
+  },
+  {
+   "name": "SSD M.2 PCIe 1 TB AGI AI818, [AGI1T0G43AI818-CB], PCIe 4.0",
+   "price": 74234,
+   "code": ""
+  },
+  {
+   "name": "SSD M.2 PCIe 4 TB Kingston SNV3S, SNV3S/4000G, PCIe 4.0 NVMe",
+   "price": 356189,
+   "code": ""
+  }
+ ],
+ "hdd": [
+  {
+   "name": "HDD SATA 2000 GB Toshiba P300, HDWD220UZSVA, 5400rpm, 128MB, SATA 6Gb/s, bulk",
+   "price": 57020,
+   "code": ""
+  },
+  {
+   "name": "HDD SATA 6000 GB Seagate IronWolf NAS, ST6000VN006, 5400rpm, 256MB cache, SATA 6.0 Gb/s",
+   "price": 123390,
+   "code": ""
+  },
+  {
+   "name": "HDD SATA 8000 GB Seagate SkyHawk, ST8000VX010, 7200rpm, 256MB cache, SATA 6 Gb/s",
+   "price": 155400,
+   "code": ""
+  },
+  {
+   "name": "HDD SATA 22000 GB Western Digital Purple, WD221PURP, 7200rpm, 521MB cache, SATA 6 Gb/s",
+   "price": 346700,
+   "code": ""
+  }
+ ],
+ "coolers": [
+  {
+   "name": "Cooler PCCooler, RZ400 V2 BK, for S1700/1851/1200/115x/AMD, 245W, 2000 rpm",
+   "price": 10040,
+   "code": ""
+  },
+  {
+   "name": "Cooler ID-Cooling, FROZN A620 BLACK, for S1700/1200/115x/AMD, 270W, 500-2000rpm, 4pin",
+   "price": 20290,
+   "code": ""
+  },
+  {
+   "name": "Water Cooler ID-Cooling FX360 LCD PE WHITE, for S1851/1700/1200/115x/AMD",
+   "price": 36230,
+   "code": ""
+  },
+  {
+   "name": "Water Cooler Gigabyte AORUS WATERFORCE X280, for 2011/2066/1366/115*/1700/AMD, 800-2500rpm",
+   "price": 74320,
+   "code": ""
+  }
+ ],
+ "psu": [
+  {
+   "name": "Power supply ATX Wintek WT-450, 450W, 80 Plus Bronze , black",
+   "price": 11370,
+   "code": ""
+  },
+  {
+   "name": "Power supply TFX Seasonic SSP-300TBS, 300W, 80 Plus Bronze, oem,",
+   "price": 27220,
+   "code": ""
+  },
+  {
+   "name": "Power supply ATX, FSP ADVAN-850GM, 850W, 80 Plus Gold, modular, black",
+   "price": 70330,
+   "code": ""
+  },
+  {
+   "name": "Power supply ATX Seasonic Prime PX-2200, SRP-PPX222-A5A22ST, 2200W, 80PLUS Platinum, modular, ATX3.0",
+   "price": 293730,
+   "code": ""
+  }
+ ]
+}
+
+ПРАВИЛА ВЫБОРА:
+- Выбери ОДИН вариант из каждой категории
+- Учитывай бюджет и предпочтения пользователя
+- Игровой ПК: приоритет видеокарте и процессору
+- Рабочий ПК: приоритет процессору и памяти
+- Совместимость сокетов и типов памяти
+- Бюджет можно превысить на 5-10% если стоит того
+
+Верни JSON:
+{
+  "cpu": {"name": "", "price": 0, "code": ""},
+  "motherboard": {"name": "", "price": 0, "code": ""},
+  "ram": {"name": "", "price": 0, "code": ""},
+  "gpu": {"name": "", "price": 0, "code": ""},
+  "ssd": {"name": "", "price": 0, "code": ""},
+  "psu": {"name": "", "price": 0, "code": ""},
+  "coolers": {"name": "", "price": 0, "code": ""},
+  "case": {"name": "", "price": 0, "code": ""}
+}
+📥 ОТВЕТ:
+{"cpu":{"name":"CPU AMD Ryzen 7 7800X3D, 4.2GHz (Raphael, 5.3), 8C/16T, (100-000000910), 120W, AM5, oem","price":161945,"code":""},"motherboard":{"name":"MB Socket AM5, ATX, AMD B850 (DP/HDMI), Gigabyte B850 EAGLE ICE, 4DDR5, PCIx16","price":96140,"code":""},"ram":{"name":"DIMM DDR5 16 GB <5600MHz> Patriot, PSD516G560081, CL46","price":113850,"code":""},"gpu":{"name":"GPU NVIDIA, 8 GB, ASUS RTX 5060 Ti DUAL OC [DUAL-RTX5060TI-O8G], HDMI/3DP, GDDR7/128bit","price":249260,"code":""},"ssd":{"name":"SSD M.2 PCIe 1 TB AGI AI818, [AGI1T0G43AI818-CB], PCIe 4.0","price":74234,"code":""},"psu":{"name":"Power supply ATX, FSP ADVAN-850GM, 850W, 80 Plus Gold, modular, black","price":70330,"code":""},"coolers":{"name":"Cooler ID-Cooling, FROZN A620 BLACK, for S1700/1200/115x/AMD, 270W, 500-2000rpm, 4pin","price":20290,"code":""},"case":{"name":"Case ATX midi tower APEX, 3701, 1*120mm ARGB + 3*120mm black + ARGB fan hub + remote contr. (без БП)","price":21380,"code":""}}
+================================================================================
+
+================================================================================
+🕐 2026-03-31 02:09:32.689623
+🤖 Модель: openai/gpt-oss-120b
+📋 JSON: False
+📤 ПРОМПТ:
+
+Объясни выбор ПК для universal на бюджет 800,000 ₸.
+
+Ключевые компоненты:
+- Процессор: CPU AMD Ryzen 7 7800X3D
+- Оперативная память: DIMM DDR5 16 GB <5600MHz> Patriot  
+- Видеокарта: GPU NVIDIA
+- Общая стоимость: 807,429 ₸
+
+Дай краткое объяснение (2-3 предложения) почему это хороший выбор для universal.
+Объясни простым языком для обычного пользователя.
+
+📥 ОТВЕТ:
+Это сборка сочетает мощный процессор AMD Ryzen 7 7800X3D, который отлично справляется как с играми, так и с тяжёлыми задачами (видеомонтаж, 3‑D‑моделирование), и быструю DDR5‑память 5600 МГц, что ускоряет загрузку программ и многозадачность. Видеокарта NVIDIA обеспечивает высокую графическую производительность в современных играх и надёжную поддержку профессиональных приложений. В итоге получаете универсальный ПК, способный без проблем работать и в развлечениях, и в работе, при бюджете около 800 тыс. ₸.
+================================================================================
+
+================================================================================
+🕐 2026-03-31 02:12:59.795439
+🤖 Модель: openai/gpt-oss-120b
+📋 JSON: True
+📤 ПРОМПТ:
+Ты - эксперт по сборке ПК. Выбери лучший вариант из предложенных.
+
+БЮДЖЕТ: 230,000 ₸
+НАЗНАЧЕНИЕ: work
+ПРЕДПОЧТЕНИЯ ПОЛЬЗОВАТЕЛЯ:
+Процессор: Intel. Видеокарта НЕ НУЖНА. 
+
+ДОСТУПНЫЕ ВАРИАНТЫ (выбери 1 из каждой категории):
+
+{
+ "cpu": [
+  {
+   "name": "СPU Intel Сore i3-10105F, 3.7GHz (Comet Lake, 4.4), 4C/8T, 6 MB L3, TDP 65W, S1200, oem",
+   "price": 30299,
+   "code": ""
+  },
+  {
+   "name": "СPU Intel Сore i3-12100F, 3.3GHz (Alder Lake, 4.3), 4C/8T, 12 MB L3, MTP 89W, S1700, oem",
+   "price": 40786,
+   "code": ""
+  },
+  {
+   "name": "СPU Intel Сore i3-10105, 3.7GHz (Comet Lake, 4.4), 4C/8T, 6 MB L3, TDP 65W, UHD630, S1200, oem",
+   "price": 50900,
+   "code": ""
+  }
+ ],
+ "ram": [
+  {
+   "name": "DIMM DDR3 8 GB <1600MHz> KingBank KDUN, K5.01.FP034C4001, CL11",
+   "price": 13356,
+   "code": ""
+  },
+  {
+   "name": "DIMM DDR4 16 GB <3200MHz> Indilinx, IND-ID4P32SP16X, CL22",
+   "price": 61891,
+   "code": ""
+  },
+  {
+   "name": "DIMM DDR4 16 GB <3200MHz> G.Skill Aegis, F4-3200C16S-16GIS, 16-18-18-38",
+   "price": 68339,
+   "code": ""
+  },
+  {
+   "name": "DIMM DDR5 16 GB <5600MHz> Patriot, PSD516G560081, CL46",
+   "price": 113850,
+   "code": ""
+  }
+ ],
+ "motherboard": [
+  {
+   "name": "MB Socket1200, MATX, iH510 (VGA, HDMI), Biostar H510MHP, 2DDR4, PCIx16, 2PCIx1",
+   "price": 27146,
+   "code": ""
+  },
+  {
+   "name": "MB Socket AM5, MATX, AMD B650 (HDMI) ASUS PRIME B650M-R, 2DDR5, PCIx16",
+   "price": 56014,
+   "code": ""
+  },
+  {
+   "name": "MB Socket AM5, MATX, AMD B850 (2DP+HDMI), Gigabyte B850M DS3H, 4DDR5, 4PCIx16",
+   "price": 81110,
+   "code": ""
+  },
+  {
+   "name": "MB Socket1700, ATX, iZ790 (DP+HDMI), MSI Z790 GAMING PLUS WIFI, 4DDR5, 3PCIx16, PCIx1",
+   "price": 112960,
+   "code": ""
+  }
+ ],
+ "gpu": [
+  {
+   "name": "Встроенная графика",
+   "price": 0,
+   "code": "integrated"
+  }
+ ],
+ "case": [
+  {
+   "name": "Case MATX midi tower ONVYX, PCM355W, (без БП), White",
+   "price": 11900,
+   "code": ""
+  },
+  {
+   "name": "Case ATX midi tower Huntkey, MVP Destiny B (без БП), BLACK",
+   "price": 20610,
+   "code": ""
+  },
+  {
+   "name": "Case ATX midi tower Formula V, Crystal U2 Floe Black, (Без БП), Black",
+   "price": 33600,
+   "code": ""
+  },
+  {
+   "name": "Case ATX midi tower Corsair, iCUE 5000X RGB QL Edition, CC-9011233-WW(без БП), white",
+   "price": 110610,
+   "code": ""
+  }
+ ],
+ "ssd": [
+  {
+   "name": "SSD SATA 128 GB Indilinx, IND-S325S128GX, SATA 6Gb/s",
+   "price": 14172,
+   "code": ""
+  },
+  {
+   "name": "SSD M.2 PCIe 256 GB Colorful CN600 256GB PRO, PCIe 3.0 x4, NVMe",
+   "price": 29620,
+   "code": ""
+  },
+  {
+   "name": "SSD SATA 1 TB Hiksemi E100 (Hikvision), HS-SSD-E100 1024G, SATA 6Gb/s",
+   "price": 70406,
+   "code": ""
+  },
+  {
+   "name": "SSD M.2 PCIe 2 TB Netac NV5000N, NT01NV5000N-2T0-E4X,PCIe 4.0 x4",
+   "price": 102710,
+   "code": ""
+  }
+ ],
+ "hdd": [
+  {
+   "name": "HDD SATA 2000 GB Toshiba P300, HDWD220UZSVA, 5400rpm, 128MB, SATA 6Gb/s, bulk",
+   "price": 57020,
+   "code": ""
+  },
+  {
+   "name": "HDD SATA 2000 GB Seagate IronWolf, ST2000VN003, 5900rpm, 256MB cache, SATA 6.0 Gb/s",
+   "price": 69380,
+   "code": ""
+  },
+  {
+   "name": "HDD SATA 4000 GB Toshiba X300, HDWR440UZSVA, 7200rpm, 256MB, SATA 6Gb/s",
+   "price": 94500,
+   "code": ""
+  },
+  {
+   "name": "HDD SATA 4000 GB Seagate IronWolf Pro, ST4000NT001, 7200rpm, 256MB cache, SATA 6.0 Gb/s",
+   "price": 105320,
+   "code": ""
+  }
+ ],
+ "coolers": [
+  {
+   "name": "Cooler PCCooler, RZ400 V2 BK, for S1700/1851/1200/115x/AMD, 245W, 2000 rpm",
+   "price": 10040,
+   "code": ""
+  },
+  {
+   "name": "Cooler ID-Cooling, FROZN A620 BLACK, for S1700/1200/115x/AMD, 270W, 500-2000rpm, 4pin",
+   "price": 20290,
+   "code": ""
+  },
+  {
+   "name": "Water Cooler ID-Cooling FX360 LCD PE WHITE, for S1851/1700/1200/115x/AMD",
+   "price": 36230,
+   "code": ""
+  },
+  {
+   "name": "Water Cooler Gigabyte AORUS WATERFORCE X280, for 2011/2066/1366/115*/1700/AMD, 800-2500rpm",
+   "price": 74320,
+   "code": ""
+  }
+ ],
+ "psu": [
+  {
+   "name": "Power supply ATX Wintek WT-450, 450W, 80 Plus Bronze , black",
+   "price": 11370,
+   "code": ""
+  },
+  {
+   "name": "Power supply ATX FSP HV PRO FSP650-51AAC, 650W, 80plus Bronze",
+   "price": 25100,
+   "code": ""
+  },
+  {
+   "name": "Power supply ATX, FSP VITA-850GM, 850W, Cybernetics Gold, modular",
+   "price": 55790,
+   "code": ""
+  },
+  {
+   "name": "Power supply ATX Seasonic Focus GX-1000 White, SRP-FGX102-A5A32SF,80plus Gold, Modular ATX3.0, 1000W",
+   "price": 101230,
+   "code": ""
+  }
+ ]
+}
+
+ПРАВИЛА ВЫБОРА:
+- Выбери ОДИН вариант из каждой категории
+- Учитывай бюджет и предпочтения пользователя
+- Игровой ПК: приоритет видеокарте и процессору
+- Рабочий ПК: приоритет процессору и памяти
+- Совместимость сокетов и типов памяти
+- Бюджет можно превысить на 5-10% если стоит того
+
+Верни JSON:
+{
+  "cpu": {"name": "", "price": 0, "code": ""},
+  "motherboard": {"name": "", "price": 0, "code": ""},
+  "ram": {"name": "", "price": 0, "code": ""},
+  "gpu": {"name": "", "price": 0, "code": ""},
+  "ssd": {"name": "", "price": 0, "code": ""},
+  "psu": {"name": "", "price": 0, "code": ""},
+  "coolers": {"name": "", "price": 0, "code": ""},
+  "case": {"name": "", "price": 0, "code": ""}
+}
+📥 ОТВЕТ:
+{"cpu":{"name":"СPU Intel Сore i3-10105, 3.7GHz (Comet Lake, 4.4), 4C/8T, 6 MB L3, TDP 65W, UHD630, S1200, oem","price":50900,"code":""},"motherboard":{"name":"MB Socket1200, MATX, iH510 (VGA, HDMI), Biostar H510MHP, 2DDR4, PCIx16, 2PCIx1","price":27146,"code":""},"ram":{"name":"DIMM DDR4 16 GB <3200MHz> Indilinx, IND-ID4P32SP16X, CL22","price":61891,"code":""},"gpu":{"name":"Встроенная графика","price":0,"code":"integrated"},"ssd":{"name":"SSD M.2 PCIe 256 GB Colorful CN600 256GB PRO, PCIe 3.0 x4, NVMe","price":29620,"code":""},"psu":{"name":"Power supply ATX Wintek WT-450, 450W, 80 Plus Bronze , black","price":11370,"code":""},"coolers":{"name":"Cooler PCCooler, RZ400 V2 BK, for S1700/1851/1200/115x/AMD, 245W, 2000 rpm","price":10040,"code":""},"case":{"name":"Case MATX midi tower ONVYX, PCM355W, (без БП), White","price":11900,"code":""}}
+================================================================================
+
+================================================================================
+🕐 2026-03-31 02:13:00.501336
+🤖 Модель: openai/gpt-oss-120b
+📋 JSON: False
+📤 ПРОМПТ:
+
+Объясни выбор ПК для work на бюджет 230,000 ₸.
+
+Ключевые компоненты:
+- Процессор: СPU Intel Сore i3-10105
+- Оперативная память: DIMM DDR4 16 GB <3200MHz> Indilinx  
+- Видеокарта: Встроенная графика
+- Общая стоимость: 202,867 ₸
+
+Дай краткое объяснение (2-3 предложения) почему это хороший выбор для work.
+Объясни простым языком для обычного пользователя.
+
+📥 ОТВЕТ:
+Это хороший вариант для работы, потому что процессор i3‑10105 обеспечивает достаточную мощность для офисных приложений, веб‑браузеров и лёгких задач, а 16 ГБ оперативной памяти позволяют одновременно открывать множество программ без «запинок». Встроенная графика экономит деньги, но при этом полностью справляется с отображением документов, таблиц и презентаций. При стоимости ≈ 203 тыс. ₸ вы остаётесь в рамках бюджета 230 тыс. ₸ и получаете надёжный, быстрый и доступный компьютер для повседневных дел.
+================================================================================
+
+================================================================================
+🕐 2026-03-31 04:36:51.690090
+🤖 Модель: openai/gpt-oss-120b
+📋 JSON: True
+📤 ПРОМПТ:
+Ты - эксперт по сборке ПК. Выбери лучший вариант из предложенных.
+
+БЮДЖЕТ: 500,000 ₸
+НАЗНАЧЕНИЕ: work
+ПРЕДПОЧТЕНИЯ ПОЛЬЗОВАТЕЛЯ:
+Процессор: Intel. Видеокарта НЕ НУЖНА. 
+
+ДОСТУПНЫЕ ВАРИАНТЫ (выбери 1 из каждой категории):
+
+{
+ "cpu": [
+  {
+   "name": "СPU Intel Сore i3-10105F, 3.7GHz (Comet Lake, 4.4), 4C/8T, 6 MB L3, TDP 65W, S1200, oem",
+   "price": 30299,
+   "code": ""
+  },
+  {
+   "name": "СPU Intel Сore i3-12100F, 3.3GHz (Alder Lake, 4.3), 4C/8T, 12 MB L3, MTP 89W, S1700, oem",
+   "price": 40786,
+   "code": ""
+  },
+  {
+   "name": "СPU Intel Сore i3-10105, 3.7GHz (Comet Lake, 4.4), 4C/8T, 6 MB L3, TDP 65W, UHD630, S1200, oem",
+   "price": 50900,
+   "code": ""
+  }
+ ],
+ "ram": [
+  {
+   "name": "DIMM DDR3 8 GB <1600MHz> KingBank KDUN, K5.01.FP034C4001, CL11",
+   "price": 13356,
+   "code": ""
+  },
+  {
+   "name": "DIMM DDR5 16 GB <5600MHz> MAXSUN, MSDS16G56W5, 16 GB CL46",
+   "price": 96971,
+   "code": ""
+  },
+  {
+   "name": "DIMM DDR4 32 GB kit <3200MHz> G.Skill Trident Z RGB (AMD), F4-3200C16D-32GTZRX, (2x16GB),16-18-18-38",
+   "price": 153616,
+   "code": ""
+  },
+  {
+   "name": "DIMM DDR5 32 GB kit <5600MHz> Kingston Fury Beast (AMD+Intel), KF556C36BBEK2-32, (2x16GB), CL36",
+   "price": 246989,
+   "code": ""
+  }
+ ],
+ "motherboard": [
+  {
+   "name": "MB Socket1200, MATX, iH510 (VGA, HDMI), Biostar H510MHP, 2DDR4, PCIx16, 2PCIx1",
+   "price": 27146,
+   "code": ""
+  },
+  {
+   "name": "MB Socket1700, MATX, iB760 (DP+HDMI), MaxSun Terminator B760M D5, 4DDR5, PCIx16, PCIx1",
+   "price": 59370,
+   "code": ""
+  },
+  {
+   "name": "MB Socket AM5, ATX, AMD B850 (DP+HDMI), ASRock B850 PRO RS WIFI, 4DDR5, PCIx16",
+   "price": 95580,
+   "code": ""
+  },
+  {
+   "name": "MB Socket AM5, ATX, AMD X870 (DP+HDMI), ASUS ROG STRIX X870-A GAMING WIFI, 4DDR5, 2PCIx16",
+   "price": 221450,
+   "code": ""
+  }
+ ],
+ "gpu": [
+  {
+   "name": "Встроенная графика",
+   "price": 0,
+   "code": "integrated"
+  }
+ ],
+ "case": [
+  {
+   "name": "Case MATX midi tower ONVYX, PCM355W, (без БП), White",
+   "price": 11900,
+   "code": ""
+  },
+  {
+   "name": "Case ATX midi tower APEX, 3701, 1*120mm ARGB + 3*120mm black + ARGB fan hub + remote contr. (без БП)",
+   "price": 21380,
+   "code": ""
+  },
+  {
+   "name": "Case ATX midi tower SAMA, V60 , (Без БП), Black",
+   "price": 34810,
+   "code": ""
+  },
+  {
+   "name": "Case ATX midi tower Arctic Cooling Xtender VG ACPCC00017A, (без БП), white",
+   "price": 128962,
+   "code": ""
+  }
+ ],
+ "ssd": [
+  {
+   "name": "SSD SATA 128 GB Indilinx, IND-S325S128GX, SATA 6Gb/s",
+   "price": 14172,
+   "code": ""
+  },
+  {
+   "name": "SSD M.2 PCIe 250 GB Patriot P400 Lite, P400LP250GM28H, PCIe Gen4 x4",
+   "price": 33580,
+   "code": ""
+  },
+  {
+   "name": "SSD M.2 PCIe 1 TB HikSemi (Hikvision) E1000, HS-SSD-E1000 1024G , PCIe 3.0 x4, NVMe 1.3",
+   "price": 73724,
+   "code": ""
+  },
+  {
+   "name": "SSD M.2 PCIe 4 TB Patriot P400 Lite, P400LP4KGM28H, PCIe Gen4 x4",
+   "price": 246160,
+   "code": ""
+  }
+ ],
+ "hdd": [
+  {
+   "name": "HDD SATA 2000 GB Toshiba P300, HDWD220UZSVA, 5400rpm, 128MB, SATA 6Gb/s, bulk",
+   "price": 57020,
+   "code": ""
+  },
+  {
+   "name": "HDD SATA 4000 GB Seagate IronWolf Pro, ST4000NT001, 7200rpm, 256MB cache, SATA 6.0 Gb/s",
+   "price": 105320,
+   "code": ""
+  },
+  {
+   "name": "HDD SATA 6000 GB Western Digital Gold, WD6004FRYZ, 7200rpm, 256MB cache, SATA 6 Gb/s",
+   "price": 146088,
+   "code": ""
+  },
+  {
+   "name": "HDD SATA 10000 GB Western Digital Purple PRO, WD102PURP, 7200rpm, 267MB cache, SATA 6 Gb/s",
+   "price": 223910,
+   "code": ""
+  }
+ ],
+ "coolers": [
+  {
+   "name": "Cooler PCCooler, RZ400 V2 BK, for S1700/1851/1200/115x/AMD, 245W, 2000 rpm",
+   "price": 10040,
+   "code": ""
+  },
+  {
+   "name": "Cooler ID-Cooling, FROZN A620 BLACK, for S1700/1200/115x/AMD, 270W, 500-2000rpm, 4pin",
+   "price": 20290,
+   "code": ""
+  },
+  {
+   "name": "Water Cooler ID-Cooling FX360 LCD PE WHITE, for S1851/1700/1200/115x/AMD",
+   "price": 36230,
+   "code": ""
+  },
+  {
+   "name": "Water Cooler Gigabyte AORUS WATERFORCE X280, for 2011/2066/1366/115*/1700/AMD, 800-2500rpm",
+   "price": 74320,
+   "code": ""
+  }
+ ],
+ "psu": [
+  {
+   "name": "Power supply ATX Wintek WT-450, 450W, 80 Plus Bronze , black",
+   "price": 11370,
+   "code": ""
+  },
+  {
+   "name": "Power supply TFX Seasonic SSP-300TBS, 300W, 80 Plus Bronze, oem,",
+   "price": 27220,
+   "code": ""
+  },
+  {
+   "name": "Power supply ATX ASUS TUF-GAMING-750G, 750W, 80plus Gold, full modular, ATX 3.0",
+   "price": 69070,
+   "code": ""
+  },
+  {
+   "name": "Power supply ATX Seasonic Prime PX-1600, SSR-1600PD2, 80plus Platinum, Modular, ATX 3.0, 1600W",
+   "price": 224410,
+   "code": ""
+  }
+ ]
+}
+
+ПРАВИЛА ВЫБОРА:
+- Выбери ОДИН вариант из каждой категории
+- Учитывай бюджет и предпочтения пользователя
+- Игровой ПК: приоритет видеокарте и процессору
+- Рабочий ПК: приоритет процессору и памяти
+- Совместимость сокетов и типов памяти
+- Бюджет можно превысить на 5-10% если стоит того
+
+Верни JSON:
+{
+  "cpu": {"name": "", "price": 0, "code": ""},
+  "motherboard": {"name": "", "price": 0, "code": ""},
+  "ram": {"name": "", "price": 0, "code": ""},
+  "gpu": {"name": "", "price": 0, "code": ""},
+  "ssd": {"name": "", "price": 0, "code": ""},
+  "psu": {"name": "", "price": 0, "code": ""},
+  "coolers": {"name": "", "price": 0, "code": ""},
+  "case": {"name": "", "price": 0, "code": ""}
+}
+📥 ОТВЕТ:
+{"cpu":{"name":"СPU Intel Сore i3-10105, 3.7GHz (Comet Lake, 4.4), 4C/8T, 6 MB L3, TDP 65W, UHD630, S1200, oem","price":50900,"code":""},"motherboard":{"name":"MB Socket1200, MATX, iH510 (VGA, HDMI), Biostar H510MHP, 2DDR4, PCIx16, 2PCIx1","price":27146,"code":""},"ram":{"name":"DIMM DDR4 32 GB kit <3200MHz> G.Skill Trident Z RGB (AMD), F4-3200C16D-32GTZRX, (2x16GB),16-18-18-38","price":153616,"code":""},"gpu":{"name":"Встроенная графика","price":0,"code":"integrated"},"ssd":{"name":"SSD M.2 PCIe 1 TB HikSemi (Hikvision) E1000, HS-SSD-E1000 1024G , PCIe 3.0 x4, NVMe 1.3","price":73724,"code":""},"psu":{"name":"Power supply ATX Wintek WT-450, 450W, 80 Plus Bronze , black","price":11370,"code":""},"coolers":{"name":"Cooler PCCooler, RZ400 V2 BK, for S1700/1851/1200/115x/AMD, 245W, 2000 rpm","price":10040,"code":""},"case":{"name":"Case MATX midi tower ONVYX, PCM355W, (без БП), White","price":11900,"code":""}}
+================================================================================
+
+================================================================================
+🕐 2026-03-31 04:36:52.166378
+🤖 Модель: openai/gpt-oss-120b
+📋 JSON: False
+📤 ПРОМПТ:
+
+Объясни выбор ПК для work на бюджет 500,000 ₸.
+
+Ключевые компоненты:
+- Процессор: СPU Intel Сore i3-10105
+- Оперативная память: DIMM DDR4 32 GB kit <3200MHz> G.Skill Trident Z RGB (AMD)  
+- Видеокарта: Встроенная графика
+- Общая стоимость: 338,696 ₸
+
+Дай краткое объяснение (2-3 предложения) почему это хороший выбор для work.
+Объясни простым языком для обычного пользователя.
+
+📥 ОТВЕТ:
+Это хороший вариант для работы, потому что процессор Intel i3‑10105 обеспечивает достаточную вычислительную мощность для офисных приложений, веб‑браузинга и лёгкой многозадачности, а 32 ГБ DDR4‑памяти позволяют одновременно открывать множество программ и вкладок без «запинок». Встроенная графика полностью покрывает потребности в отображении обычных окон и документов, поэтому отдельная видеокарта не нужна, а общая цена в 338 696 ₸ оставляет значительный запас бюджета для периферии или будущих апгрейдов.
+================================================================================

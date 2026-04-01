@@ -21,12 +21,14 @@ def format_enhanced_ai_build_message(
     base_message = format_build_message(build, budget, usage)
     
     if used_ai:
+        from Bot.config.ai_config import get_ai_success_message
+        
         # Добавляем красивый AI заголовок
-        ai_header = "🤖 **✨ Сборка создана искусственным интеллектом**\n\n"
+        ai_header = f"{get_ai_success_message()}\n\n"
         
         # Добавляем объяснение если есть
         if ai_explanation:
-            ai_content = f"💡 **Рекомендация ИИ:**\n{ai_explanation}\n\n"
+            ai_content = f"💬 **Комментарий ИИ:**\n{ai_explanation}\n\n"
         else:
             ai_content = ""
         
@@ -41,9 +43,12 @@ def format_enhanced_ai_build_message(
         enhanced_message = base_message + "\n\n" + ai_header + ai_content + ai_stats + ai_footer
         
     else:
+        from Bot.config.ai_config import get_ai_fallback_message
+        
         # Стандартное сообщение без ИИ
-        standard_footer = "\n\n---\n\n⚙️ *Сборка выполнена по стандартному алгоритму*"
-        enhanced_message = base_message + standard_footer
+        fallback_header = f"{get_ai_fallback_message()}\n\n"
+        standard_footer = "\n\n---\n\n⚙️ *Сборка по стандартному алгоритму*"
+        enhanced_message = base_message + "\n\n" + fallback_header + standard_footer
     
     return enhanced_message
 
@@ -67,16 +72,27 @@ def get_ai_process_messages() -> list:
     ]
 
 
-def get_ai_completion_message(used_ai: bool) -> str:
+def get_ai_completion_message(used_ai: bool, ai_explanation: str = "") -> str:
     """Возвращает сообщение о завершении сборки."""
     if used_ai:
-        return (
-            "✨ *Готово! ИИ завершил анализ...*\n\n"
+        from Bot.config.ai_config import get_ai_success_message
+        
+        message_parts = [
+            f"{get_ai_success_message()}\n\n",
             "🎯 *Оптимальная сборка сформирована!*\n\n"
-            "📋 *Вот ваша идеальная конфигурация:*"
-        )
+        ]
+        
+        if ai_explanation:
+            message_parts.append(f"💬 *Комментарий ИИ:* {ai_explanation}\n\n")
+            
+        message_parts.append("📋 *Вот ваша идеальная конфигурация:*")
+        
+        return "".join(message_parts)
     else:
+        from Bot.config.ai_config import get_ai_fallback_message
+        
         return (
+            f"{get_ai_fallback_message()}\n\n"
             "✅ *Готово! Сборка завершена...*\n\n"
             "📋 *Вот ваша конфигурация:*"
         )
